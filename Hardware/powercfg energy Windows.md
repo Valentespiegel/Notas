@@ -1,1 +1,3 @@
+[[Hardware and BIOS]]
+
 El comando "powercfg /energy" es utilizado en la línea de comandos de Windows para generar un informe de energía detallado que proporciona información sobre el consumo de energía de tu sistema durante un período de 60 segundos. Este informe puede ayudarte a identificar problemas de consumo de energía y proporciona recomendaciones para mejorar la eficiencia energética de tu dispositivo.

@@ -1,3 +1,5 @@
+[[Hardware and BIOS]]
+
 >biosbug.com
 # How to remove Acer 8-digit laptop bios password
 
