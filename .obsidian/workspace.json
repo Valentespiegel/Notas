@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git/Comandos.md",
+                "file": "VulnHub/WpwnyDMV/Wpwn y DMV (Pivoting Lab).md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "19e4fcf9124f3b6f",
@@ -97,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git/Comandos.md",
+                "file": "VulnHub/WpwnyDMV/Wpwn y DMV (Pivoting Lab).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git/Comandos.md",
+                "file": "VulnHub/WpwnyDMV/Wpwn y DMV (Pivoting Lab).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git/Comandos.md"
+                "file": "VulnHub/WpwnyDMV/Wpwn y DMV (Pivoting Lab).md"
               }
             }
           }
@@ -149,8 +148,14 @@
   },
   "active": "a0c341c59b88635a",
   "lastOpenFiles": [
-    "VulnHub/DarkHole2/DarkHole 2.md",
+    "PDF CTF/Wpwn y DMV (Pivoting Lab).pdf",
+    "PDF CTF",
+    "Nueva carpeta",
+    "VulnHub/Inferno & Masashi/Inferno & Masashi.md",
+    "VulnHub/Inferno & Masashi/Ataque..canvas",
+    "Untitled.canvas",
     "Git/Comandos.md",
+    "VulnHub/DarkHole2/DarkHole 2.md",
     "Git",
     "Python3/Herramientas de manipulacion de datos/Exponenciacion..md",
     "Python3/Herramientas de manipulacion de datos/Operadores Basicos..md",
@@ -176,8 +181,6 @@
     "Python3/Descargar e instalación de Python.md",
     "ESET/EESA.md",
     "Python3",
-    "VulnHub/Inferno & Masashi/Inferno & Masashi.md",
-    "VulnHub/Inferno & Masashi/Ataque..canvas",
     "ESET/Soportes/03-07-2023 User disabled in workstation Encripted..md",
     "Active Directory/Untitled.canvas",
     "Active Directory",
@@ -187,8 +190,6 @@
     "zzzzzz/VulnHub/InfernoyMasashi/Captura de pantalla -2023-07-12 14-18-49.png",
     "zzzzzz/VulnHub/InfernoyMasashi/Captura de pantalla -2023-07-12 14-16-15.png",
     "zzzzzz/VulnHub/Wpwn y DMV",
-    "zzzzzz/VulnHub/PowerGrid",
-    "zzzzzz/VulnHub/Mr.Robot",
     "zzzzzz/Instalación impulsada del agente..md",
     "zzzzzz/Instalación de ESET protect.md",
     "zzzzzz/ESET Protect.md",
@@ -197,8 +198,6 @@
     "zzzzzz/Como Agregar un equipo..md",
     "VulnHub/WpwnyDMV/Wpwn y DMV (Pivoting Lab).md",
     "VulnHub/WpwnyDMV/Ataque..canvas",
-    "VulnHub/Mr.robot/Mr.Robot.md",
-    "VulnHub/DarkHole2/Ataque..canvas",
-    "Untitled.canvas"
+    "VulnHub/DarkHole2/Ataque..canvas"
   ]
 }
