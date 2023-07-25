@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "180673602fe54cbb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "VulnHub/WpwnyDMV/Wpwn y DMV (Pivoting Lab).md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "19e4fcf9124f3b6f",
@@ -97,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "VulnHub/Cereal.md",
+                "file": "VulnHub/WpwnyDMV/Wpwn y DMV (Pivoting Lab).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "VulnHub/Cereal.md",
+                "file": "VulnHub/WpwnyDMV/Wpwn y DMV (Pivoting Lab).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "VulnHub/Cereal.md"
+                "file": "VulnHub/WpwnyDMV/Wpwn y DMV (Pivoting Lab).md"
               }
             }
           }
@@ -147,11 +159,16 @@
       "canvas:Create new canvas": false
     }
   },
-  "active": "a0c341c59b88635a",
+  "active": "180673602fe54cbb",
   "lastOpenFiles": [
     "Disiplinas..md",
-    "VulnHub/Cereal.md",
+    "Python.md",
     "Vulnhub.md",
+    "ESET/GEA Visita Mensual.md",
+    "Anexos/Pasted image 20230725162307.png",
+    "Anexos/Pasted image 20230725162100.png",
+    "Anexos",
+    "VulnHub/Cereal.md",
     "VulnHub/Inferno & Masashi/Inferno & Masashi.md",
     "VulnHub/DarkHole2/DarkHole 2.md",
     "Bios/Biosbug.md",
@@ -168,13 +185,10 @@
     "Git/Comandos.md",
     "ESET/Soportes/03-07-2023 User disabled in workstation Encripted..md",
     "Bitdefender/Training/Business Portfolio Technical Training 2021.md",
-    "Python.md",
     "Python3/Introducción a Python..md",
     "Python3/Introducción a la programación..md",
     "Python3/Hola mundo.md",
     "Python3/Literales/Valores booleanos.md",
-    "Python3/Descargar e instalación de Python.md",
-    "Python3/Literales/Literales.md",
     "Untitled.canvas",
     "VulnHub/DarkHole2/Ataque..canvas",
     "VulnHub/Inferno & Masashi/Ataque..canvas",
@@ -194,11 +208,8 @@
     "Python3/Anexos",
     "Python3",
     "Active Directory/Untitled.canvas",
-    "Active Directory",
     "zzzzzz/VulnHub/InfernoyMasashi/Captura de pantalla -2023-07-12 14-40-37.png",
     "zzzzzz/VulnHub/InfernoyMasashi/Captura de pantalla -2023-07-12 14-29-26.png",
-    "zzzzzz/VulnHub/InfernoyMasashi/Captura de pantalla -2023-07-12 14-25-46.png",
-    "zzzzzz/VulnHub/InfernoyMasashi/Captura de pantalla -2023-07-12 14-18-49.png",
-    "zzzzzz/VulnHub/InfernoyMasashi/Captura de pantalla -2023-07-12 14-16-15.png"
+    "zzzzzz/VulnHub/InfernoyMasashi/Captura de pantalla -2023-07-12 14-25-46.png"
   ]
 }
