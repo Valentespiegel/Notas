@@ -2,7 +2,9 @@ Lunes 3 de julio del 2023 México.
 CDMX, Polanco.
 Valente Spiegel.
 ___
-### Habilidades.
+### Habilidades. [[Disiplinas.]]
+
+### DarkHole 2
 
 Information Leakage
 Github Project Enumeration

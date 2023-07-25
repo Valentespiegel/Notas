@@ -4,7 +4,8 @@ Nota: En esta máquina hemos configurado una red interna VMnet3 para hacer un pi
 Valente Spiegel
 
 ---
-# Hablilidades.
+# Hablilidades.  [[Disiplinas.]]
+
 ### Wpwn "Linux Fácil"
 
 Enumeración web  

@@ -1,3 +1,4 @@
+[[ESET]]
 La nueva generación de ESET Endpoint Security for Android (EESA) está diseñada para funcionar con ESET PROTECT y ESET PROTECT Cloud, la nueva consola de administración que permite la administración remota de todas las soluciones de seguridad de ESET.
 
 ESET Endpoint Security for Android versión 2 es compatible con:

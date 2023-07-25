@@ -1,3 +1,4 @@
+[[Python]]
 ![[Pasted image 20230724155853.png]]
 **Un literal se refiere a datos cuyos valores están determinados por el literal mismo.**
 

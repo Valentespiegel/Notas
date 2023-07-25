@@ -1,3 +1,5 @@
+
+
 1. `git init`: Este comando se usa para inicializar un nuevo repositorio de Git en un directorio vacío o existente. Crea una estructura interna de Git en el directorio, lo que permite que Git comience a rastrear los cambios en los archivos en ese directorio.
     
 2. `git status`: Muestra el estado actual del repositorio de Git. Te proporciona información sobre qué archivos han sido modificados, agregados o eliminados, y si estos cambios han sido o no confirmados (commited) en el repositorio.

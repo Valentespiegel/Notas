@@ -1,4 +1,6 @@
-	La palabra _**print**_ que puedes ver aquí es el **nombre de una función**. Eso no significa que dondequiera que aparezca esta palabra, será siempre el nombre de una función. El significado de la palabra proviene del contexto en el cual se haya utilizado la palabra.
+
+[[Python]]
+La palabra _**print**_ que puedes ver aquí es el **nombre de una función**. Eso no significa que dondequiera que aparezca esta palabra, será siempre el nombre de una función. El significado de la palabra proviene del contexto en el cual se haya utilizado la palabra.
 Probablemente hayas encontrado el término función muchas veces antes, durante las clases de matemáticas. Probablemente también puedes recordar varios nombres de funciones matemáticas, como seno o logaritmo.
 Las funciones de Python, sin embargo, son más flexibles y pueden contener más que sus parientes matemáticos.
 Una función (en este contexto) es una parte separada del código de computadora el cual es capaz de:

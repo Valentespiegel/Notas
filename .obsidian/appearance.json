@@ -1,10 +1,10 @@
 {
   "baseFontSize": 17,
-  "accentColor": "#13c937",
+  "accentColor": "#c92513",
   "textFontFamily": "Lucida Fax",
   "interfaceFontFamily": "Georgia",
   "monospaceFontFamily": "",
   "translucency": true,
-  "cssTheme": "ProtocolBlue",
+  "cssTheme": "Wasp",
   "showViewHeader": true
 }

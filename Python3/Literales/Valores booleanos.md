@@ -1,3 +1,4 @@
+[[Python]]
 Cada vez que se le pregunta a Python si un número es más grande que otro, el resultado es la creación de un tipo de dato muy específico - un valor **booleano**.
 
 El nombre proviene de George Boole (1815-1864), el autor de _Las Leyes del Pensamiento_, las cuales definen el **Álgebra Booleana** - una parte del álgebra que hace uso de dos valores: `True` y `False`, denotados como `1` y `0`.

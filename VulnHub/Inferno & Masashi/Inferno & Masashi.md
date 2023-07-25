@@ -5,7 +5,9 @@ Valente Spiegel
 Nota: En esta máquina hemos configurado una red interna para Pivotar a Masashi.
 
 ---
-### Habilidades.
+### Habilidades. [[Disiplinas.]]
+
+### Inferno & Masashi
 
 Enumeración web.
 Fuerza bruta de autenticación web básica - Hydra 

@@ -1,3 +1,4 @@
+[[Python]]
 Un **operador** es un símbolo del lenguaje de programación, el cual es capaz de realizar operaciones con los valores.
 
 Por ejemplo, como en la aritmética, el signo de + (más) es un operador el cual es capaz de **sumar** dos números, dando el resultado de la suma.

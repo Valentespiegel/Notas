@@ -1,3 +1,5 @@
+[[ESET]]
+
 ### Requisitos mínimos del sistema
 
 Para poder instalar ESET Endpoint Security for Android, su dispositivo Android debe cumplir con los siguientes requisitos mínimos del sistema:
