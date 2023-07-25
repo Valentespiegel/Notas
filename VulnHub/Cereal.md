@@ -7,7 +7,7 @@ Valente Spiegel
 
 ---
 
-### Habilidades.
+### Habilidades. 
 
 Enumeración FTP 
 Hospedaje Virtual 
