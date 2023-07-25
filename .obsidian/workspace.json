@@ -1,0 +1,203 @@
+{
+  "main": {
+    "id": "4eba4f8315d9a9c3",
+    "type": "split",
+    "children": [
+      {
+        "id": "7f7d7136881f6c41",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a0c341c59b88635a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python3/Herramientas de manipulacion de datos/Exponenciacion..md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c9d91374aa7c5e0a",
+    "type": "split",
+    "children": [
+      {
+        "id": "66875fedf21d3b2b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dc86ab4b151cc0f4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "fa45a2cff618c93d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "4856a3227fbb2b52",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "19e4fcf9124f3b6f",
+    "type": "split",
+    "children": [
+      {
+        "id": "263b431716e8edc8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3c0ec23573838d57",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "68f148d429e67ecd",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Python3/Herramientas de manipulacion de datos/Exponenciacion..md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "758f5b38b828c363",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Python3/Herramientas de manipulacion de datos/Exponenciacion..md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7392bc00b20e8476",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Python3/Herramientas de manipulacion de datos/Exponenciacion..md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir quick switcher": false,
+      "graph:Abrir vista de gráfico": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "canvas:Create new canvas": false
+    }
+  },
+  "active": "a0c341c59b88635a",
+  "lastOpenFiles": [
+    "Python3/Herramientas de manipulacion de datos/Operadores Basicos..md",
+    "Python3/Herramientas de manipulacion de datos/Multipicacion..md",
+    "Active Directory/Pentesting en entornos empresariales..md",
+    "Python3/Herramientas de manipulacion de datos/Exponenciacion..md",
+    "Python3/Herramientas de manipulacion de datos/Anexos/Pasted image 20230724165901.png",
+    "Python3/Herramientas de manipulacion de datos/Anexos",
+    "Python3/Hola mundo.md",
+    "Python3/Herramientas de manipulacion de datos",
+    "Python3/Literales/Valores booleanos.md",
+    "Python3/Literales",
+    "Python3/Literales/Cadenas.md",
+    "Python3/Anexos/Pasted image 20230724163056.png",
+    "Python3/Anexos/Pasted image 20230724163039.png",
+    "Python3/Literales/Flotantes.md",
+    "Python3/Literales/Emteros.md",
+    "Python3/Anexos/Pasted image 20230724161123.png",
+    "Python3/Literales/Literales.md",
+    "Python3/Introducción a Python..md",
+    "Python3/Introducción a la programación..md",
+    "Python3/Anexos/Pasted image 20230724155853.png",
+    "Python3/Anexos",
+    "Python3/Descargar e instalación de Python.md",
+    "ESET/EESA.md",
+    "Python3",
+    "VulnHub/Inferno & Masashi/Inferno & Masashi.md",
+    "VulnHub/Inferno & Masashi/Ataque..canvas",
+    "ESET/Soportes/03-07-2023 User disabled in workstation Encripted..md",
+    "VulnHub/DarkHole2/DarkHole 2.md",
+    "Active Directory/Untitled.canvas",
+    "Active Directory",
+    "zzzzzz/VulnHub/InfernoyMasashi/Captura de pantalla -2023-07-12 14-40-37.png",
+    "zzzzzz/VulnHub/InfernoyMasashi/Captura de pantalla -2023-07-12 14-29-26.png",
+    "zzzzzz/VulnHub/InfernoyMasashi/Captura de pantalla -2023-07-12 14-25-46.png",
+    "zzzzzz/VulnHub/InfernoyMasashi/Captura de pantalla -2023-07-12 14-18-49.png",
+    "zzzzzz/VulnHub/InfernoyMasashi/Captura de pantalla -2023-07-12 14-16-15.png",
+    "zzzzzz/VulnHub/Wpwn y DMV",
+    "zzzzzz/VulnHub/PowerGrid",
+    "zzzzzz/VulnHub/Mr.Robot",
+    "zzzzzz/VulnHub/InfernoyMasashi",
+    "zzzzzz/Instalación impulsada del agente..md",
+    "zzzzzz/Instalación de ESET protect.md",
+    "zzzzzz/ESET Protect.md",
+    "zzzzzz/ESET Full Disk Encryption.md",
+    "zzzzzz/Configuracion inicial de ESET Protect..md",
+    "zzzzzz/Como Agregar un equipo..md",
+    "VulnHub/WpwnyDMV/Wpwn y DMV (Pivoting Lab).md",
+    "VulnHub/WpwnyDMV/Ataque..canvas",
+    "VulnHub/Mr.robot/Mr.Robot.md",
+    "VulnHub/DarkHole2/Ataque..canvas",
+    "ESET/Training/ESET Training 2023 Valente@ESET TECHNICAL CERTIDIED PROTECT CONFIGURATION/Hardware/powercfg energy Windows.md",
+    "Untitled.canvas"
+  ]
+}

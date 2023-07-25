@@ -1,0 +1,19 @@
+{
+  "attachmentFolderPath": "./Anexos",
+  "alwaysUpdateLinks": true,
+  "spellcheckLanguages": [
+    "es-MX"
+  ],
+  "showInlineTitle": true,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "2",
+    "downscalePercent": 80
+  },
+  "useMarkdownLinks": false,
+  "showUnsupportedFiles": true,
+  "readableLineLength": false,
+  "showFrontmatter": false
+}

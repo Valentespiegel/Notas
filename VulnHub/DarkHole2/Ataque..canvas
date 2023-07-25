@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"type":"text","text":"Atacante\nSwordFish\n192.168.1.130","id":"d383c360d0d71869","x":-1040,"y":-980,"width":300,"height":178},
+		{"type":"text","text":"Victima\nDarkHole 2\n192.168.153.131\nPort :22,80\nVMware","id":"28f5ca6094438481","x":60,"y":-1440,"width":360,"height":280,"color":"1"},
+		{"type":"text","text":"Victima\nDarkHole 2\n127.0.0.1\nPort : 9999\nVMware\n\nchisel -> ./chisel client Atacante:123 -R 9999:127.0..0.1:9999","id":"4430e75921a0f5c5","x":60,"y":-1060,"width":360,"height":320,"color":"1"}
+	],
+	"edges":[
+		{"id":"f400c372a3fcd336","fromNode":"28f5ca6094438481","fromSide":"top","toNode":"4430e75921a0f5c5","toSide":"right","color":"4"},
+		{"id":"8f6717225ead638d","fromNode":"d383c360d0d71869","fromSide":"right","toNode":"4430e75921a0f5c5","toSide":"top","color":"1","label":"\\\\\\\\\\"},
+		{"id":"9a9dfe70bf024ad2","fromNode":"4430e75921a0f5c5","fromSide":"left","toNode":"d383c360d0d71869","toSide":"bottom","color":"3","label":"====="},
+		{"id":"1a82b1ac3df78f18","fromNode":"d383c360d0d71869","fromSide":"top","toNode":"28f5ca6094438481","toSide":"top","color":"4","label":"<>"}
+	]
+}

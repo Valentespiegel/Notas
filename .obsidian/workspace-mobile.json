@@ -1,0 +1,186 @@
+{
+  "main": {
+    "id": "b560da48d275caaf",
+    "type": "split",
+    "children": [
+      {
+        "id": "87fd716dbe8a0506",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e15fd7007ab1ffa7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "VulnHub/Inferno & Masashi/Inferno & Masashi.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1208a7e68718d6ca",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "c39586b76edbe167",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "byCreatedTime"
+          }
+        }
+      },
+      {
+        "id": "81d46b27e774a321",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "5f6a41e1449c1f74",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "cf18b5bb1cb64dd0",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "da15383a7bfad7c7",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "6d88a994bab3dae6",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "VulnHub/Inferno & Masashi/Inferno & Masashi.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "1cfbf935f3a4093b",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "VulnHub/Inferno & Masashi/Inferno & Masashi.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "f74622bed37f6e52",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "VulnHub/Inferno & Masashi/Inferno & Masashi.md"
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "e15fd7007ab1ffa7",
+  "lastOpenFiles": [
+    "zzzzzz/VulnHub/InfernoyMasashi/Captura de pantalla -2023-07-12 12-54-06.png",
+    "zzzzzz/VulnHub/InfernoyMasashi/Captura de pantalla -2023-07-12 12-47-30.png",
+    "zzzzzz/VulnHub/InfernoyMasashi/Captura de pantalla -2023-07-12 12-45-11.png",
+    "zzzzzz/VulnHub/InfernoyMasashi/Captura de pantalla -2023-07-12 12-37-41.png",
+    "zzzzzz/VulnHub/InfernoyMasashi/Captura de pantalla -2023-07-12 12-36-04.png",
+    "zzzzzz/VulnHub/InfernoyMasashi/Captura de pantalla -2023-07-12 12-34-51.png",
+    "zzzzzz/VulnHub/InfernoyMasashi/Captura de pantalla -2023-07-12 12-33-27.png",
+    "zzzzzz/VulnHub/InfernoyMasashi/Captura de pantalla -2023-07-12 12-31-29.png",
+    "zzzzzz/VulnHub/InfernoyMasashi/Captura de pantalla -2023-07-12 12-25-30.png",
+    "zzzzzz/VulnHub/InfernoyMasashi/Captura de pantalla -2023-07-12 12-25-10.png",
+    "zzzzzz/VulnHub/InfernoyMasashi/Captura de pantalla -2023-07-12 12-24-22.png",
+    "zzzzzz/VulnHub/InfernoyMasashi",
+    "zzzzzz/VulnHub/DarkHole2/Evidencia",
+    "zzzzzz/VulnHub/DarkHole2",
+    "zzzzzz/VulnHub",
+    "zzzzzz/SoporteESET",
+    "zzzzzz/Mr.Robot",
+    "zzzzzz/Instalación impulsada del agente..md",
+    "zzzzzz/Instalación de ESET protect.md",
+    "zzzzzz/ESET Protect.md",
+    "zzzzzz/ESET Full Disk Encryption.md",
+    "zzzzzz/Configuracion inicial de ESET Protect..md",
+    "zzzzzz/Como Agregar un equipo..md",
+    "zzzzzz/bitdefender/Training 2021",
+    "zzzzzz/bitdefender",
+    "zzzzzz/Analisis de Malware",
+    "zzzzzz",
+    "VulnHub/WpwnyDMV/Wpwn y DMV (Pivoting Lab).md",
+    "VulnHub/WpwnyDMV/Ataque..canvas",
+    "VulnHub/Mr.robot/Mr.Robot.md",
+    "VulnHub/Inferno & Masashi/Inferno & Masashi.md",
+    "VulnHub/Inferno & Masashi/Ataque..canvas",
+    "VulnHub/DarkHole2/DarkHole 2.md",
+    "VulnHub/DarkHole2/Ataque..canvas",
+    "Hardware/powercfg energy Windows.md",
+    "ESET/Training/ESET Training 2023 Valente@ESET TECHNICAL CERTIDIED PROTECT CONFIGURATION/Administrador de usuarios..md",
+    "ESET/Training/ESET Training 2023 Valente@Analisis de malware/Técnicas de propagación..md",
+    "ESET/Training/ESET Training 2023 Valente@Analisis de malware/Historia del Malware..md",
+    "ESET/Training/ESET Training 2023 Valente@Analisis de malware/Archivos Maliciosos..md",
+    "ESET/Training/ESET Training 2023 Valente@Analisis de malware/Análisis de Malware.md",
+    "ESET/Training/EndPoint for ANDROID.md",
+    "ESET/Soportes/03-07-2023 User disabled in workstation Encripted..md",
+    "Bitdefender/Training/Business Portfolio Technical Training 2021.md",
+    "Bios/Biosbug.md",
+    "VulnHub/Mr.Robot.md",
+    "VulnHub/Wpwn y DMV (Pivoting Lab).md",
+    "VulnHub/PowerGrid.md",
+    "Hardware/powercfg energy.md",
+    "VulnHub/PowerGrid@ValenteSpiegel.md"
+  ]
+}
