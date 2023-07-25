@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python3/Herramientas de manipulacion de datos/Exponenciacion..md",
+                "file": "Git/Comandos.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "19e4fcf9124f3b6f",
@@ -96,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python3/Herramientas de manipulacion de datos/Exponenciacion..md",
+                "file": "Git/Comandos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python3/Herramientas de manipulacion de datos/Exponenciacion..md",
+                "file": "Git/Comandos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python3/Herramientas de manipulacion de datos/Exponenciacion..md"
+                "file": "Git/Comandos.md"
               }
             }
           }
@@ -148,10 +149,13 @@
   },
   "active": "a0c341c59b88635a",
   "lastOpenFiles": [
+    "VulnHub/DarkHole2/DarkHole 2.md",
+    "Git/Comandos.md",
+    "Git",
+    "Python3/Herramientas de manipulacion de datos/Exponenciacion..md",
     "Python3/Herramientas de manipulacion de datos/Operadores Basicos..md",
     "Python3/Herramientas de manipulacion de datos/Multipicacion..md",
     "Active Directory/Pentesting en entornos empresariales..md",
-    "Python3/Herramientas de manipulacion de datos/Exponenciacion..md",
     "Python3/Herramientas de manipulacion de datos/Anexos/Pasted image 20230724165901.png",
     "Python3/Herramientas de manipulacion de datos/Anexos",
     "Python3/Hola mundo.md",
@@ -175,7 +179,6 @@
     "VulnHub/Inferno & Masashi/Inferno & Masashi.md",
     "VulnHub/Inferno & Masashi/Ataque..canvas",
     "ESET/Soportes/03-07-2023 User disabled in workstation Encripted..md",
-    "VulnHub/DarkHole2/DarkHole 2.md",
     "Active Directory/Untitled.canvas",
     "Active Directory",
     "zzzzzz/VulnHub/InfernoyMasashi/Captura de pantalla -2023-07-12 14-40-37.png",
@@ -186,7 +189,6 @@
     "zzzzzz/VulnHub/Wpwn y DMV",
     "zzzzzz/VulnHub/PowerGrid",
     "zzzzzz/VulnHub/Mr.Robot",
-    "zzzzzz/VulnHub/InfernoyMasashi",
     "zzzzzz/Instalación impulsada del agente..md",
     "zzzzzz/Instalación de ESET protect.md",
     "zzzzzz/ESET Protect.md",
@@ -197,7 +199,6 @@
     "VulnHub/WpwnyDMV/Ataque..canvas",
     "VulnHub/Mr.robot/Mr.Robot.md",
     "VulnHub/DarkHole2/Ataque..canvas",
-    "ESET/Training/ESET Training 2023 Valente@ESET TECHNICAL CERTIDIED PROTECT CONFIGURATION/Hardware/powercfg energy Windows.md",
     "Untitled.canvas"
   ]
 }
