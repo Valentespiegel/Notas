@@ -6,6 +6,7 @@
       {
         "id": "7f7d7136881f6c41",
         "type": "tabs",
+        "dimension": 73.72068230277186,
         "children": [
           {
             "id": "a0c341c59b88635a",
@@ -18,21 +19,23 @@
                 "source": false
               }
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "9d1300c3db56227f",
+        "type": "tabs",
+        "dimension": 26.279317697228144,
+        "children": [
           {
-            "id": "180673602fe54cbb",
+            "id": "27c4e83089cbaee7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "VulnHub/WpwnyDMV/Wpwn y DMV (Pivoting Lab).md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,7 +85,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "19e4fcf9124f3b6f",
@@ -109,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "VulnHub/WpwnyDMV/Wpwn y DMV (Pivoting Lab).md",
+                "file": "VulnHub/Cereal.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "VulnHub/WpwnyDMV/Wpwn y DMV (Pivoting Lab).md",
+                "file": "VulnHub/Cereal.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "VulnHub/WpwnyDMV/Wpwn y DMV (Pivoting Lab).md"
+                "file": "VulnHub/Cereal.md"
               }
             }
           }
@@ -159,21 +163,31 @@
       "canvas:Create new canvas": false
     }
   },
-  "active": "180673602fe54cbb",
+  "active": "a0c341c59b88635a",
   "lastOpenFiles": [
+    "VulnHub/Anexos/Pasted image 20230727145517.png",
+    "VulnHub/Cereal.md",
+    "VulnHub/Anexos/Pasted image 20230727145311.png",
+    "VulnHub/Anexos/Pasted image 20230727134002.png",
+    "VulnHub/Anexos/Pasted image 20230727133239.png",
+    "VulnHub/Anexos/Pasted image 20230727133223.png",
+    "VulnHub/Anexos/Pasted image 20230727133210.png",
+    "VulnHub/Anexos/Pasted image 20230727132610.png",
+    "VulnHub/Anexos/Pasted image 20230727132520.png",
+    "VulnHub/Anexos/Pasted image 20230727132412.png",
+    "VulnHub/Anexos/Pasted image 20230727114323.png",
+    "VulnHub/Anexos/Pasted image 20230727113253.png",
+    "VulnHub/Anexos",
+    "VulnHub/WpwnyDMV/Wpwn y DMV (Pivoting Lab).md",
     "Disiplinas..md",
     "Python.md",
     "Vulnhub.md",
     "ESET/GEA Visita Mensual.md",
-    "Anexos/Pasted image 20230725162307.png",
-    "Anexos/Pasted image 20230725162100.png",
     "Anexos",
-    "VulnHub/Cereal.md",
     "VulnHub/Inferno & Masashi/Inferno & Masashi.md",
     "VulnHub/DarkHole2/DarkHole 2.md",
     "Bios/Biosbug.md",
     "Hardware/powercfg energy Windows.md",
-    "VulnHub/WpwnyDMV/Wpwn y DMV (Pivoting Lab).md",
     "VulnHub/Mr.robot/Mr.Robot.md",
     "ESET/EESA.md",
     "ESET/Training/EndPoint for ANDROID.md",
@@ -197,19 +211,10 @@
     "PDF CTF",
     "Nueva carpeta",
     "Git",
-    "Python3/Herramientas de manipulacion de datos/Anexos/Pasted image 20230724165901.png",
     "Python3/Herramientas de manipulacion de datos/Anexos",
     "Python3/Herramientas de manipulacion de datos",
     "Python3/Literales",
-    "Python3/Anexos/Pasted image 20230724163056.png",
-    "Python3/Anexos/Pasted image 20230724163039.png",
-    "Python3/Anexos/Pasted image 20230724161123.png",
-    "Python3/Anexos/Pasted image 20230724155853.png",
     "Python3/Anexos",
-    "Python3",
-    "Active Directory/Untitled.canvas",
-    "zzzzzz/VulnHub/InfernoyMasashi/Captura de pantalla -2023-07-12 14-40-37.png",
-    "zzzzzz/VulnHub/InfernoyMasashi/Captura de pantalla -2023-07-12 14-29-26.png",
-    "zzzzzz/VulnHub/InfernoyMasashi/Captura de pantalla -2023-07-12 14-25-46.png"
+    "Active Directory/Untitled.canvas"
   ]
 }
