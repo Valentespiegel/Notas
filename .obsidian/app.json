@@ -1,9 +1,7 @@
 {
   "attachmentFolderPath": "./Anexos",
   "alwaysUpdateLinks": true,
-  "spellcheckLanguages": [
-    "es-MX"
-  ],
+  "spellcheckLanguages": null,
   "showInlineTitle": true,
   "pdfExportSettings": {
     "includeName": true,
