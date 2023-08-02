@@ -11,9 +11,23 @@
             "id": "352f699eb558de63",
             "type": "leaf",
             "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "678e7e8186cec849",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "68ac2c3e23c4a831",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "VulnHub/Cereal.md",
+                "file": "Disiplinas..md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "VulnHub/Cereal.md",
+                "file": "Disiplinas..md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "VulnHub/Cereal.md",
+                "file": "Disiplinas..md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "VulnHub/Cereal.md"
+                "file": "Disiplinas..md"
               }
             }
           }
@@ -147,24 +161,40 @@
       "canvas:Create new canvas": false
     }
   },
-  "active": "352f699eb558de63",
+  "active": "68ac2c3e23c4a831",
   "lastOpenFiles": [
-    "VulnHub/Anexos/Pasted image 20230801135058.png",
-    "VulnHub/Anexos/Pasted image 20230801135032.png",
-    "VulnHub/Anexos/Pasted image 20230801134940.png",
-    "VulnHub/Anexos/Pasted image 20230801134851.png",
-    "VulnHub/Anexos/Pasted image 20230801134736.png",
-    "VulnHub/Anexos/Pasted image 20230801134531.png",
-    "VulnHub/Anexos/Pasted image 20230801133928.png",
-    "VulnHub/Anexos/Pasted image 20230801133848.png",
-    "VulnHub/Anexos/Pasted image 20230801130341.png",
-    "VulnHub/Anexos/Pasted image 20230801130242.png",
-    "VulnHub/Anexos/Pasted image 20230801130203.png",
+    "Bitdefender/Presentacion.md",
+    "Bitdefender/Anexos/Pasted image 20230802115834.png",
+    "Bitdefender/Anexos/Pasted image 20230802115809.png",
+    "Bitdefender/Anexos/Pasted image 20230802115539.png",
+    "Bitdefender/Anexos/Pasted image 20230802115444.png",
+    "Bitdefender/Anexos/Pasted image 20230802115205.png",
+    "Bitdefender/Anexos/Pasted image 20230802115117.png",
+    "Bitdefender/Anexos/Pasted image 20230802114643.png",
+    "Bitdefender/Anexos/Pasted image 20230802114553.png",
+    "Bitdefender/Anexos/Pasted image 20230802114428.png",
+    "Bitdefender/Anexos/Pasted image 20230802111719.png",
+    "Bitdefender/Anexos",
+    "Disiplinas..md",
+    "zzzzzz/Como Agregar un equipo..md",
+    "zzzzzz/Instalación impulsada del agente..md",
+    "Git/Comandos.md",
+    "zzzzzz/Instalación de ESET protect.md",
+    "GIT.md",
+    "RED TEAM.md",
+    "zzzzzz/Configuracion inicial de ESET Protect..md",
+    "zzzzzz/ESET Protect.md",
+    "TICKETS.md",
+    "ESET/Soportes/03-07-2023 User disabled in workstation Encripted..md",
+    "zzzzzz/ESET Full Disk Encryption.md",
+    "Bitdefender/Training/Business Portfolio Technical Training 2021.md",
+    "Bitdefender.md",
+    "BLUE TEAM.md",
+    "ESET.md",
     "VulnHub/Cereal.md",
     "Cereal.pdf",
     "VulnHub/Anexos",
     "VulnHub/WpwnyDMV/Wpwn y DMV (Pivoting Lab).md",
-    "Disiplinas..md",
     "Python.md",
     "Vulnhub.md",
     "ESET/GEA Visita Mensual.md",
@@ -172,22 +202,6 @@
     "VulnHub/Inferno & Masashi/Inferno & Masashi.md",
     "VulnHub/DarkHole2/DarkHole 2.md",
     "Bios/Biosbug.md",
-    "Hardware/powercfg energy Windows.md",
-    "VulnHub/Mr.robot/Mr.Robot.md",
-    "ESET/EESA.md",
-    "ESET/Training/EndPoint for ANDROID.md",
-    "ESET/Training/ESET Training 2023 Valente@ESET TECHNICAL CERTIDIED PROTECT CONFIGURATION/Administrador de usuarios..md",
-    "ESET/Training/ESET Training 2023 Valente@Analisis de malware/Técnicas de propagación..md",
-    "ESET/Training/ESET Training 2023 Valente@Analisis de malware/Historia del Malware..md",
-    "ESET/Training/ESET Training 2023 Valente@Analisis de malware/Archivos Maliciosos..md",
-    "ESET/Training/ESET Training 2023 Valente@Analisis de malware/Análisis de Malware.md",
-    "Git/Comandos.md",
-    "ESET/Soportes/03-07-2023 User disabled in workstation Encripted..md",
-    "Bitdefender/Training/Business Portfolio Technical Training 2021.md",
-    "Python3/Introducción a Python..md",
-    "Python3/Introducción a la programación..md",
-    "Python3/Hola mundo.md",
-    "Python3/Literales/Valores booleanos.md",
     "Untitled.canvas",
     "VulnHub/DarkHole2/Ataque..canvas",
     "VulnHub/Inferno & Masashi/Ataque..canvas",
@@ -198,7 +212,6 @@
     "Git",
     "Python3/Herramientas de manipulacion de datos/Anexos",
     "Python3/Herramientas de manipulacion de datos",
-    "Python3/Literales",
     "Active Directory/Untitled.canvas"
   ]
 }

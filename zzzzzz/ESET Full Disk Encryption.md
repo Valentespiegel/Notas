@@ -1,3 +1,4 @@
+[[ESET]]
 Es un complemento para administrar el cifrado de disco completo en sus estaciones de windows, el cual te brinda una capa de seguridad adicional en el inicio de sesión de los equipos al cifrar el disco oh incluso una unidad completa del sistema.
 
 *Políticas > ESET Full Disk Encryption > configuración > opciones de cifrado > habilitar cifrado*

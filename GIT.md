@@ -1,0 +1,2 @@
+[[RED TEAM]]
+[[BLUE TEAM]]

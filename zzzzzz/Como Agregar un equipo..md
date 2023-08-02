@@ -1,3 +1,4 @@
+[[ESET]]
 ## Sincronización con el directorio activo.
 
 La consola esta diseñada para que , si el servidor donde instalemos ESET Protect esta unido a algún dominio, automáticamente el ESET Protect va a sincronizarse con el Directorio activo.

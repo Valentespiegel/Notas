@@ -1,3 +1,4 @@
+[[ESET]]
 Control remoto multifuncional para todas las soluciones de seguridad corporativas de ESET
 
 1. Administración centralizada: Proporciona una consola centralizada desde la cual los administradores de seguridad pueden gestionar y supervisar todos los aspectos de la protección de la red y los sistemas. Esto incluye la instalación y configuración de productos de seguridad, la gestión de políticas de seguridad, la implementación de actualizaciones y parches, y la generación de informes.

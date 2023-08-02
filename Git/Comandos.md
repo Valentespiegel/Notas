@@ -1,4 +1,4 @@
-
+[[GIT]]
 
 1. `git init`: Este comando se usa para inicializar un nuevo repositorio de Git en un directorio vacío o existente. Crea una estructura interna de Git en el directorio, lo que permite que Git comience a rastrear los cambios en los archivos en ese directorio.
     
