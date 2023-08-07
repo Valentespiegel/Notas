@@ -1,0 +1,10 @@
+{
+	"nodes":[
+		{"type":"text","text":"Victima\nDarkHole 2\n192.168.153.131\nPort :22,80\nVMware","id":"08f8cba4d299287d","x":300,"y":-320,"width":180,"height":120,"color":"3"},
+		{"type":"text","text":"Atacante\nSwordFish\n192.168.1.130","id":"3647028d2d2251f7","x":100,"y":-60,"width":225,"height":70,"color":"1"},
+		{"type":"file","file":"VulnHub/Mr.robot/Mr.Robot.md","id":"b8ea03150703fbd4","x":-740,"y":-400,"width":760,"height":700}
+	],
+	"edges":[
+		{"id":"c4de91364082ccc5","fromNode":"3647028d2d2251f7","fromSide":"top","toNode":"08f8cba4d299287d","toSide":"bottom","color":"4","label":"<>"}
+	]
+}

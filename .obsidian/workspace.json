@@ -13,16 +13,77 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "VulnHub/WpwnyDMV/Ataque..canvas",
+                "file": "VulnHub/WpwnyDMV/Ataque Wpwn DMV..canvas",
                 "viewState": {
-                  "x": -257.10100319363147,
-                  "y": -421.4955497148226,
-                  "zoom": -0.6670720163523597
+                  "x": -380,
+                  "y": -500,
+                  "zoom": -1.0669034580245522
+                }
+              }
+            }
+          },
+          {
+            "id": "3b8bbe817f5803b2",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "VulnHub/Mr.robot/Ataque Mr.Robot.canvas",
+                "viewState": {
+                  "x": -130,
+                  "y": -50,
+                  "zoom": -0.05477860150625856
+                }
+              }
+            }
+          },
+          {
+            "id": "3a44aad29fc717fa",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "VulnHub/DarkHole2/Ataque DarkHole2.canvas",
+                "viewState": {
+                  "x": -530,
+                  "y": -1260,
+                  "zoom": -0.6318359041420688
+                }
+              }
+            }
+          },
+          {
+            "id": "c079af1a99c80e3e",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "VulnHub/Inferno & Masashi/Ataque Inferno & masashi.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": -131.33131790161133,
+                  "zoom": 0
+                }
+              }
+            }
+          },
+          {
+            "id": "8ac65db356da2e5b",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "VulnHub/Cereal/Ataque Cereal..canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 232.5,
+                  "zoom": 0
                 }
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -100,7 +161,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "VulnHub/WpwnyDMV/Ataque..canvas",
+                "file": "VulnHub/Cereal/Ataque Cereal..canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +178,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "VulnHub/WpwnyDMV/Ataque..canvas",
+                "file": "VulnHub/Cereal/Ataque Cereal..canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,7 +190,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "VulnHub/WpwnyDMV/Ataque..canvas"
+                "file": "VulnHub/Cereal/Ataque Cereal..canvas"
               }
             }
           }
@@ -150,9 +211,17 @@
       "canvas:Create new canvas": false
     }
   },
-  "active": "68ac2c3e23c4a831",
+  "active": "8ac65db356da2e5b",
   "lastOpenFiles": [
-    "VulnHub/Inferno & Masashi/Ataque..canvas",
+    "VulnHub/WpwnyDMV/Ataque Wpwn DMV..canvas",
+    "VulnHub/Mr.robot/Ataque Mr.Robot.canvas",
+    "VulnHub/DarkHole2/Ataque DarkHole2.canvas",
+    "VulnHub/Inferno & Masashi/Ataque Inferno & masashi.canvas",
+    "VulnHub/Cereal/Ataque Cereal..canvas",
+    "VulnHub/Inferno & Masashi/Inferno & Masashi.md",
+    "VulnHub/Mr.robot/Mr.Robot.md",
+    "VulnHub/Cereal",
+    "VulnHub/Cereal/Cereal.md",
     "Bitdefender/Presentacion.md",
     "Bitdefender/Anexos/Pasted image 20230807123358.png",
     "Bitdefender/Anexos/Pasted image 20230807123327.png",
@@ -175,7 +244,6 @@
     "Bitdefender/Anexos/Pasted image 20230803100951.png",
     "Bitdefender/Anexos/Pasted image 20230803100908.png",
     "Disiplinas..md",
-    "VulnHub/Cereal.md",
     "Cereal.md",
     "Bitdefender/Anexos",
     "zzzzzz/Como Agregar un equipo..md",
@@ -190,17 +258,12 @@
     "zzzzzz/ESET Full Disk Encryption.md",
     "Bitdefender/Training/Business Portfolio Technical Training 2021.md",
     "Bitdefender.md",
-    "BLUE TEAM.md",
-    "ESET.md",
     "Cereal.pdf",
     "VulnHub/Anexos",
     "Anexos",
     "Untitled.canvas",
-    "VulnHub/DarkHole2/Ataque..canvas",
-    "VulnHub/WpwnyDMV/Ataque..canvas",
     "PDF CTF/Wpwn y DMV (Pivoting Lab).pdf",
     "PDF CTF",
-    "Nueva carpeta",
     "Active Directory/Untitled.canvas"
   ]
 }

