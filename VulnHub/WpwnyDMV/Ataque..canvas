@@ -3,8 +3,8 @@
 		{"type":"text","text":"DMV\n10.10.10.129\nLinux","id":"fd2a0ca72cc830ed","x":980,"y":-560,"width":300,"height":240,"color":"1"},
 		{"type":"text","text":"SwordFish.\n192.168.3.3\nParrotOS ","id":"4444189a2c2d07d7","x":-190,"y":80,"width":270,"height":200,"color":"#b000b3"},
 		{"type":"text","text":"///// : No alcanzabe\n\n ===== : Tunel (Pivoting)\n\n<> : Alcanzable","id":"d72a2ad74dea2935","x":-240,"y":-1160,"width":400,"height":335,"color":"#0069cc"},
-		{"type":"text","text":"Wpwn \n192.168.1.128\n10.10.10.128\nLinux","id":"5d9c95cb87660038","x":480,"y":-1240,"width":320,"height":380,"color":"1"},
-		{"type":"file","file":"VulnHub/WpwnyDMV/Wpwn y DMV (Pivoting Lab).md","id":"03c2488c4fd131d8","x":-5630,"y":-3280,"width":5440,"height":3800}
+		{"type":"file","file":"VulnHub/WpwnyDMV/Wpwn y DMV (Pivoting Lab).md","id":"03c2488c4fd131d8","x":-1660,"y":-1160,"width":1400,"height":1360},
+		{"type":"text","text":"Wpwn \n192.168.1.128\n10.10.10.128\nLinux","id":"5d9c95cb87660038","x":420,"y":-1080,"width":320,"height":380,"color":"1"}
 	],
 	"edges":[
 		{"id":"3e4fae9327806b18","fromNode":"4444189a2c2d07d7","fromSide":"top","toNode":"5d9c95cb87660038","toSide":"bottom","color":"4","label":"<>"},
