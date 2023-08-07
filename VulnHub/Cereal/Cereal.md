@@ -5,13 +5,10 @@ CDMX-Polanco
 Valente Spiegel
 
 ![[Pasted image 20230727103950.png]]
+![[Pasted image 20230727104520.png|900]]
 
 ---
-
-![[Pasted image 20230727104520.png]]
-
----
-### Habilidades. 
+# Habilidades. 
 
 Enumeración FTP 
 Hospedaje Virtual 
@@ -21,13 +18,14 @@ Ataque de Deserialización PHP [RCE]
 Enumeración de Tareas Programadas (pspy) 
 Abuso de Tarea Programada (Chown Symlink) [Escalada de Privilegios]
 
-### Certificaciones.
+# Certificaciones.
 
 eWPT  
 eCPPTv2
 
 ---
-### Creación de directorios para espacio de trabajo.
+---
+# Creación de directorios para espacio de trabajo.
 
 Es importante crear directorios o espacios de trabajo específicos al resolver una máquina.
 Al crear un directorio o espacio de trabajo dedicado para una máquina de VulnHub, puedes mantener ordenada toda la información relacionada con esa máquina en un solo lugar. Esto incluye archivos de configuración, resultados de escaneos, notas y cualquier otro dato relevante. Una estructura organizada facilita el seguimiento del progreso, el acceso rápido a la información y la revisión posterior de los pasos realizados.
@@ -38,7 +36,8 @@ mkdir Cereal && cd Cereal && mkdir {Scan,Content,Exploits,Evidencia} && ls && cd
 ![[Pasted image 20230727104049.png]]
 
 ---
-### Descubrimiento de ip.
+---
+# Escaneo.
 
 ```
 sudo netdiscover
@@ -56,10 +55,6 @@ ping -c 1 192.168.153.142
 
 
 ==La maquina tiene por IP la 192.168.153.142 
-
----
-### Enumeramiento de puertos.
-
 ```
 sudo nmap -p- --open -sS --min-rate 5000 -vvv -n -Pn 192.168.153.142
 ```
@@ -84,7 +79,7 @@ ftp 192.168.153.142
 
 ---
 
-### Escaneo y enumeración web.
+# Enumeración web.
 
 ```
 whatweb 192.168.153.142
@@ -187,7 +182,7 @@ http://secure.cereal.ctf:44441/back_en/index.php.bak
 ==El código fuente de este servicio realiza un filtro de ip en congunto con una serializacion de la misma, es esto de lo que nos vamos a a probechar inyectandoole una shell hacia nuestra maquina.
 
 ---
-### Escalamiento a usuario.
+# Escalamiento a usuario.
 
 El código PHP que proporcionas parece tener la intención de serializar un objeto `pingTest` y luego imprimir el resultado codificado en URL. Sin embargo, hay un problema en la declaración de la propiedad `$ipAddress`. Parece que intentas ejecutar un comando de shell malicioso dentro de la propiedad, lo cual es una grave vulnerabilidad de seguridad.
 
@@ -227,7 +222,7 @@ sudo nc -nlvp 443
 ==Intercambiamos la serialización por la maliciosa y obtenemos acceso.
 
 ---
-### Tratamiento de Shell y tty
+# Shell y tty
 
 ```
 stty raw -echo; fg
@@ -248,10 +243,6 @@ cd rocky/ && cat local.txt
 ```
 
 ![[Pasted image 20230801121536.png]]
-
----
-### Usuario Rocky.
-
 ```
 cat /etc/os-release
 ```
@@ -292,7 +283,7 @@ chmod +x pspy64
 ![[Pasted image 20230801130341.png]]
 
 ---
-### Escalamiento a root.
+# Escalamiento a root.
 
 ==La maquina tiene un proceso el cual le credenciales de una ruta accesible la cual podemos clonar y modificar.,
 

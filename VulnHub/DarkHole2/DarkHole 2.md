@@ -4,9 +4,9 @@ Lunes 3 de julio del 2023 México.
 CDMX, Polanco.
 Valente Spiegel.
 ___
-### Habilidades. [[Disiplinas.]]
+# Habilidades. [[Disiplinas.]]
 
-### DarkHole 2
+==DarkHole 2
 
 Information Leakage
 Github Project Enumeration
@@ -15,7 +15,7 @@ Chisel (Remote Port Forwarding) + Abusing Internal Web Server
 Bash History - Information Leakage [User Pivoting]
 Abusing Sudoers Privilege [Privilege Escalation]
 
-### Preparación
+# Preparación
 
 eWPT 
 eJPT
@@ -29,6 +29,7 @@ Al crear un directorio o espacio de trabajo dedicado para una máquina de VulnHu
 Mkdir DarkHole2 && cd DarkHole2 && mkdir {Scan,Content,Exploits,Evidencia}
 ```
 ___
+---
 # Fase de descubrimiento y enumeración.
 
 El objetivo principal de la fase de descubrimiento es obtener una visión general de la red objetivo. Se busca identificar los dispositivos activos, como servidores, routers, y otros equipos de red, así como los servicios y aplicaciones que se ejecutan en ellos. Esto se logra mediante el uso de herramientas de escaneo de red.
@@ -194,7 +195,7 @@ lush@admin.com
 321
 ```
 ---
-## ==Escalamiento a usuario.
+# ==Escalamiento a usuario.
 
 ![[Captura de pantalla -2023-06-30 16-41-23.png]]
 
