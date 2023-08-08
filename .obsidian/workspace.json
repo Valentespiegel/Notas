@@ -4,31 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "2ec1e94a54ea1aa6",
+        "id": "1cc3559d9de736aa",
         "type": "tabs",
         "children": [
           {
-            "id": "3c88f6dc25c4628c",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "VulnHub/WpwnyDMV/Ataque Wpwn DMV..canvas",
-                "viewState": {
-                  "x": 671.9531044622519,
-                  "y": -723.5151813382075,
-                  "zoom": -0.9350692070019908
-                }
-              }
-            }
-          },
-          {
-            "id": "e3ee20cc5d83ca1c",
+            "id": "fafd104d211d97f9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "VulnHub/Mr.robot/Mr.Robot.md",
+                "file": "VulnHub/Tomato/Tomato.md",
                 "mode": "source",
                 "source": false
               }
@@ -84,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "19e4fcf9124f3b6f",
@@ -163,15 +147,15 @@
     "type": "floating",
     "children": [
       {
-        "id": "431164baf0615131",
+        "id": "0a0b08675bc4a883",
         "type": "window",
         "children": [
           {
-            "id": "cfe0b686aa8bdfb1",
+            "id": "08ff9d4b8d6223ed",
             "type": "tabs",
             "children": [
               {
-                "id": "e05dcf50c855fdc3",
+                "id": "1a3632eb6e0eaa7c",
                 "type": "leaf",
                 "state": {
                   "type": "graph",
@@ -183,54 +167,32 @@
         ],
         "direction": "vertical",
         "x": -1927,
-        "y": -216,
-        "width": 975,
-        "height": 619,
-        "maximize": false,
-        "zoom": 0
-      },
-      {
-        "id": "57e134444c62b4cf",
-        "type": "window",
-        "children": [
-          {
-            "id": "e55222faa953182c",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "3763e6421447d797",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "VulnHub/Cereal/Cereal.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": -967,
-        "y": -216,
+        "y": 324,
         "width": 974,
-        "height": 1087,
-        "maximize": false,
+        "height": 547,
+        "maximize": true,
         "zoom": 0
       }
     ]
   },
-  "active": "e05dcf50c855fdc3",
+  "active": "1a3632eb6e0eaa7c",
   "lastOpenFiles": [
+    "VulnHub/Tomato/Tomato.md",
+    "VulnHub/Tomato/Anexos/Pasted image 20230808142748.png",
+    "VulnHub/Tomato/Anexos/Pasted image 20230808142438.png",
+    "VulnHub/Tomato/Anexos/Pasted image 20230808142345.png",
+    "VulnHub/Tomato/Anexos/Pasted image 20230808142013.png",
+    "VulnHub/Tomato/Anexos/Pasted image 20230808141944.png",
+    "VulnHub/Tomato/Anexos",
+    "VulnHub/Tomato",
     "VulnHub/WpwnyDMV/Ataque Wpwn DMV..canvas",
+    "ESET.md",
+    "VulnHub/Mr.robot/Mr.Robot.md",
     "VulnHub/Cereal/Cereal.md",
     "VulnHub/DarkHole2/DarkHole 2.md",
     "VulnHub/Cereal/Ataque Cereal..canvas",
     "VulnHub/WpwnyDMV/Wpwn y DMV (Pivoting Lab).md",
     "VulnHub/Inferno & Masashi/Inferno & Masashi.md",
-    "VulnHub/Mr.robot/Mr.Robot.md",
     "VulnHub/Mr.robot/Untitled.md",
     "VulnHub/Inferno & Masashi/Ataque Inferno & masashi.canvas",
     "VulnHub/DarkHole2/Ataque DarkHole2.canvas",
@@ -252,11 +214,6 @@
     "Anexos/Untitled-2023-08-03-1016(1).excalidraw",
     "Untitled-2023-08-03-1016(1).excalidraw",
     "Bitdefender/Anexos/Pasted image 20230803131108.png",
-    "Bitdefender/Anexos/Pasted image 20230803130145.png",
-    "Bitdefender/Anexos/Pasted image 20230803130142 1.png",
-    "Bitdefender/Anexos/Pasted image 20230803130142.png",
-    "Bitdefender/Anexos/Pasted image 20230803100951.png",
-    "Bitdefender/Anexos/Pasted image 20230803100908.png",
     "Disiplinas..md",
     "Cereal.md",
     "Bitdefender/Anexos",
@@ -267,14 +224,10 @@
     "GIT.md",
     "RED TEAM.md",
     "zzzzzz/Configuracion inicial de ESET Protect..md",
-    "zzzzzz/ESET Protect.md",
-    "ESET/Soportes/03-07-2023 User disabled in workstation Encripted..md",
     "Cereal.pdf",
     "VulnHub/Anexos",
     "Anexos",
     "Untitled.canvas",
-    "PDF CTF/Wpwn y DMV (Pivoting Lab).pdf",
-    "PDF CTF",
     "Active Directory/Untitled.canvas"
   ]
 }
