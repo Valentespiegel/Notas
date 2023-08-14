@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "VulnHub/Tomato/Tomato.md",
+                "file": "ESET/ESET Licenciamiento Empresarial.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "19e4fcf9124f3b6f",
@@ -96,6 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "ESET/ESET Licenciamiento Empresarial.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,6 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "ESET/ESET Licenciamiento Empresarial.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "ESET/ESET Licenciamiento Empresarial.md"
+              }
             }
           }
         ]
@@ -142,41 +147,16 @@
       "canvas:Create new canvas": false
     }
   },
-  "floating": {
-    "id": "476c9de64d627eba",
-    "type": "floating",
-    "children": [
-      {
-        "id": "0a0b08675bc4a883",
-        "type": "window",
-        "children": [
-          {
-            "id": "08ff9d4b8d6223ed",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "1a3632eb6e0eaa7c",
-                "type": "leaf",
-                "state": {
-                  "type": "graph",
-                  "state": {}
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": -1927,
-        "y": 324,
-        "width": 974,
-        "height": 547,
-        "maximize": true,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "1a3632eb6e0eaa7c",
+  "active": "fafd104d211d97f9",
   "lastOpenFiles": [
+    "ESET/Anexos/Pasted image 20230814101650.png",
+    "ESET/Anexos/Pasted image 20230814101618.png",
+    "ESET/Anexos/tipos.png",
+    "ESET/Anexos",
+    "VulnHub/WpwnyDMV/Ataque Wpwn DMV..canvas",
+    "ESET/ESET Licenciamiento Empresarial.md",
+    "VulnHub/Inferno & Masashi/Ataque Inferno & masashi.canvas",
+    "Untitled.canvas",
     "VulnHub/Tomato/Tomato.md",
     "VulnHub/Tomato/Anexos/Pasted image 20230808142748.png",
     "VulnHub/Tomato/Anexos/Pasted image 20230808142438.png",
@@ -185,7 +165,6 @@
     "VulnHub/Tomato/Anexos/Pasted image 20230808141944.png",
     "VulnHub/Tomato/Anexos",
     "VulnHub/Tomato",
-    "VulnHub/WpwnyDMV/Ataque Wpwn DMV..canvas",
     "ESET.md",
     "VulnHub/Mr.robot/Mr.Robot.md",
     "VulnHub/Cereal/Cereal.md",
@@ -194,7 +173,6 @@
     "VulnHub/WpwnyDMV/Wpwn y DMV (Pivoting Lab).md",
     "VulnHub/Inferno & Masashi/Inferno & Masashi.md",
     "VulnHub/Mr.robot/Untitled.md",
-    "VulnHub/Inferno & Masashi/Ataque Inferno & masashi.canvas",
     "VulnHub/DarkHole2/Ataque DarkHole2.canvas",
     "VulnHub/Mr.robot/Ataque Mr.Robot.canvas",
     "VulnHub/Cereal",
@@ -202,7 +180,6 @@
     "Bitdefender/Anexos/Pasted image 20230807123358.png",
     "Bitdefender/Anexos/Pasted image 20230807123327.png",
     "Bitdefender/Anexos/Pasted image 20230807123303.png",
-    "Bitdefender/Anexos/Pasted image 20230807123119.png",
     "Python3/Hola mundo.md",
     "Python3/Herramientas de manipulacion de datos/Operadores Basicos..md",
     "Python3/Herramientas de manipulacion de datos/Exponenciacion..md",
@@ -213,7 +190,6 @@
     "Anexos/Untitled-2023-08-03-1016(1) 1.excalidraw",
     "Anexos/Untitled-2023-08-03-1016(1).excalidraw",
     "Untitled-2023-08-03-1016(1).excalidraw",
-    "Bitdefender/Anexos/Pasted image 20230803131108.png",
     "Disiplinas..md",
     "Cereal.md",
     "Bitdefender/Anexos",
@@ -223,11 +199,8 @@
     "zzzzzz/Instalación de ESET protect.md",
     "GIT.md",
     "RED TEAM.md",
-    "zzzzzz/Configuracion inicial de ESET Protect..md",
     "Cereal.pdf",
     "VulnHub/Anexos",
-    "Anexos",
-    "Untitled.canvas",
     "Active Directory/Untitled.canvas"
   ]
 }

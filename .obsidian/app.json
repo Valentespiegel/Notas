@@ -8,7 +8,7 @@
     "pageSize": "Letter",
     "landscape": false,
     "margin": "2",
-    "downscalePercent": 75
+    "downscalePercent": 61
   },
   "useMarkdownLinks": false,
   "showUnsupportedFiles": true,
