@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ESET/ESET Licenciamiento Empresarial.md",
+                "file": "portswigger/XML external entity (XXE) injection.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4c7d5106fe97ba76",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "VulnHub/Inferno & Masashi/Inferno & Masashi.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "19e4fcf9124f3b6f",
@@ -97,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ESET/ESET Licenciamiento Empresarial.md",
+                "file": "portswigger/XML external entity (XXE) injection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ESET/ESET Licenciamiento Empresarial.md",
+                "file": "portswigger/XML external entity (XXE) injection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ESET/ESET Licenciamiento Empresarial.md"
+                "file": "portswigger/XML external entity (XXE) injection.md"
               }
             }
           }
@@ -149,58 +160,58 @@
   },
   "active": "fafd104d211d97f9",
   "lastOpenFiles": [
+    "portswigger/Anexos/Pasted image 20230815164959.png",
+    "portswigger/Anexos/Pasted image 20230815164943.png",
+    "portswigger/Anexos/Pasted image 20230815164453.png",
+    "VulnHub/WpwnyDMV/Wpwn y DMV (Pivoting Lab).md",
+    "VulnHub/Cereal/Cereal.md",
+    "VulnHub/Inferno & Masashi/Inferno & Masashi.md",
+    "VulnHub/Inferno & Masashi/Ataque Inferno & masashi.canvas",
+    "ESET/ESET Licenciamiento Empresarial.md",
+    "ESET.md",
+    "portswigger/XML external entity (XXE) injection.md",
+    "portswigger/Anexos/Pasted image 20230814125142.png",
+    "portswigger/Anexos/Pasted image 20230814125036.png",
+    "portswigger/Anexos/Pasted image 20230814124522.png",
+    "portswigger/Anexos/Pasted image 20230814124020.png",
+    "portswigger/Anexos/Pasted image 20230814121015.png",
+    "portswigger/Anexos/Pasted image 20230814115018.png",
+    "portswigger/Anexos/Pasted image 20230814114645.png",
+    "portswigger/Anexos",
+    "Untitled.md",
+    "portswigger",
+    "Vulnhub.md",
+    "Untitled.canvas",
+    "TICKETS.md",
+    "RED TEAM.md",
+    "Python.md",
+    "GIT.md",
+    "Disiplinas..md",
+    "BLUE TEAM.md",
+    "Bitdefender.md",
+    "VulnHub/Tomato/Tomato.md",
     "ESET/Anexos/Pasted image 20230814101650.png",
-    "ESET/Anexos/Pasted image 20230814101618.png",
-    "ESET/Anexos/tipos.png",
     "ESET/Anexos",
     "VulnHub/WpwnyDMV/Ataque Wpwn DMV..canvas",
-    "ESET/ESET Licenciamiento Empresarial.md",
-    "VulnHub/Inferno & Masashi/Ataque Inferno & masashi.canvas",
-    "Untitled.canvas",
-    "VulnHub/Tomato/Tomato.md",
-    "VulnHub/Tomato/Anexos/Pasted image 20230808142748.png",
-    "VulnHub/Tomato/Anexos/Pasted image 20230808142438.png",
-    "VulnHub/Tomato/Anexos/Pasted image 20230808142345.png",
-    "VulnHub/Tomato/Anexos/Pasted image 20230808142013.png",
-    "VulnHub/Tomato/Anexos/Pasted image 20230808141944.png",
     "VulnHub/Tomato/Anexos",
     "VulnHub/Tomato",
-    "ESET.md",
     "VulnHub/Mr.robot/Mr.Robot.md",
-    "VulnHub/Cereal/Cereal.md",
     "VulnHub/DarkHole2/DarkHole 2.md",
     "VulnHub/Cereal/Ataque Cereal..canvas",
-    "VulnHub/WpwnyDMV/Wpwn y DMV (Pivoting Lab).md",
-    "VulnHub/Inferno & Masashi/Inferno & Masashi.md",
     "VulnHub/Mr.robot/Untitled.md",
     "VulnHub/DarkHole2/Ataque DarkHole2.canvas",
     "VulnHub/Mr.robot/Ataque Mr.Robot.canvas",
     "VulnHub/Cereal",
     "Bitdefender/Presentacion.md",
-    "Bitdefender/Anexos/Pasted image 20230807123358.png",
-    "Bitdefender/Anexos/Pasted image 20230807123327.png",
-    "Bitdefender/Anexos/Pasted image 20230807123303.png",
     "Python3/Hola mundo.md",
     "Python3/Herramientas de manipulacion de datos/Operadores Basicos..md",
     "Python3/Herramientas de manipulacion de datos/Exponenciacion..md",
-    "Python.md",
     "Python3/Untitled.md",
-    "TICKETS.md",
-    "Untitled.md",
     "Anexos/Untitled-2023-08-03-1016(1) 1.excalidraw",
     "Anexos/Untitled-2023-08-03-1016(1).excalidraw",
     "Untitled-2023-08-03-1016(1).excalidraw",
-    "Disiplinas..md",
     "Cereal.md",
     "Bitdefender/Anexos",
-    "zzzzzz/Como Agregar un equipo..md",
-    "zzzzzz/Instalación impulsada del agente..md",
-    "Git/Comandos.md",
-    "zzzzzz/Instalación de ESET protect.md",
-    "GIT.md",
-    "RED TEAM.md",
-    "Cereal.pdf",
-    "VulnHub/Anexos",
     "Active Directory/Untitled.canvas"
   ]
 }

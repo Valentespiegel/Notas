@@ -1,9 +1,9 @@
 {
 	"nodes":[
-		{"id":"9abf7febe4dcdbd9","x":-740,"y":-480,"width":800,"height":680,"color":"2","type":"file","file":"VulnHub/Inferno & Masashi/Inferno & Masashi.md"},
-		{"id":"1accea69f88aea13","x":300,"y":-480,"width":160,"height":80,"color":"1","type":"text","text":"Swordfish\n127.0.0.1\nParrotOS"},
-		{"id":"6649af42a3a071bf","x":200,"y":-40,"width":150,"height":120,"color":"6","type":"text","text":"Masashi\nIP : 10.10.0.128\nPorts : 22 80\nLinux"},
-		{"id":"5abe6fa0a9f6d29f","x":425,"y":-240,"width":195,"height":100,"color":"6","type":"text","text":"Inferno\nIP : 192.168.153.136\nPorts : 22 80\nLinux"}
+		{"type":"text","text":"Swordfish\n127.0.0.1\nParrotOS","id":"1accea69f88aea13","x":300,"y":-480,"width":160,"height":80,"color":"1"},
+		{"type":"text","text":"Masashi\nIP : 10.10.0.128\nPorts : 22 80\nLinux","id":"6649af42a3a071bf","x":200,"y":-40,"width":150,"height":120,"color":"6"},
+		{"type":"text","text":"Inferno\nIP : 192.168.153.136\nPorts : 22 80\nLinux","id":"5abe6fa0a9f6d29f","x":425,"y":-240,"width":195,"height":100,"color":"6"},
+		{"type":"file","file":"VulnHub/Inferno & Masashi/Inferno & Masashi.md","id":"9abf7febe4dcdbd9","x":-740,"y":-340,"width":800,"height":680,"color":"2"}
 	],
 	"edges":[
 		{"id":"9dbe4b11b4fc6736","fromNode":"5abe6fa0a9f6d29f","fromSide":"bottom","toNode":"6649af42a3a071bf","toSide":"right","color":"4","label":"<ens35>"},
