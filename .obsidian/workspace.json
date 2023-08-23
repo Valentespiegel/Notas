@@ -8,16 +8,29 @@
         "type": "tabs",
         "children": [
           {
-            "id": "77c0eb8defad71df",
+            "id": "0c3d4f6aabffe688",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "portswigger/XXE/XXE-Injection.excalidraw.md"
+                "file": "Excalidraw/Drawing 2023-08-21 12.19.12.excalidraw.md"
+              }
+            }
+          },
+          {
+            "id": "e88957102b999213",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Capacitación Bitdefender.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -95,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "portswigger/XXE/XXE-Injection.excalidraw.md",
+                "file": "Capacitación Bitdefender.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "portswigger/XXE/XXE-Injection.excalidraw.md",
+                "file": "Capacitación Bitdefender.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "portswigger/XXE/XXE-Injection.excalidraw.md"
+                "file": "Capacitación Bitdefender.md"
               }
             }
           }
@@ -146,33 +159,38 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "77c0eb8defad71df",
+  "active": "e88957102b999213",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2023-08-21 12.19.12.excalidraw.md",
+    "Capacitación Bitdefender.md",
+    "Excalidraw/Drawing 2023-08-23 12.11.41.excalidraw.md",
+    "ESET/ESET Licenciamiento Empresarial.md",
     "portswigger/XXE/XML external entity (XXE) injection.md",
+    "Excalidraw/Anexos/Pasted Image 20230821122005_032.png",
+    "Excalidraw/Anexos/Pasted Image 20230821122005_021.png",
+    "Excalidraw/Anexos/Pasted Image 20230821122005_012.png",
+    "Excalidraw/Anexos/Pasted Image 20230821122005_006.png",
+    "Excalidraw/Anexos/Pasted Image 20230821122004_994.png",
+    "Excalidraw/Anexos/Pasted Image 20230821122004_961.png",
+    "Excalidraw/Anexos/Pasted Image 20230821122004_936.png",
+    "Excalidraw/Anexos/Pasted Image 20230821121936_442.png",
+    "Excalidraw/Anexos/Pasted Image 20230821121936_431.png",
+    "Excalidraw/Anexos/Pasted Image 20230821121936_402.png",
+    "Excalidraw/Anexos",
+    "Bitdefender/Presentacion.md",
+    "ESET.md",
     "portswigger/XXE/XXE-Injection.excalidraw.md",
+    "ESET/GEA Visita Mensual.md",
     "portswigger/XXE",
     "Excalidraw/Drawing 2023-08-17 16.20.07.excalidraw.md",
     "Excalidraw/Drawing 2023-08-17 16.19.29.excalidraw.md",
     "Excalidraw",
     "VulnHub/Inferno & Masashi/Inferno & Masashi.md",
     "portswigger/Untitled.canvas",
-    "portswigger/Anexos/Pasted image 20230817141823.png",
-    "portswigger/Anexos/Pasted image 20230817141811.png",
-    "portswigger/Anexos/Pasted image 20230817141657.png",
-    "portswigger/Anexos/Pasted image 20230817141646.png",
-    "portswigger/Anexos/Pasted image 20230817140948.png",
-    "portswigger/Anexos/Pasted image 20230817140650.png",
-    "portswigger/Anexos/Pasted image 20230817140400.png",
-    "portswigger/Anexos/Pasted image 20230817134141.png",
-    "portswigger/Anexos/Pasted image 20230817134112.png",
-    "portswigger/Anexos/Pasted image 20230817113858.png",
     "VulnHub/WpwnyDMV/Wpwn y DMV (Pivoting Lab).md",
     "VulnHub/Cereal/Cereal.md",
     "VulnHub/Inferno & Masashi/Ataque Inferno & masashi.canvas",
-    "ESET/ESET Licenciamiento Empresarial.md",
-    "ESET.md",
     "portswigger/Anexos",
-    "Untitled.md",
     "portswigger",
     "Vulnhub.md",
     "Untitled.canvas",
@@ -195,11 +213,7 @@
     "VulnHub/DarkHole2/Ataque DarkHole2.canvas",
     "VulnHub/Mr.robot/Ataque Mr.Robot.canvas",
     "VulnHub/Cereal",
-    "Bitdefender/Presentacion.md",
-    "Python3/Hola mundo.md",
-    "Python3/Herramientas de manipulacion de datos/Operadores Basicos..md",
     "Anexos/Untitled-2023-08-03-1016(1) 1.excalidraw",
-    "Anexos/Untitled-2023-08-03-1016(1).excalidraw",
     "Active Directory/Untitled.canvas"
   ]
 }

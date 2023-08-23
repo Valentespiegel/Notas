@@ -14,7 +14,7 @@ Prevención, detección y respuesta, que combina XDR de nivel empresarial con un
 
 ![[Pasted image 20230814101650.png]]
 
-1-Consola
+1-Consola            
 _Interfaz de plataforma de ciberseguridad unificada que proporciona visibilidad y control superior de la red. Disponible para despliegue on-prem o en la nube._
 
 2-Proteccion moderna para endpoints

