@@ -29,4 +29,7 @@ Valentespiegel
 
 ==Protección de red==
 *Ataques de red - Bloqueadas*
-*Excluciones*
+*Exclusiones*
+
+==Antimalware por aplicaciones==
+*Configuración - Carpeta , proceso y archivo*

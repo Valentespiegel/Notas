@@ -4,26 +4,40 @@
     "type": "split",
     "children": [
       {
-        "id": "407734219de92345",
+        "id": "949ab7cb40795d62",
         "type": "tabs",
         "children": [
           {
-            "id": "0c3d4f6aabffe688",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2023-08-21 12.19.12.excalidraw.md"
-              }
-            }
-          },
-          {
-            "id": "e88957102b999213",
+            "id": "5b3e728fe2c99330",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Capacitación Bitdefender.md",
+                "file": "VulnHub/Tomato/Tomato.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "223a05aaa6afe1e7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2395fd1af1aeb1e7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Vulnhub.md",
                 "mode": "source",
                 "source": false
               }
@@ -80,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "19e4fcf9124f3b6f",
@@ -108,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Capacitación Bitdefender.md",
+                "file": "Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Capacitación Bitdefender.md",
+                "file": "Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Capacitación Bitdefender.md"
+                "file": "Untitled.md"
               }
             }
           }
@@ -159,57 +172,57 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e88957102b999213",
+  "active": "223a05aaa6afe1e7",
   "lastOpenFiles": [
+    "Anexos/Pasted image 20230828165232.png",
+    "Anexos/Pasted image 20230828164156.png",
+    "Anexos/Pasted image 20230828162846.png",
+    "Anexos/Pasted image 20230828162437.png",
+    "Anexos/Pasted image 20230828162243.png",
+    "ESET.md",
+    "GIT.md",
+    "RED TEAM.md",
+    "VulnHub/Tomato/MapHacking.excalidraw.md",
+    "VulnHub/Tomato/Tomato.md",
+    "Vulnhub.md",
+    "Untitled.md",
+    "Anexos/Pasted image 20230828134101.png",
+    "Anexos/Pasted image 20230828133953.png",
+    "Anexos/Pasted image 20230828133745.png",
+    "Anexos/Pasted image 20230828133523.png",
+    "Anexos/Pasted image 20230828133250.png",
+    "Anexos/Pasted image 20230828133145.png",
+    "VulnHub/Inferno & Masashi/Inferno & Masashi.md",
+    "portswigger/XXE/XML external entity (XXE) injection.md",
+    "portswigger/XXE/XXE-Injection.excalidraw.md",
+    "VulnHub/DarkHole2/Drawing 2023-08-24 11.12.04.excalidraw.md",
+    "VulnHub/Mr.robot/Mr.Robot.md",
     "Excalidraw/Drawing 2023-08-21 12.19.12.excalidraw.md",
     "Capacitación Bitdefender.md",
     "Excalidraw/Drawing 2023-08-23 12.11.41.excalidraw.md",
     "ESET/ESET Licenciamiento Empresarial.md",
-    "portswigger/XXE/XML external entity (XXE) injection.md",
-    "Excalidraw/Anexos/Pasted Image 20230821122005_032.png",
-    "Excalidraw/Anexos/Pasted Image 20230821122005_021.png",
-    "Excalidraw/Anexos/Pasted Image 20230821122005_012.png",
-    "Excalidraw/Anexos/Pasted Image 20230821122005_006.png",
-    "Excalidraw/Anexos/Pasted Image 20230821122004_994.png",
-    "Excalidraw/Anexos/Pasted Image 20230821122004_961.png",
-    "Excalidraw/Anexos/Pasted Image 20230821122004_936.png",
-    "Excalidraw/Anexos/Pasted Image 20230821121936_442.png",
-    "Excalidraw/Anexos/Pasted Image 20230821121936_431.png",
-    "Excalidraw/Anexos/Pasted Image 20230821121936_402.png",
     "Excalidraw/Anexos",
     "Bitdefender/Presentacion.md",
-    "ESET.md",
-    "portswigger/XXE/XXE-Injection.excalidraw.md",
     "ESET/GEA Visita Mensual.md",
     "portswigger/XXE",
     "Excalidraw/Drawing 2023-08-17 16.20.07.excalidraw.md",
     "Excalidraw/Drawing 2023-08-17 16.19.29.excalidraw.md",
     "Excalidraw",
-    "VulnHub/Inferno & Masashi/Inferno & Masashi.md",
     "portswigger/Untitled.canvas",
     "VulnHub/WpwnyDMV/Wpwn y DMV (Pivoting Lab).md",
     "VulnHub/Cereal/Cereal.md",
     "VulnHub/Inferno & Masashi/Ataque Inferno & masashi.canvas",
     "portswigger/Anexos",
     "portswigger",
-    "Vulnhub.md",
     "Untitled.canvas",
     "TICKETS.md",
-    "RED TEAM.md",
     "Python.md",
-    "GIT.md",
     "Disiplinas..md",
-    "BLUE TEAM.md",
-    "Bitdefender.md",
-    "VulnHub/Tomato/Tomato.md",
     "ESET/Anexos",
     "VulnHub/WpwnyDMV/Ataque Wpwn DMV..canvas",
     "VulnHub/Tomato/Anexos",
     "VulnHub/Tomato",
-    "VulnHub/Mr.robot/Mr.Robot.md",
-    "VulnHub/DarkHole2/DarkHole 2.md",
     "VulnHub/Cereal/Ataque Cereal..canvas",
-    "VulnHub/Mr.robot/Untitled.md",
     "VulnHub/DarkHole2/Ataque DarkHole2.canvas",
     "VulnHub/Mr.robot/Ataque Mr.Robot.canvas",
     "VulnHub/Cereal",
