@@ -6,45 +6,38 @@
       {
         "id": "949ab7cb40795d62",
         "type": "tabs",
+        "dimension": 35.287846481876336,
         "children": [
-          {
-            "id": "5b3e728fe2c99330",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "VulnHub/Tomato/Tomato.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
           {
             "id": "223a05aaa6afe1e7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2395fd1af1aeb1e7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Vulnhub.md",
+                "file": "Gestión y respuesta a incidentes..md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
+      },
+      {
+        "id": "0c5d0ba227772404",
+        "type": "tabs",
+        "dimension": 64.71215351812367,
+        "children": [
+          {
+            "id": "97e74ab79b6703a3",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2023-08-31 12.49.10.excalidraw.md"
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,7 +87,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "19e4fcf9124f3b6f",
@@ -121,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.md",
+                "file": "Excalidraw/Drawing 2023-08-31 12.49.10.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.md",
+                "file": "Excalidraw/Drawing 2023-08-31 12.49.10.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.md"
+                "file": "Excalidraw/Drawing 2023-08-31 12.49.10.excalidraw.md"
               }
             }
           }
@@ -172,8 +166,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "223a05aaa6afe1e7",
+  "active": "97e74ab79b6703a3",
   "lastOpenFiles": [
+    "Gestión y respuesta a incidentes..md",
+    "Excalidraw/Drawing 2023-08-31 12.49.10.excalidraw.md",
+    "Untitled.md",
+    "VulnHub/Tomato/Tomato.md",
+    "Vulnhub.md",
     "Anexos/Pasted image 20230828165232.png",
     "Anexos/Pasted image 20230828164156.png",
     "Anexos/Pasted image 20230828162846.png",
@@ -183,15 +182,11 @@
     "GIT.md",
     "RED TEAM.md",
     "VulnHub/Tomato/MapHacking.excalidraw.md",
-    "VulnHub/Tomato/Tomato.md",
-    "Vulnhub.md",
-    "Untitled.md",
     "Anexos/Pasted image 20230828134101.png",
     "Anexos/Pasted image 20230828133953.png",
     "Anexos/Pasted image 20230828133745.png",
     "Anexos/Pasted image 20230828133523.png",
     "Anexos/Pasted image 20230828133250.png",
-    "Anexos/Pasted image 20230828133145.png",
     "VulnHub/Inferno & Masashi/Inferno & Masashi.md",
     "portswigger/XXE/XML external entity (XXE) injection.md",
     "portswigger/XXE/XXE-Injection.excalidraw.md",
@@ -217,7 +212,6 @@
     "Untitled.canvas",
     "TICKETS.md",
     "Python.md",
-    "Disiplinas..md",
     "ESET/Anexos",
     "VulnHub/WpwnyDMV/Ataque Wpwn DMV..canvas",
     "VulnHub/Tomato/Anexos",
