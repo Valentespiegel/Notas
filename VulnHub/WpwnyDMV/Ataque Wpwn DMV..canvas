@@ -3,7 +3,6 @@
 		{"type":"text","text":"DMV\n10.10.10.129\nLinux\nVICTIMA","id":"fd2a0ca72cc830ed","x":640,"y":-600,"width":200,"height":100,"color":"1"},
 		{"type":"text","text":"Wpwn \n192.168.1.128\n10.10.10.128\nLinux\nVICTIMA","id":"5d9c95cb87660038","x":220,"y":-865,"width":180,"height":140,"color":"1"},
 		{"type":"text","text":"SwordFish.\n192.168.3.3\nParrotOS \nATACANTE","id":"4444189a2c2d07d7","x":20,"y":-560,"width":200,"height":120,"color":"#b000b3"},
-		{"type":"file","file":"VulnHub/WpwnyDMV/Wpwn y DMV (Pivoting Lab).md","id":"03c2488c4fd131d8","x":-1160,"y":-1380,"width":1110,"height":1500,"color":"6"},
 		{"type":"text","text":"///// : No alcanzabe\n\n ===== : Tunel (Pivoting)\n\n<> : Alcanzable","id":"d72a2ad74dea2935","x":-30,"y":-1015,"width":250,"height":150,"color":"#0069cc"}
 	],
 	"edges":[

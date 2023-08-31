@@ -21,6 +21,36 @@ mkdir tomato && cd tomato && mkdir {Scan,Content,Exploits,Evidencia}
 ```
 ---
 
+==Escaneo de puertos:
+
+Se realiza un escaneo más detallado de los puertos abiertos identificados durante la fase de descubrimiento. Esto implica el uso de herramientas como Nmap para obtener información sobre los servicios y versiones específicas que se ejecutan en cada puerto.
+
+```java
+Sudo nmap -p- --open -sS --min-rate 5000 -vvv - n - Pn 192.168.153.128
+
+El comando "sudo nmap -p- --open -sS --min-rate 5000 -vvv -n -Pn 192.168.153.128" es una forma de utilizar la herramienta de escaneo de red Nmap con una serie de opciones y argumentos específicos. Aquí está el significado de cada opción utilizada en el comando:
+
+- `sudo`: Ejecuta el comando con privilegios de superusuario para obtener un escaneo más completo y preciso.
+
+- `nmap`: El comando en sí para ejecutar Nmap.
+
+- `-p-`: Escanea todos los puertos, desde el puerto 1 hasta el puerto 65535. Esto permite una exploración exhaustiva de todos los puertos abiertos en el objetivo.
+
+- `--open`: Muestra solo los puertos que están abiertos y disponibles para conexiones.
+
+- `-sS`: Realiza un escaneo TCP SYN. Envia un paquete SYN al puerto de destino y espera una respuesta SYN-ACK. Este tipo de escaneo se utiliza para determinar qué puertos están abiertos.
+
+- `--min-rate 5000`: Establece la tasa mínima de paquetes enviados por segundo a 5000. Esto controla la velocidad del escaneo, asegurando que se envíen suficientes paquetes para obtener resultados precisos.
+
+- `-vvv`: Establece el nivel de verbosidad a "muy, muy, muy" alto, lo que proporciona una salida detallada y exhaustiva durante el escaneo.
+
+- `-n`: Desactiva la resolución de nombres de hosts para acelerar el escaneo y evitar consultas DNS.
+
+- `-Pn`: Suprime la detección de hosts y trata todas las direcciones IP especificadas como hosts activos. Esto puede ser útil si se desea escanear un objetivo incluso si no hay respuesta a los pings.
+
+- `192.168.153.128`: Es la dirección IP del objetivo que se va a escanear.
+
+```
 
 
 ![[Pasted image 20230808141944.png]]

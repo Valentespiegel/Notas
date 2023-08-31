@@ -207,14 +207,11 @@ En general, una traza con un TTL (Time To Live) de 64 no proporciona informació
 Sin embargo, a menudo se asocia un valor de TTL de 64 con sistemas operativos basados en Linux debido a la configuración predeterminada de la pila de red de Linux. Los sistemas operativos Linux suelen establecer el valor inicial del TTL en 64 para los paquetes salientes. Sin embargo, esto no es exclusivo de los sistemas Linux, ya que otros sistemas operativos también pueden utilizar valores de TTL similares.
 
 ---
-
-
-
 ==Escaneo de puertos:
 
 Se realiza un escaneo más detallado de los puertos abiertos identificados durante la fase de descubrimiento. Esto implica el uso de herramientas como Nmap para obtener información sobre los servicios y versiones específicas que se ejecutan en cada puerto.
 
-```
+```java
 Sudo nmap -p- --open -sS --min-rate 5000 -vvv - n - Pn 192.168.153.128
 
 El comando "sudo nmap -p- --open -sS --min-rate 5000 -vvv -n -Pn 192.168.153.128" es una forma de utilizar la herramienta de escaneo de red Nmap con una serie de opciones y argumentos específicos. Aquí está el significado de cada opción utilizada en el comando:

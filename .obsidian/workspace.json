@@ -4,37 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "949ab7cb40795d62",
+        "id": "dc01c21a5507e595",
         "type": "tabs",
-        "dimension": 35.287846481876336,
         "children": [
           {
-            "id": "223a05aaa6afe1e7",
+            "id": "82c03296f5806c61",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Gestión y respuesta a incidentes..md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "0c5d0ba227772404",
-        "type": "tabs",
-        "dimension": 64.71215351812367,
-        "children": [
-          {
-            "id": "97e74ab79b6703a3",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2023-08-31 12.49.10.excalidraw.md"
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -115,7 +93,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2023-08-31 12.49.10.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +109,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2023-08-31 12.49.10.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,9 +119,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Excalidraw/Drawing 2023-08-31 12.49.10.excalidraw.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -166,12 +140,18 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "97e74ab79b6703a3",
+  "active": "82c03296f5806c61",
   "lastOpenFiles": [
+    "Excalidraw/MAPAtack.excalidraw.md",
+    "VulnHub/WpwnyDMV/Wpwn y DMV (Pivoting Lab).md",
+    "VulnHub/Tomato/Tomato.md",
+    "VulnHub/WpwnyDMV/Ataque Wpwn DMV..canvas",
+    "VulnHub/Inferno & Masashi/Ataque Inferno & masashi.canvas",
+    "VulnHub/Mr.robot/Mr.Robot.md",
+    "VulnHub/Tomato/MapHacking.excalidraw.md",
+    "Untitled.md",
     "Gestión y respuesta a incidentes..md",
     "Excalidraw/Drawing 2023-08-31 12.49.10.excalidraw.md",
-    "Untitled.md",
-    "VulnHub/Tomato/Tomato.md",
     "Vulnhub.md",
     "Anexos/Pasted image 20230828165232.png",
     "Anexos/Pasted image 20230828164156.png",
@@ -181,7 +161,6 @@
     "ESET.md",
     "GIT.md",
     "RED TEAM.md",
-    "VulnHub/Tomato/MapHacking.excalidraw.md",
     "Anexos/Pasted image 20230828134101.png",
     "Anexos/Pasted image 20230828133953.png",
     "Anexos/Pasted image 20230828133745.png",
@@ -191,7 +170,6 @@
     "portswigger/XXE/XML external entity (XXE) injection.md",
     "portswigger/XXE/XXE-Injection.excalidraw.md",
     "VulnHub/DarkHole2/Drawing 2023-08-24 11.12.04.excalidraw.md",
-    "VulnHub/Mr.robot/Mr.Robot.md",
     "Excalidraw/Drawing 2023-08-21 12.19.12.excalidraw.md",
     "Capacitación Bitdefender.md",
     "Excalidraw/Drawing 2023-08-23 12.11.41.excalidraw.md",
@@ -204,16 +182,11 @@
     "Excalidraw/Drawing 2023-08-17 16.19.29.excalidraw.md",
     "Excalidraw",
     "portswigger/Untitled.canvas",
-    "VulnHub/WpwnyDMV/Wpwn y DMV (Pivoting Lab).md",
     "VulnHub/Cereal/Cereal.md",
-    "VulnHub/Inferno & Masashi/Ataque Inferno & masashi.canvas",
     "portswigger/Anexos",
     "portswigger",
     "Untitled.canvas",
-    "TICKETS.md",
-    "Python.md",
     "ESET/Anexos",
-    "VulnHub/WpwnyDMV/Ataque Wpwn DMV..canvas",
     "VulnHub/Tomato/Anexos",
     "VulnHub/Tomato",
     "VulnHub/Cereal/Ataque Cereal..canvas",
