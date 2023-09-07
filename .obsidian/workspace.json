@@ -11,8 +11,28 @@
             "id": "82c03296f5806c61",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2023-08-31 12.49.10.excalidraw.md"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "fdfdb237b94f922d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2f3641f8ab7af2ed",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Gestión y respuesta a incidentes..md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -93,6 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Gestión y respuesta a incidentes..md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,6 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Gestión y respuesta a incidentes..md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +141,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Gestión y respuesta a incidentes..md"
+              }
             }
           }
         ]
@@ -140,8 +164,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "82c03296f5806c61",
+  "active": "2f3641f8ab7af2ed",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2023-08-31 12.49.10.excalidraw.md",
+    "Gestión y respuesta a incidentes..md",
     "Excalidraw/MAPAtack.excalidraw.md",
     "VulnHub/WpwnyDMV/Wpwn y DMV (Pivoting Lab).md",
     "VulnHub/Tomato/Tomato.md",
@@ -150,8 +176,6 @@
     "VulnHub/Mr.robot/Mr.Robot.md",
     "VulnHub/Tomato/MapHacking.excalidraw.md",
     "Untitled.md",
-    "Gestión y respuesta a incidentes..md",
-    "Excalidraw/Drawing 2023-08-31 12.49.10.excalidraw.md",
     "Vulnhub.md",
     "Anexos/Pasted image 20230828165232.png",
     "Anexos/Pasted image 20230828164156.png",
