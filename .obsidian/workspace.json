@@ -4,20 +4,74 @@
     "type": "split",
     "children": [
       {
-        "id": "61ff99721055ae80",
-        "type": "tabs",
+        "id": "b453ad29ca46d16e",
+        "type": "split",
         "children": [
           {
-            "id": "312a1af3437a276c",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "VulnHub/eCPPTv2/Drawing 2023-09-11 12.46.03.excalidraw.md"
+            "id": "6794fd4e0717e469",
+            "type": "tabs",
+            "dimension": 43.33017975402081,
+            "children": [
+              {
+                "id": "fccabd88da0df5f6",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "VulnHub/eCPPTv2/evidencia.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
               }
-            }
+            ]
+          },
+          {
+            "id": "b1dd6b4692931d00",
+            "type": "split",
+            "dimension": 56.66982024597919,
+            "children": [
+              {
+                "id": "01ba20b917499d63",
+                "type": "tabs",
+                "dimension": 36.940298507462686,
+                "children": [
+                  {
+                    "id": "388a2308fb341f55",
+                    "type": "leaf",
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "VulnHub/eCPPTv2/comandos.md",
+                        "mode": "source",
+                        "source": false
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "5808294bec432122",
+                "type": "tabs",
+                "dimension": 63.059701492537314,
+                "children": [
+                  {
+                    "id": "d87b7faa4274daf9",
+                    "type": "leaf",
+                    "state": {
+                      "type": "excalidraw",
+                      "state": {
+                        "file": "VulnHub/eCPPTv2/Drawing 2023-09-11 12.46.03.excalidraw.md"
+                      }
+                    }
+                  }
+                ]
+              }
+            ],
+            "direction": "vertical"
           }
-        ]
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -67,7 +121,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "19e4fcf9124f3b6f",
@@ -126,6 +181,16 @@
                 "file": "VulnHub/eCPPTv2/Drawing 2023-09-11 12.46.03.excalidraw.md"
               }
             }
+          },
+          {
+            "id": "2fa0475a559054e9",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
           }
         ]
       }
@@ -145,49 +210,26 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "floating": {
-    "id": "4bbe3b752c49980d",
-    "type": "floating",
-    "children": [
-      {
-        "id": "c40150ed3b19a1bd",
-        "type": "window",
-        "children": [
-          {
-            "id": "5a46982e4a993ee0",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "87f54fd28df56157",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "VulnHub/Cereal/Cereal.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": -196,
-        "y": 90,
-        "width": 480,
-        "height": 481,
-        "maximize": true,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "312a1af3437a276c",
+  "active": "d87b7faa4274daf9",
   "lastOpenFiles": [
+    "VulnHub/eCPPTv2/comandos.md",
+    "VulnHub/eCPPTv2/Anexos/Pasted image 20230913170958.png",
+    "VulnHub/eCPPTv2/evidencia.md",
+    "VulnHub/eCPPTv2/Anexos/Pasted image 20230913170943.png",
+    "VulnHub/eCPPTv2/Anexos/Pasted image 20230913170623.png",
+    "VulnHub/eCPPTv2/Anexos/Pasted image 20230913165954.png",
+    "VulnHub/eCPPTv2/Anexos/Pasted image 20230913165540.png",
+    "VulnHub/eCPPTv2/Anexos/Pasted image 20230913165515.png",
+    "VulnHub/eCPPTv2/Anexos/Pasted image 20230913164442.png",
+    "VulnHub/eCPPTv2/Anexos/Pasted image 20230913164416.png",
+    "VulnHub/eCPPTv2/127.0.0.1 (ValenteSpiegel).md",
+    "VulnHub/eCPPTv2/Drawing 2023-09-11 12.46.03.excalidraw.md",
+    "VulnHub/eCPPTv2/Anexos/Pasted image 20230913163307.png",
+    "VulnHub/eCPPTv2/Anexos/Pasted image 20230913163101.png",
+    "VulnHub/eCPPTv2/Anexos",
     "VulnHub/Tomato/Tomato.md",
     "VulnHub/Cereal/Cereal.md",
     "VulnHub/Cereal/Ataque Cereal..canvas",
-    "VulnHub/eCPPTv2/Drawing 2023-09-11 12.46.03.excalidraw.md",
     "VulnHub/eCPPTv2",
     "Gestión y respuesta a incidentes..md",
     "Excalidraw/Drawing 2023-08-31 12.49.10.excalidraw.md",
@@ -199,19 +241,9 @@
     "VulnHub/Tomato/MapHacking.excalidraw.md",
     "Untitled.md",
     "Vulnhub.md",
-    "Anexos/Pasted image 20230828165232.png",
-    "Anexos/Pasted image 20230828164156.png",
-    "Anexos/Pasted image 20230828162846.png",
-    "Anexos/Pasted image 20230828162437.png",
-    "Anexos/Pasted image 20230828162243.png",
     "ESET.md",
     "GIT.md",
     "RED TEAM.md",
-    "Anexos/Pasted image 20230828134101.png",
-    "Anexos/Pasted image 20230828133953.png",
-    "Anexos/Pasted image 20230828133745.png",
-    "Anexos/Pasted image 20230828133523.png",
-    "Anexos/Pasted image 20230828133250.png",
     "VulnHub/Inferno & Masashi/Inferno & Masashi.md",
     "portswigger/XXE/XML external entity (XXE) injection.md",
     "portswigger/XXE/XXE-Injection.excalidraw.md",
@@ -221,10 +253,7 @@
     "Excalidraw/Drawing 2023-08-23 12.11.41.excalidraw.md",
     "ESET/ESET Licenciamiento Empresarial.md",
     "Excalidraw/Anexos",
-    "Bitdefender/Presentacion.md",
-    "ESET/GEA Visita Mensual.md",
     "portswigger/XXE",
-    "Excalidraw/Drawing 2023-08-17 16.20.07.excalidraw.md",
     "Excalidraw",
     "portswigger/Untitled.canvas",
     "portswigger/Anexos",
@@ -235,7 +264,6 @@
     "VulnHub/Tomato",
     "VulnHub/DarkHole2/Ataque DarkHole2.canvas",
     "VulnHub/Mr.robot/Ataque Mr.Robot.canvas",
-    "VulnHub/Cereal",
     "Active Directory/Untitled.canvas"
   ]
 }

@@ -1,0 +1,15 @@
+![[Pasted image 20230913162208.png]]
+![[Pasted image 20230913163101.png]]
+
+![[Pasted image 20230913162723.png]]
+![[Pasted image 20230913162944.png]]
+![[Pasted image 20230913163031.png]]
+![[Pasted image 20230913163307.png]]
+![[Pasted image 20230913164416.png]]
+![[Pasted image 20230913164442.png]]
+![[Pasted image 20230913165515.png]]
+![[Pasted image 20230913165540.png]]
+![[Pasted image 20230913165954.png]]
+![[Pasted image 20230913170623.png]]
+![[Pasted image 20230913170943.png]]
+
