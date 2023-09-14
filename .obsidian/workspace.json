@@ -4,74 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "b453ad29ca46d16e",
-        "type": "split",
+        "id": "6794fd4e0717e469",
+        "type": "tabs",
         "children": [
           {
-            "id": "6794fd4e0717e469",
-            "type": "tabs",
-            "dimension": 43.33017975402081,
-            "children": [
-              {
-                "id": "fccabd88da0df5f6",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "VulnHub/eCPPTv2/evidencia.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
+            "id": "fccabd88da0df5f6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "VulnHub/eCPPTv2/evidencia.md",
+                "mode": "source",
+                "source": false
               }
-            ]
-          },
-          {
-            "id": "b1dd6b4692931d00",
-            "type": "split",
-            "dimension": 56.66982024597919,
-            "children": [
-              {
-                "id": "01ba20b917499d63",
-                "type": "tabs",
-                "dimension": 36.940298507462686,
-                "children": [
-                  {
-                    "id": "388a2308fb341f55",
-                    "type": "leaf",
-                    "state": {
-                      "type": "markdown",
-                      "state": {
-                        "file": "VulnHub/eCPPTv2/comandos.md",
-                        "mode": "source",
-                        "source": false
-                      }
-                    }
-                  }
-                ]
-              },
-              {
-                "id": "5808294bec432122",
-                "type": "tabs",
-                "dimension": 63.059701492537314,
-                "children": [
-                  {
-                    "id": "d87b7faa4274daf9",
-                    "type": "leaf",
-                    "state": {
-                      "type": "excalidraw",
-                      "state": {
-                        "file": "VulnHub/eCPPTv2/Drawing 2023-09-11 12.46.03.excalidraw.md"
-                      }
-                    }
-                  }
-                ]
-              }
-            ],
-            "direction": "vertical"
+            }
           }
-        ],
-        "direction": "horizontal"
+        ]
       }
     ],
     "direction": "vertical"
@@ -149,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "VulnHub/eCPPTv2/Drawing 2023-09-11 12.46.03.excalidraw.md",
+                "file": "VulnHub/eCPPTv2/evidencia.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "VulnHub/eCPPTv2/Drawing 2023-09-11 12.46.03.excalidraw.md",
+                "file": "VulnHub/eCPPTv2/evidencia.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "VulnHub/eCPPTv2/Drawing 2023-09-11 12.46.03.excalidraw.md"
+                "file": "VulnHub/eCPPTv2/evidencia.md"
               }
             }
           },
@@ -210,22 +158,23 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d87b7faa4274daf9",
+  "active": "fccabd88da0df5f6",
   "lastOpenFiles": [
+    "VulnHub/eCPPTv2/Anexos/Pasted image 20230914143207.png",
+    "VulnHub/eCPPTv2/Anexos/Pasted image 20230914143110.png",
+    "VulnHub/eCPPTv2/Anexos/Pasted image 20230914142916.png",
+    "VulnHub/eCPPTv2/Anexos/Pasted image 20230914142705.png",
+    "VulnHub/eCPPTv2/Anexos/Pasted image 20230914142432.png",
+    "VulnHub/eCPPTv2/Anexos/Pasted image 20230914142351.png",
+    "VulnHub/eCPPTv2/Anexos/Pasted image 20230914142323.png",
+    "VulnHub/eCPPTv2/Anexos/Pasted image 20230914141629.png",
+    "VulnHub/eCPPTv2/Anexos/Pasted image 20230914141452.png",
     "VulnHub/eCPPTv2/comandos.md",
-    "VulnHub/eCPPTv2/Anexos/Pasted image 20230913170958.png",
     "VulnHub/eCPPTv2/evidencia.md",
-    "VulnHub/eCPPTv2/Anexos/Pasted image 20230913170943.png",
-    "VulnHub/eCPPTv2/Anexos/Pasted image 20230913170623.png",
-    "VulnHub/eCPPTv2/Anexos/Pasted image 20230913165954.png",
-    "VulnHub/eCPPTv2/Anexos/Pasted image 20230913165540.png",
-    "VulnHub/eCPPTv2/Anexos/Pasted image 20230913165515.png",
-    "VulnHub/eCPPTv2/Anexos/Pasted image 20230913164442.png",
-    "VulnHub/eCPPTv2/Anexos/Pasted image 20230913164416.png",
-    "VulnHub/eCPPTv2/127.0.0.1 (ValenteSpiegel).md",
+    "VulnHub/eCPPTv2/Anexos/Pasted image 20230914140102.png",
+    "VulnHub/eCPPTv2/Anexos/Pasted image 20230914135946.png",
     "VulnHub/eCPPTv2/Drawing 2023-09-11 12.46.03.excalidraw.md",
-    "VulnHub/eCPPTv2/Anexos/Pasted image 20230913163307.png",
-    "VulnHub/eCPPTv2/Anexos/Pasted image 20230913163101.png",
+    "VulnHub/eCPPTv2/127.0.0.1 (ValenteSpiegel).md",
     "VulnHub/eCPPTv2/Anexos",
     "VulnHub/Tomato/Tomato.md",
     "VulnHub/Cereal/Cereal.md",
