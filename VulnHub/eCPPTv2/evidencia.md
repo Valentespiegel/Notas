@@ -1,3 +1,5 @@
+117
+
 ![[Pasted image 20230913162208.png]]
 ![[Pasted image 20230913163101.png]]
 
@@ -41,3 +43,29 @@
 ![[Pasted image 20230914142916.png]]
 ![[Pasted image 20230914143110.png]]
 ![[Pasted image 20230914143207.png]]
+![[Pasted image 20231024105734.png]]
+![[Pasted image 20231024105800.png]]
+![[Pasted image 20231024112428.png]]
+![[Pasted image 20231024112910.png]]
+![[Pasted image 20231024114904.png]]
+![[Pasted image 20231024114818.png]]![[Pasted image 20231024115515.png]]
+![[Pasted image 20231024120403.png]]
+![[Pasted image 20231024120439.png]]![[Pasted image 20231024120707.png]]
+![[Pasted image 20231024121524.png]]![[Pasted image 20231024123805.png]]
+![[Pasted image 20231024124235.png]]![[Pasted image 20231024124623.png]]
+![[Pasted image 20231024125132.png]]![[Pasted image 20231024125232.png]]
+![[Pasted image 20231024125621.png]]
+![[Pasted image 20231024130037.png]]
+i will bd using our new HTTP3 server at html://quic.naguini.hogwarts for further comunications
+all debelopers are request to visit the server regulary for checking lastest announcements
+![[Pasted image 20231024130103.png]]
+![[Pasted image 20231024132419.png]]
+![[Pasted image 20231024132900.png]]
+![[Pasted image 20231024133702.png]]
+![[Pasted image 20231024161121.png]]
+![[Pasted image 20231024161404.png]]
+![[Pasted image 20231025134810.png]]
+![[Pasted image 20231025163503.png]]
+![[Pasted image 20231025164844.png]]
+![[Pasted image 20231025165150.png]]
+![[Pasted image 20231025165223.png]]
