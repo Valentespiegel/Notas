@@ -69,3 +69,6 @@ all debelopers are request to visit the server regulary for checking lastest ann
 ![[Pasted image 20231025164844.png]]
 ![[Pasted image 20231025165150.png]]
 ![[Pasted image 20231025165223.png]]
+![[Pasted image 20231101121725.png]]
+
+![[Pasted image 20231101122003.png]]

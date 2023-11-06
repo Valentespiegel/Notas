@@ -4,60 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "58480d25ffe570ab",
+        "id": "a054a459ab6e47d4",
         "type": "tabs",
-        "dimension": 99.99999999999999,
         "children": [
           {
-            "id": "639862aab8acec81",
+            "id": "e59c28c084e68942",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Presentacion del proyecto Nutricion 2023.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0e8683f785bd7f60",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Botnetrebaño.excalidraw.md"
-              }
-            }
-          },
-          {
-            "id": "5fbd71f854200351",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Creaciondeunabotnet.excalidraw.md"
-              }
-            }
-          },
-          {
-            "id": "f3e5344e6dbb6794",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/TiposdeBotnet.excalidraw.md"
-              }
-            }
-          },
-          {
-            "id": "5c755e09d178670c",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "VulnHub/eCPPTv2/Drawing 2023-09-11 12.46.03.excalidraw.md"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -138,7 +93,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Presentacion del proyecto Nutricion 2023.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +109,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Presentacion del proyecto Nutricion 2023.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,9 +119,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Presentacion del proyecto Nutricion 2023.md"
-              }
+              "state": {}
             }
           },
           {
@@ -199,15 +150,21 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "639862aab8acec81",
+  "active": "e59c28c084e68942",
   "lastOpenFiles": [
     "VulnHub/eCPPTv2/Drawing 2023-09-11 12.46.03.excalidraw.md",
     "Excalidraw/TiposdeBotnet.excalidraw.md",
     "Excalidraw/Creaciondeunabotnet.excalidraw.md",
     "Excalidraw/Botnetrebaño.excalidraw.md",
+    "VulnHub/eCPPTv2/evidencia.md",
+    "Prácticas de ciberseguridad a evaluar en tu infraestructura.md",
+    "VulnHub/eCPPTv2/Anexos/Pasted image 20231101122003.png",
+    "VulnHub/eCPPTv2/Anexos/Pasted image 20231101121725.png",
+    "VulnHub/eCPPTv2/Drawing 2023-09-11 12.46.03.excalidraw.png",
+    "VulnHub/eCPPTv2/comandos.md",
+    "VulnHub/eCPPTv2/127.0.0.1 (ValenteSpiegel).md",
     "Presentacion del proyecto Nutricion 2023.md",
     "Capacitación Bitdefender.md",
-    "VulnHub/eCPPTv2/evidencia.md",
     "VulnHub/eCPPTv2/Anexos/Pasted image 20231025165223.png",
     "VulnHub/eCPPTv2/Anexos/Pasted image 20231025165150.png",
     "VulnHub/eCPPTv2/Anexos/Pasted image 20231025164844.png",
@@ -215,13 +172,8 @@
     "VulnHub/eCPPTv2/Anexos/Pasted image 20231025134810.png",
     "VulnHub/eCPPTv2/Anexos/Pasted image 20231024163311.png",
     "VulnHub/eCPPTv2/Anexos/Pasted image 20231024163303.png",
-    "VulnHub/eCPPTv2/Anexos/Pasted image 20231024163252.png",
-    "VulnHub/eCPPTv2/Anexos/Pasted image 20231024161404.png",
-    "VulnHub/eCPPTv2/Anexos/Pasted image 20231024161121.png",
-    "VulnHub/eCPPTv2/comandos.md",
     "Excalidraw/MAPAtack.excalidraw.md",
     "Excalidraw/ESET.excalidraw.md",
-    "VulnHub/eCPPTv2/127.0.0.1 (ValenteSpiegel).md",
     "VulnHub/eCPPTv2/Anexos",
     "VulnHub/Tomato/Tomato.md",
     "VulnHub/Cereal/Cereal.md",
@@ -240,8 +192,6 @@
     "GIT.md",
     "RED TEAM.md",
     "VulnHub/Inferno & Masashi/Inferno & Masashi.md",
-    "portswigger/XXE/XML external entity (XXE) injection.md",
-    "portswigger/XXE/XXE-Injection.excalidraw.md",
     "Excalidraw/Anexos",
     "portswigger/XXE",
     "Excalidraw",
