@@ -14,8 +14,21 @@
               "type": "empty",
               "state": {}
             }
+          },
+          {
+            "id": "50bc025ee266e156",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ingenieria social orientada a la ciberseguridad.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,6 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Ingenieria social orientada a la ciberseguridad.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,6 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Ingenieria social orientada a la ciberseguridad.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +134,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Ingenieria social orientada a la ciberseguridad.md"
+              }
             }
           },
           {
@@ -150,8 +167,9 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e59c28c084e68942",
+  "active": "50bc025ee266e156",
   "lastOpenFiles": [
+    "Ingenieria social orientada a la ciberseguridad.md",
     "VulnHub/eCPPTv2/Drawing 2023-09-11 12.46.03.excalidraw.md",
     "Excalidraw/TiposdeBotnet.excalidraw.md",
     "Excalidraw/Creaciondeunabotnet.excalidraw.md",
