@@ -4,31 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "a054a459ab6e47d4",
+        "id": "620a82ed794e9a3f",
         "type": "tabs",
         "children": [
           {
-            "id": "e59c28c084e68942",
+            "id": "33435cef9f3aaacb",
             "type": "leaf",
             "state": {
               "type": "empty",
               "state": {}
             }
-          },
-          {
-            "id": "50bc025ee266e156",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ingenieria social orientada a la ciberseguridad.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -78,8 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "19e4fcf9124f3b6f",
@@ -106,7 +92,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ingenieria social orientada a la ciberseguridad.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +108,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ingenieria social orientada a la ciberseguridad.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Ingenieria social orientada a la ciberseguridad.md"
-              }
+              "state": {}
             }
           },
           {
@@ -167,49 +149,50 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "50bc025ee266e156",
+  "active": "33435cef9f3aaacb",
   "lastOpenFiles": [
-    "Ingenieria social orientada a la ciberseguridad.md",
-    "VulnHub/eCPPTv2/Drawing 2023-09-11 12.46.03.excalidraw.md",
-    "Excalidraw/TiposdeBotnet.excalidraw.md",
-    "Excalidraw/Creaciondeunabotnet.excalidraw.md",
-    "Excalidraw/Botnetrebaño.excalidraw.md",
+    "Bitdefender.md",
+    "ESET.md",
+    "BLUE TEAM.md",
+    "GIT.md",
+    "Python.md",
+    "RED TEAM.md",
+    "TICKETS.md",
+    "Vulnhub.md",
+    "Exposiciones/ESET.excalidraw.md",
+    "Exposiciones",
     "VulnHub/eCPPTv2/evidencia.md",
-    "Prácticas de ciberseguridad a evaluar en tu infraestructura.md",
+    "zzzzzz/Captura de pantalla 2023-06-09 130947.png",
+    "ESET/ESET Licenciamiento Empresarial.md",
+    "Exposiciones/Ingenieria social orientada a la ciberseguridad.md",
+    "Bitdefender/Capacitación Bitdefender.md",
+    "Disiplinas..md",
+    "ESET/Gestión y respuesta a incidentes..md",
+    "Exposiciones/Prácticas de ciberseguridad a evaluar en tu infraestructura.md",
+    "Exposiciones/Presentacion del proyecto Nutricion 2023.md",
+    "ESET/Nutricion",
+    "Sin título.md",
+    "Exposiciones/Botnetrebaño.excalidraw.md",
+    "Untitled.md",
+    "Exposiciones/Creaciondeunabotnet.excalidraw.md",
+    "Exposiciones/TiposdeBotnet.excalidraw.md",
+    "Excalidraw/Drawing 2023-08-31 12.49.10.excalidraw.md",
+    "Exposiciones/ConsolayOnpremise.excalidraw.md",
+    "Excalidraw/Drawing 2023-08-23 12.11.41.excalidraw.md",
+    "VulnHub/eCPPTv2/Drawing 2023-09-11 12.46.03.excalidraw.png",
     "VulnHub/eCPPTv2/Anexos/Pasted image 20231101122003.png",
     "VulnHub/eCPPTv2/Anexos/Pasted image 20231101121725.png",
-    "VulnHub/eCPPTv2/Drawing 2023-09-11 12.46.03.excalidraw.png",
-    "VulnHub/eCPPTv2/comandos.md",
-    "VulnHub/eCPPTv2/127.0.0.1 (ValenteSpiegel).md",
-    "Presentacion del proyecto Nutricion 2023.md",
-    "Capacitación Bitdefender.md",
     "VulnHub/eCPPTv2/Anexos/Pasted image 20231025165223.png",
     "VulnHub/eCPPTv2/Anexos/Pasted image 20231025165150.png",
     "VulnHub/eCPPTv2/Anexos/Pasted image 20231025164844.png",
     "VulnHub/eCPPTv2/Anexos/Pasted image 20231025163503.png",
     "VulnHub/eCPPTv2/Anexos/Pasted image 20231025134810.png",
     "VulnHub/eCPPTv2/Anexos/Pasted image 20231024163311.png",
-    "VulnHub/eCPPTv2/Anexos/Pasted image 20231024163303.png",
-    "Excalidraw/MAPAtack.excalidraw.md",
-    "Excalidraw/ESET.excalidraw.md",
     "VulnHub/eCPPTv2/Anexos",
-    "VulnHub/Tomato/Tomato.md",
-    "VulnHub/Cereal/Cereal.md",
     "VulnHub/Cereal/Ataque Cereal..canvas",
     "VulnHub/eCPPTv2",
-    "Gestión y respuesta a incidentes..md",
-    "Excalidraw/Drawing 2023-08-31 12.49.10.excalidraw.md",
-    "VulnHub/WpwnyDMV/Wpwn y DMV (Pivoting Lab).md",
     "VulnHub/WpwnyDMV/Ataque Wpwn DMV..canvas",
     "VulnHub/Inferno & Masashi/Ataque Inferno & masashi.canvas",
-    "VulnHub/Mr.robot/Mr.Robot.md",
-    "VulnHub/Tomato/MapHacking.excalidraw.md",
-    "Untitled.md",
-    "Vulnhub.md",
-    "ESET.md",
-    "GIT.md",
-    "RED TEAM.md",
-    "VulnHub/Inferno & Masashi/Inferno & Masashi.md",
     "Excalidraw/Anexos",
     "portswigger/XXE",
     "Excalidraw",
@@ -218,8 +201,6 @@
     "portswigger",
     "Untitled.canvas",
     "ESET/Anexos",
-    "VulnHub/Tomato/Anexos",
-    "VulnHub/Tomato",
     "VulnHub/DarkHole2/Ataque DarkHole2.canvas",
     "VulnHub/Mr.robot/Ataque Mr.Robot.canvas",
     "Active Directory/Untitled.canvas"

@@ -59,6 +59,8 @@ ON-premise ^on8fxs5F
 
 RED LOCAL ^aGPsMVcg
 
+c  ^K2yywWWx
+
 
 # Embedded files
 b69c00f7326eb6741ed4d02fba98188445e97460: [[Pasted Image 20230821121936_296.png]]
@@ -2493,11 +2495,11 @@ f9844ae028102e966a5fed6956ac4261e166428d: [[Pasted Image 20230821122005_032.png]
 			"baseline": 33
 		},
 		{
-			"id": "MCefiKob",
+			"id": "K2yywWWx",
 			"type": "text",
-			"x": -755.5919580996226,
-			"y": -1227.452212335964,
-			"width": 10,
+			"x": -172.25862476628936,
+			"y": -973.7490313870709,
+			"width": 20.039993286132812,
 			"height": 25,
 			"angle": 0,
 			"strokeColor": "#1e1e1e",
@@ -2510,23 +2512,23 @@ f9844ae028102e966a5fed6956ac4261e166428d: [[Pasted Image 20230821122005_032.png]
 			"groupIds": [],
 			"frameId": null,
 			"roundness": null,
-			"seed": 847036831,
-			"version": 10,
-			"versionNonce": 1584921425,
-			"isDeleted": true,
+			"seed": 1287414216,
+			"version": 3,
+			"versionNonce": 425519304,
+			"isDeleted": false,
 			"boundElements": null,
-			"updated": 1692831818984,
+			"updated": 1699552237596,
 			"link": null,
 			"locked": false,
-			"text": "",
-			"rawText": "",
+			"text": "c ",
+			"rawText": "c ",
 			"fontSize": 20,
 			"fontFamily": 1,
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"baseline": 18,
 			"containerId": null,
-			"originalText": "",
+			"originalText": "c ",
 			"lineHeight": 1.25
 		}
 	],
@@ -2545,10 +2547,10 @@ f9844ae028102e966a5fed6956ac4261e166428d: [[Pasted Image 20230821122005_032.png]
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 1498.9252914329559,
-		"scrollY": 1503.6605304105083,
+		"scrollX": 3491.7747743296113,
+		"scrollY": 2292.2373870324072,
 		"zoom": {
-			"value": 0.30000000000000004
+			"value": 0.17690647111272484
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,

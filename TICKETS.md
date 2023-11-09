@@ -1,2 +1,0 @@
-[[ESET]]
-[[Bitdefender]]
