@@ -12,6 +12,6 @@
   },
   "useMarkdownLinks": false,
   "showUnsupportedFiles": true,
-  "readableLineLength": true,
+  "readableLineLength": false,
   "showFrontmatter": false
 }

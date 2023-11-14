@@ -72,3 +72,51 @@ all debelopers are request to visit the server regulary for checking lastest ann
 ![[Pasted image 20231101121725.png]]
 
 ![[Pasted image 20231101122003.png]]
+![[Pasted image 20231109173316.png]]
+![[Pasted image 20231109174738.png]]
+![[Pasted image 20231109174754.png]]
+![[Pasted image 20231110102820.png]]
+![[Pasted image 20231110103338.png]]
+![[Pasted image 20231110131016.png]]
+
+![[Pasted image 20231110131042.png]]
+
+![[Pasted image 20231114103219.png]]
+
+![[Pasted image 20231114103511.png]]
+
+![[Pasted image 20231114103701.png]]
+![[Pasted image 20231114103723.png]]
+
+![[Pasted image 20231114103916.png]]
+
+![[Pasted image 20231114103858.png]]
+
+![[Pasted image 20231114104102.png]]
+
+![[Pasted image 20231114104121.png]]
+
+![[Pasted image 20231114104949.png]]
+![[Pasted image 20231114105029.png]]
+![[Pasted image 20231114105207.png]]
+![[Pasted image 20231114110657.png]]
+![[Pasted image 20231114114610.png]]
+
+![[Pasted image 20231114114634.png]]
+
+![[Pasted image 20231114122045.png]]
+
+![[Pasted image 20231114130903.png]]
+![[Pasted image 20231114132324.png]]
+![[Pasted image 20231114132602.png]]
+![[Pasted image 20231114132845.png]]
+![[Pasted image 20231114133251.png]]
+![[Pasted image 20231114133642.png]]![[Pasted image 20231114134205.png]]
+
+![[Pasted image 20231114140051.png]]
+![[Pasted image 20231114140102.png]]
+![[Pasted image 20231114140113.png]]
+![[Pasted image 20231114140846.png]]
+![[Pasted image 20231114141628.png]]
+![[Pasted image 20231114142951.png]]
+![[Pasted image 20231114143157.png]]

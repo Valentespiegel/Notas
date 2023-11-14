@@ -11,8 +11,12 @@
             "id": "33435cef9f3aaacb",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "VulnHub/eCPPTv2/evidencia.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -65,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "19e4fcf9124f3b6f",
@@ -92,6 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "VulnHub/eCPPTv2/evidencia.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,6 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "VulnHub/eCPPTv2/evidencia.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "VulnHub/eCPPTv2/evidencia.md"
+              }
             }
           },
           {
@@ -151,6 +160,21 @@
   },
   "active": "33435cef9f3aaacb",
   "lastOpenFiles": [
+    "VulnHub/eCPPTv2/Anexos/Pasted image 20231114143157.png",
+    "VulnHub/eCPPTv2/Anexos/Pasted image 20231114142951.png",
+    "VulnHub/eCPPTv2/Anexos/Pasted image 20231114141628.png",
+    "VulnHub/eCPPTv2/Anexos/Pasted image 20231114140846.png",
+    "VulnHub/eCPPTv2/Anexos/Pasted image 20231114140113.png",
+    "VulnHub/eCPPTv2/Anexos/Pasted image 20231114140102.png",
+    "VulnHub/eCPPTv2/Anexos/Pasted image 20231114140051.png",
+    "VulnHub/eCPPTv2/Anexos/Pasted image 20231114134205.png",
+    "VulnHub/eCPPTv2/Anexos/Pasted image 20231114133642.png",
+    "VulnHub/eCPPTv2/Anexos/Pasted image 20231114133251.png",
+    "VulnHub/eCPPTv2/Anexos/Pasted image 20231114132845.png",
+    "VulnHub/WpwnyDMV/Wpwn y DMV (Pivoting Lab).md",
+    "Exposiciones/Prácticas de ciberseguridad a evaluar en tu infraestructura.md",
+    "ESET/ESET Licenciamiento Empresarial.md",
+    "VulnHub/eCPPTv2/evidencia.md",
     "Bitdefender.md",
     "ESET.md",
     "BLUE TEAM.md",
@@ -161,14 +185,10 @@
     "Vulnhub.md",
     "Exposiciones/ESET.excalidraw.md",
     "Exposiciones",
-    "VulnHub/eCPPTv2/evidencia.md",
-    "zzzzzz/Captura de pantalla 2023-06-09 130947.png",
-    "ESET/ESET Licenciamiento Empresarial.md",
     "Exposiciones/Ingenieria social orientada a la ciberseguridad.md",
     "Bitdefender/Capacitación Bitdefender.md",
     "Disiplinas..md",
     "ESET/Gestión y respuesta a incidentes..md",
-    "Exposiciones/Prácticas de ciberseguridad a evaluar en tu infraestructura.md",
     "Exposiciones/Presentacion del proyecto Nutricion 2023.md",
     "ESET/Nutricion",
     "Sin título.md",
@@ -178,16 +198,6 @@
     "Exposiciones/TiposdeBotnet.excalidraw.md",
     "Excalidraw/Drawing 2023-08-31 12.49.10.excalidraw.md",
     "Exposiciones/ConsolayOnpremise.excalidraw.md",
-    "Excalidraw/Drawing 2023-08-23 12.11.41.excalidraw.md",
-    "VulnHub/eCPPTv2/Drawing 2023-09-11 12.46.03.excalidraw.png",
-    "VulnHub/eCPPTv2/Anexos/Pasted image 20231101122003.png",
-    "VulnHub/eCPPTv2/Anexos/Pasted image 20231101121725.png",
-    "VulnHub/eCPPTv2/Anexos/Pasted image 20231025165223.png",
-    "VulnHub/eCPPTv2/Anexos/Pasted image 20231025165150.png",
-    "VulnHub/eCPPTv2/Anexos/Pasted image 20231025164844.png",
-    "VulnHub/eCPPTv2/Anexos/Pasted image 20231025163503.png",
-    "VulnHub/eCPPTv2/Anexos/Pasted image 20231025134810.png",
-    "VulnHub/eCPPTv2/Anexos/Pasted image 20231024163311.png",
     "VulnHub/eCPPTv2/Anexos",
     "VulnHub/Cereal/Ataque Cereal..canvas",
     "VulnHub/eCPPTv2",

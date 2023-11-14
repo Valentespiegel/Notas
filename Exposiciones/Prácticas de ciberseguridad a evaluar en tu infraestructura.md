@@ -73,7 +73,10 @@ El incidente tuvo graves **consecuencias financieras y legales** para Sony Pictu
 
 **Practica NO.4 “Protección de correo electrónico”**
 
-Los riesgos más peligrosos de no tener protección en el correo electrónico es la exposición a **ataques de phishing y malware**. Los atacantes enviar correos electrónicos fraudulentos que parecen provenir de fuentes legítimas, como bancos, empresas o servicios en línea. Sin protección, es más probable que los usuarios caigan en trampas de phishing y divulguen información personal, contraseñas o detalles financieros. Estos también pueden contener **archivos adjuntos maliciosos o enlaces a sitios web infectados**. Si los usuarios abren estos archivos o hacen clic en estos enlaces, sus sistemas pueden ser infectados con malware, como ransomware o troyanos, lo que puede dar lugar a la pérdida de datos o el secuestro de archivos. Los atacantes pueden utilizar **técnicas de ingeniería** social en correos electrónicos para manipular a los usuarios y obtener información confidencial o acceso a sistemas.
+Los riesgos más peligrosos de no tener protección en el correo electrónico es la exposición a **ataques de phishing y malware**.
+
+
+Los atacantes enviar correos electrónicos fraudulentos que parecen provenir de fuentes legítimas, como bancos, empresas o servicios en línea. Sin protección, es más probable que los usuarios caigan en trampas de phishing y divulguen información personal, contraseñas o detalles financieros. Estos también pueden contener **archivos adjuntos maliciosos o enlaces a sitios web infectados**. Si los usuarios abren estos archivos o hacen clic en estos enlaces, sus sistemas pueden ser infectados con malware, como ransomware o troyanos, lo que puede dar lugar a la pérdida de datos o el secuestro de archivos. Los atacantes pueden utilizar **técnicas de ingeniería** social en correos electrónicos para manipular a los usuarios y obtener información confidencial o acceso a sistemas.
 
 CASO NO.4 “**Ataque a la empresa de ciberseguridad RSA en 2011**”
 
@@ -119,6 +122,7 @@ que pueden resultar en la infección de tu sistema con malware, la pérdida de d
 
 Un detector de amenazas ayuda a identificar y prevenir vulnerabilidades de seguridad y amenazas emergentes. La falta de esta protección puede dejar tu sistema expuesto a nuevas amenazas.
 
+
 CASO NO.6 “**Stuxnet gusano informático**”
 
 gusano informático altamente sofisticado que se descubrió en2010 y se utilizó para atacar sistemas de control industrial, específicamente sistemas SCADA (Supervisory Control and Data Acquisition), que supervisan y controlan procesos en instalaciones industriales, incluyendo centrales eléctricas y plantas de tratamiento de agua. Stuxnet utilizó múltiples vulnerabilidades de día cero y técnicas avanzadas de evasión de detección, lo que lo hizo extremadamente difícil de identificar y eliminar. Stuxnet logró dañar físicamente equipos industriales, lo que lo convierte en uno de los primeros ejemplos conocidos de ciberataques que tuvieron un i**mpacto físico en la infraestructura crítica.** La ausencia de un antivirus, antimalware y un detector de amenazas eficaces permitió que esta amenaza avanzada comprometiera la seguridad y la integridad de los sistemas industriales.
@@ -129,7 +133,7 @@ No usar un firewall es la exposición a amenazas cibernéticas y la falta de con
 
 CASO NO.7 “la red de Target”
 
-En noviembre y diciembre de 2013, los atacantes comprometieron la red de Target y accedieron a los sistemas de punto de venta de la empresa. Los atacantes robaron datos de tarjetas de crédito y débito de millones de clientes. Esto incluyó números de tarjeta, fechas de vencimiento y códigos de seguridad. El incidente tuvo un costo significativo para Target, incluyendo gastos de investigación, medidas de seguridad adicionales y daño a la reputación de la empresa. Además, Target enfrentó demandas legales y sanciones regulatorias. Una de las causas principales de este ataque fue la falta de una segmentación adecuada en la red de Target y la ausencia de un firewall que limitara el movimiento de los atacantes dentro de la red. Los atacantes explotaron una vulnerabilidad en el software de punto de venta de la empresa para acceder a los datos de las tarjetas de crédito de los clientes.
+En noviembre y diciembre de 2013, los atacantes comprometieron la red de Target y accedieron a los sistemas de punto de venta de la empresa. Los atacantes robaron datos de tarjetas de crédito y débito de millones de clientes. Esto incluyó números de tarjeta, fechas de vencimiento y códigos de seguridad. El incidente tuvo un costo significativo para Target, incluyendo gastos de investigación, medidas de seguridad adicionales y daño a la reputación de la empresa. Además, Target enfrentó demandas legales y sanciones regulatorias. Una de las causas principales de este ataque fue la falta de una segmentación adecuada en la red de Target y la ausencia de un firewall que limitara el movimiento de los atacantes dentro de la red. Los atacantes explotaron una vulnerabilidad en el software de punto de venta de la empresa para acceder a los datos de las tarjetas de crédito de los zclientes.
 
 Practica NO.8  “**Gestión centralizada”**
 
