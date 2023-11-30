@@ -5,6 +5,7 @@
   "interfaceFontFamily": "Georgia",
   "monospaceFontFamily": "",
   "translucency": true,
-  "cssTheme": "Wasp",
-  "showViewHeader": true
+  "cssTheme": "SynthWave",
+  "showViewHeader": true,
+  "theme": "obsidian"
 }
