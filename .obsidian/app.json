@@ -5,10 +5,10 @@
   "showInlineTitle": true,
   "pdfExportSettings": {
     "includeName": true,
-    "pageSize": "Letter",
+    "pageSize": "Tabloid",
     "landscape": false,
-    "margin": "2",
-    "downscalePercent": 61
+    "margin": "0",
+    "downscalePercent": 75
   },
   "useMarkdownLinks": false,
   "showUnsupportedFiles": true,
