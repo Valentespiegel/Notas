@@ -4,34 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "620a82ed794e9a3f",
+        "id": "377ea8f9e6d81a68",
         "type": "tabs",
         "children": [
           {
-            "id": "33435cef9f3aaacb",
+            "id": "86b1c6c718cdbb85",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "VulnHub/eCPPTv2/evidencia.md",
+                "file": "VulnHub/DevGuru1/Comandos.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "fd6f4480eaee3056",
+            "id": "f686f58a0e4e14b2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Exposiciones/La IA y la ciberdelincuencia.md",
+                "file": "VulnHub/DevGuru1/Evidencia.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -109,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "VulnHub/eCPPTv2/evidencia.md",
+                "file": "VulnHub/DevGuru1/Evidencia.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "VulnHub/eCPPTv2/evidencia.md",
+                "file": "VulnHub/DevGuru1/Evidencia.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "VulnHub/eCPPTv2/evidencia.md"
+                "file": "VulnHub/DevGuru1/Evidencia.md"
               }
             }
           },
@@ -170,30 +171,43 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "33435cef9f3aaacb",
+  "active": "f686f58a0e4e14b2",
   "lastOpenFiles": [
-    "VulnHub/eCPPTv2/Anexos/Pasted image 20231204170816.png",
-    "VulnHub/eCPPTv2/Anexos/Pasted image 20231204170657.png",
-    "VulnHub/eCPPTv2/Anexos/Pasted image 20231204170355.png",
-    "VulnHub/eCPPTv2/Anexos/Pasted image 20231204170258.png",
-    "VulnHub/eCPPTv2/Anexos/Pasted image 20231204165713.png",
-    "VulnHub/eCPPTv2/Anexos/Pasted image 20231204164549.png",
-    "VulnHub/eCPPTv2/Anexos/Pasted image 20231204162726.png",
-    "VulnHub/eCPPTv2/Anexos/Pasted image 20231204162540.png",
-    "VulnHub/eCPPTv2/Anexos/Pasted image 20231204143835.png",
-    "VulnHub/eCPPTv2/Anexos/Pasted image 20231204143817.png",
-    "VulnHub/eCPPTv2/Anexos/Pasted image 20231204143109.png",
+    "VulnHub/DevGuru1/Comandos.md",
+    "VulnHub/DevGuru1/Evidencia.md",
+    "VulnHub/DevGuru1/Anexos/Screenshot_2023-12-06_14_10_19.png",
+    "VulnHub/DevGuru1/Anexos/Screenshot_2023-12-06_16_18_15.png",
+    "VulnHub/DevGuru1/Anexos/Screenshot_2023-12-06_16_15_17.png",
+    "VulnHub/DevGuru1/Anexos/Screenshot_2023-12-06_16_14_28.png",
+    "VulnHub/DevGuru1/Anexos/Screenshot_2023-12-06_16_12_52.png",
+    "VulnHub/DevGuru1/Anexos/Screenshot_2023-12-06_16_12_46.png",
+    "VulnHub/DevGuru1/Anexos/Screenshot_2023-12-06_16_12_27.png",
+    "VulnHub/DevGuru1/Anexos/Screenshot_2023-12-06_16_11_51.png",
+    "VulnHub/DevGuru1/Anexos/Screenshot_2023-12-06_15_35_45 1.png",
+    "VulnHub/DevGuru1/Anexos/Screenshot_2023-12-06_16_06_16.png",
+    "VulnHub/DevGuru1/Anexos",
+    "VulnHub/eCPPTv2/eCPTV2.md",
+    "VulnHub/eCPPTv2/comandos.md",
+    "VulnHub/DevGuru1",
+    "Exposiciones/ConsolayOnpremise.excalidraw.md",
+    "Exposiciones/Botnetrebaño.excalidraw.md",
+    "Exposiciones/TiposdeBotnet.excalidraw.md",
+    "Exposiciones/Presentacion del proyecto Nutricion 2023.md",
+    "Exposiciones/Prácticas de ciberseguridad a evaluar en tu infraestructura.md",
     "Exposiciones/La IA y la ciberdelincuencia.md",
-    "VulnHub/eCPPTv2/evidencia.md",
+    "Exposiciones/Ingenieria social orientada a la ciberseguridad.md",
+    "Exposiciones/ESET.excalidraw.md",
+    "Exposiciones/Creaciondeunabotnet.excalidraw.md",
     "VulnHub/eCPPTv2/Drawing 2023-09-11 12.46.03.excalidraw.md",
+    "VulnHub/WpwnyDMV/Wpwn y DMV (Pivoting Lab).md",
+    "VulnHub/eCPPTv2/Anexos/Nueva carpeta/Escritorio - Acceso directo.lnk",
+    "VulnHub/WpwnyDMV/MAPAtack.excalidraw.md",
     "VulnHub/eCPPTv2/127.0.0.1 (ValenteSpiegel).md",
     "VulnHub/WpwnyDMV/Ataque Wpwn DMV..canvas",
     "Exposiciones/Anexos",
     "Sin título.md",
-    "VulnHub/WpwnyDMV/Wpwn y DMV (Pivoting Lab).md",
     "IMPORTANTE.txt",
     "Nuevo Documento de texto.txt",
-    "Exposiciones/Prácticas de ciberseguridad a evaluar en tu infraestructura.md",
     "ESET/ESET Licenciamiento Empresarial.md",
     "Bitdefender.md",
     "ESET.md",
@@ -201,26 +215,12 @@
     "GIT.md",
     "Python.md",
     "RED TEAM.md",
-    "TICKETS.md",
-    "Vulnhub.md",
-    "Exposiciones/ESET.excalidraw.md",
     "Exposiciones",
-    "Exposiciones/Ingenieria social orientada a la ciberseguridad.md",
-    "Bitdefender/Capacitación Bitdefender.md",
-    "Disiplinas..md",
-    "ESET/Gestión y respuesta a incidentes..md",
-    "Exposiciones/Presentacion del proyecto Nutricion 2023.md",
     "ESET/Nutricion",
-    "Exposiciones/Botnetrebaño.excalidraw.md",
-    "Untitled.md",
-    "Exposiciones/Creaciondeunabotnet.excalidraw.md",
     "VulnHub/eCPPTv2/Anexos",
     "VulnHub/Cereal/Ataque Cereal..canvas",
     "VulnHub/eCPPTv2",
     "VulnHub/Inferno & Masashi/Ataque Inferno & masashi.canvas",
-    "Excalidraw/Anexos",
-    "portswigger/XXE",
-    "Excalidraw",
     "portswigger/Untitled.canvas",
     "Untitled.canvas",
     "VulnHub/DarkHole2/Ataque DarkHole2.canvas",
