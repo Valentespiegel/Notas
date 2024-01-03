@@ -4,35 +4,34 @@
     "type": "split",
     "children": [
       {
-        "id": "377ea8f9e6d81a68",
+        "id": "1a4733f897d45432",
         "type": "tabs",
         "children": [
           {
-            "id": "86b1c6c718cdbb85",
+            "id": "364cc21cc6cf9db6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "VulnHub/DevGuru1/Comandos.md",
+                "file": "Git/Comandos.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "f686f58a0e4e14b2",
+            "id": "e3cf95c0bc23c22b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "VulnHub/DevGuru1/Evidencia.md",
+                "file": "Python Ofensivo/Filosofía , Historia y Conceptos básicos.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,8 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "19e4fcf9124f3b6f",
@@ -110,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "VulnHub/DevGuru1/Evidencia.md",
+                "file": "Git/Comandos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "VulnHub/DevGuru1/Evidencia.md",
+                "file": "Git/Comandos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "VulnHub/DevGuru1/Evidencia.md"
+                "file": "Git/Comandos.md"
               }
             }
           },
@@ -149,7 +147,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           }
@@ -171,32 +171,35 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f686f58a0e4e14b2",
+  "active": "364cc21cc6cf9db6",
   "lastOpenFiles": [
     "VulnHub/DevGuru1/Comandos.md",
+    "Python Ofensivo/Filosofía , Historia y Conceptos básicos.md",
+    "Python Ofensivo/Anexos/Pasted image 20240103134005.png",
+    "Python Ofensivo/Anexos/Pasted image 20240103133615.png",
+    "Python Ofensivo/Anexos/Pasted image 20240103133423.png",
+    "Python Ofensivo/Anexos/Pasted image 20240103133347.png",
+    "VulnHub/eCPPTv2/comandos.md",
+    "Python Ofensivo/Anexos/Pasted image 20240103094239.png",
+    "Python Ofensivo/Anexos/Pasted image 20240103094108.png",
+    "Python Ofensivo/Anexos/Pasted image 20240103093923.png",
+    "Python Ofensivo/Anexos/Pasted image 20240103093401.png",
+    "Python Ofensivo/Anexos/Pasted image 20240103093325.png",
+    "Python Ofensivo/Anexos/Pasted image 20240103093309.png",
+    "Python Ofensivo/Anexos",
+    "Python Ofensivo",
     "VulnHub/DevGuru1/Evidencia.md",
-    "VulnHub/DevGuru1/Anexos/Screenshot_2023-12-06_14_10_19.png",
-    "VulnHub/DevGuru1/Anexos/Screenshot_2023-12-06_16_18_15.png",
-    "VulnHub/DevGuru1/Anexos/Screenshot_2023-12-06_16_15_17.png",
-    "VulnHub/DevGuru1/Anexos/Screenshot_2023-12-06_16_14_28.png",
-    "VulnHub/DevGuru1/Anexos/Screenshot_2023-12-06_16_12_52.png",
-    "VulnHub/DevGuru1/Anexos/Screenshot_2023-12-06_16_12_46.png",
-    "VulnHub/DevGuru1/Anexos/Screenshot_2023-12-06_16_12_27.png",
-    "VulnHub/DevGuru1/Anexos/Screenshot_2023-12-06_16_11_51.png",
-    "VulnHub/DevGuru1/Anexos/Screenshot_2023-12-06_15_35_45 1.png",
-    "VulnHub/DevGuru1/Anexos/Screenshot_2023-12-06_16_06_16.png",
+    "Exposiciones/Prácticas de ciberseguridad a evaluar en tu infraestructura.md",
+    "Exposiciones/La IA y la ciberdelincuencia.md",
+    "Exposiciones/Ingenieria social orientada a la ciberseguridad.md",
+    "Exposiciones/ESET.excalidraw.md",
     "VulnHub/DevGuru1/Anexos",
     "VulnHub/eCPPTv2/eCPTV2.md",
-    "VulnHub/eCPPTv2/comandos.md",
     "VulnHub/DevGuru1",
     "Exposiciones/ConsolayOnpremise.excalidraw.md",
     "Exposiciones/Botnetrebaño.excalidraw.md",
     "Exposiciones/TiposdeBotnet.excalidraw.md",
     "Exposiciones/Presentacion del proyecto Nutricion 2023.md",
-    "Exposiciones/Prácticas de ciberseguridad a evaluar en tu infraestructura.md",
-    "Exposiciones/La IA y la ciberdelincuencia.md",
-    "Exposiciones/Ingenieria social orientada a la ciberseguridad.md",
-    "Exposiciones/ESET.excalidraw.md",
     "Exposiciones/Creaciondeunabotnet.excalidraw.md",
     "VulnHub/eCPPTv2/Drawing 2023-09-11 12.46.03.excalidraw.md",
     "VulnHub/WpwnyDMV/Wpwn y DMV (Pivoting Lab).md",
@@ -214,12 +217,9 @@
     "BLUE TEAM.md",
     "GIT.md",
     "Python.md",
-    "RED TEAM.md",
     "Exposiciones",
     "ESET/Nutricion",
-    "VulnHub/eCPPTv2/Anexos",
     "VulnHub/Cereal/Ataque Cereal..canvas",
-    "VulnHub/eCPPTv2",
     "VulnHub/Inferno & Masashi/Ataque Inferno & masashi.canvas",
     "portswigger/Untitled.canvas",
     "Untitled.canvas",

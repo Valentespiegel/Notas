@@ -1,17 +1,15 @@
 DevGuru es una empresa de desarrollo web ficticia que lo contrata para una evaluación pentest. 
 Se le ha encomendado la tarea de encontrar vulnerabilidades en su sitio web corporativo y obtener root.
 
-OSCP como ~ Basado en la vida real 
+OSCP 
 Dificultad: Intermeda
 
 Enumeración web.
-Extrayendo el contenido del directorio.
-git con GitDumper. 
-Extrayendo el contenido del directorio .
-git con GitExtractor. 
-Fuga de información. 
+Extrayendo el contenido del directorio git con GitDumper
+Extrayendo el contenido del directorio git con GitExtractor. (Fuga de información)
 Accediendo a un panel de Adminer 4.7.7. 
-Generando un nuevo hash de bcrypt para un usuario con el fin de obtener acceso al backend de OctoberCMS. Explotación de OctoberCMS - Inyección de código Markup + PHP. 
+Generando un nuevo hash de bcrypt para un usuario con el fin de obtener acceso al backend de October. 
+Explotación de October - Inyección de código Markup + PHP. 
 Abuso de Adminer para obtener acceso a Gitea. 
 Abuso de Git Hooks (pre-receive) - Ejecución de código (Pivoteo de usuario). 
 Abuso de privilegios sudoers (ALL, !root) NOPASSWD + Versión de sudo (u#-1) para convertirse en root.
@@ -101,7 +99,7 @@ Abuso de privilegios sudoers (ALL, !root) NOPASSWD + Versión de sudo (u#-1) par
 
 ![[Screenshot_2023-12-06_15_35_45 1.png]]
 
-![[Screenshot_2023-12-06_16_04_51.png]]
+![[Screenshot_2023-12-06_16_04_51.png|1000]]
 
 
 ![[Screenshot_2023-12-06_16_06_16.png]]
