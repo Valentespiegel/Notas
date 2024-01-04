@@ -56,7 +56,7 @@ print ("Hola)
 python2
 5/3
 type(5/3)
-```
+sudo ```
 ![[Pasted image 20240103093325.png]]
 ```java
 python3
@@ -134,5 +134,5 @@ python3 -c 'Todos_somos_lammers = True; print ("Esto es verdad como un templo") 
 
 
 ```java
-
+mkdir ~/.config/{bspwm,sxhkd}
 ```

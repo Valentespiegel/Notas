@@ -8,24 +8,48 @@
         "type": "tabs",
         "children": [
           {
-            "id": "364cc21cc6cf9db6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git/Comandos.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "e3cf95c0bc23c22b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Python Ofensivo/Filosofía , Historia y Conceptos básicos.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "35648799fd84ca85",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ethical Haching (Prosprectos).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4fb44a72019e53a0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "VulnHub/DevGuru1/Evidencia.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "65b8c05c4699abd6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Personalización de entorno Linux..md",
                 "mode": "source",
                 "source": false
               }
@@ -81,7 +105,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "19e4fcf9124f3b6f",
@@ -108,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git/Comandos.md",
+                "file": "Python Ofensivo/Filosofía , Historia y Conceptos básicos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git/Comandos.md",
+                "file": "Python Ofensivo/Filosofía , Historia y Conceptos básicos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git/Comandos.md"
+                "file": "Python Ofensivo/Filosofía , Historia y Conceptos básicos.md"
               }
             }
           },
@@ -171,24 +196,27 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "364cc21cc6cf9db6",
+  "active": "e3cf95c0bc23c22b",
   "lastOpenFiles": [
-    "VulnHub/DevGuru1/Comandos.md",
+    "Ethical Haching (Prosprectos).md",
+    "VulnHub/DevGuru1/Evidencia.md",
+    "Personalización de entorno Linux..md",
     "Python Ofensivo/Filosofía , Historia y Conceptos básicos.md",
-    "Python Ofensivo/Anexos/Pasted image 20240103134005.png",
-    "Python Ofensivo/Anexos/Pasted image 20240103133615.png",
-    "Python Ofensivo/Anexos/Pasted image 20240103133423.png",
-    "Python Ofensivo/Anexos/Pasted image 20240103133347.png",
+    "Anexos/Pasted image 20240104100147.png",
+    "Anexos/Pasted image 20240104100042.png",
+    "Anexos/Pasted image 20240104100017.png",
+    "Anexos/Pasted image 20240104095920.png",
+    "Anexos/Pasted image 20240104095814.png",
+    "Anexos/Pasted image 20240104095724.png",
+    "Anexos/Pasted image 20240104095500.png",
+    "Anexos/Pasted image 20240104095420.png",
+    "Anexos/Pasted image 20240104095339.png",
+    "Anexos/Pasted image 20240104095121.png",
+    "Git/Comandos.md",
+    "VulnHub/DevGuru1/Comandos.md",
     "VulnHub/eCPPTv2/comandos.md",
-    "Python Ofensivo/Anexos/Pasted image 20240103094239.png",
-    "Python Ofensivo/Anexos/Pasted image 20240103094108.png",
-    "Python Ofensivo/Anexos/Pasted image 20240103093923.png",
-    "Python Ofensivo/Anexos/Pasted image 20240103093401.png",
-    "Python Ofensivo/Anexos/Pasted image 20240103093325.png",
-    "Python Ofensivo/Anexos/Pasted image 20240103093309.png",
     "Python Ofensivo/Anexos",
     "Python Ofensivo",
-    "VulnHub/DevGuru1/Evidencia.md",
     "Exposiciones/Prácticas de ciberseguridad a evaluar en tu infraestructura.md",
     "Exposiciones/La IA y la ciberdelincuencia.md",
     "Exposiciones/Ingenieria social orientada a la ciberseguridad.md",
@@ -208,7 +236,6 @@
     "VulnHub/eCPPTv2/127.0.0.1 (ValenteSpiegel).md",
     "VulnHub/WpwnyDMV/Ataque Wpwn DMV..canvas",
     "Exposiciones/Anexos",
-    "Sin título.md",
     "IMPORTANTE.txt",
     "Nuevo Documento de texto.txt",
     "ESET/ESET Licenciamiento Empresarial.md",
@@ -216,7 +243,6 @@
     "ESET.md",
     "BLUE TEAM.md",
     "GIT.md",
-    "Python.md",
     "Exposiciones",
     "ESET/Nutricion",
     "VulnHub/Cereal/Ataque Cereal..canvas",
