@@ -44,6 +44,18 @@
             }
           },
           {
+            "id": "931218fc6c72f35b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "VulnHub/eCPPTv2/eCPTV2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "65b8c05c4699abd6",
             "type": "leaf",
             "state": {
@@ -198,20 +210,21 @@
   },
   "active": "e3cf95c0bc23c22b",
   "lastOpenFiles": [
-    "Ethical Haching (Prosprectos).md",
+    "VulnHub/eCPPTv2/eCPTV2.md",
     "VulnHub/DevGuru1/Evidencia.md",
-    "Personalización de entorno Linux..md",
+    "Ethical Haching (Prosprectos).md",
     "Python Ofensivo/Filosofía , Historia y Conceptos básicos.md",
-    "Anexos/Pasted image 20240104100147.png",
-    "Anexos/Pasted image 20240104100042.png",
-    "Anexos/Pasted image 20240104100017.png",
-    "Anexos/Pasted image 20240104095920.png",
-    "Anexos/Pasted image 20240104095814.png",
-    "Anexos/Pasted image 20240104095724.png",
-    "Anexos/Pasted image 20240104095500.png",
-    "Anexos/Pasted image 20240104095420.png",
-    "Anexos/Pasted image 20240104095339.png",
-    "Anexos/Pasted image 20240104095121.png",
+    "Python Ofensivo/Anexos/Pasted image 20240107190112.png",
+    "Python Ofensivo/Anexos/Pasted image 20240107185950.png",
+    "Python Ofensivo/Anexos/Pasted image 20240107185300.png",
+    "Python Ofensivo/Anexos/Pasted image 20240107122849.png",
+    "Python Ofensivo/Anexos/Pasted image 20240107122650.png",
+    "Python Ofensivo/Anexos/Pasted image 20240107122444.png",
+    "Python Ofensivo/Anexos/Pasted image 20240107122315.png",
+    "Python Ofensivo/Anexos/Pasted image 20240107122009.png",
+    "Python Ofensivo/Anexos/Pasted image 20240107121810.png",
+    "Python Ofensivo/Anexos/Pasted image 20240107121430.png",
+    "Personalización de entorno Linux..md",
     "Git/Comandos.md",
     "VulnHub/DevGuru1/Comandos.md",
     "VulnHub/eCPPTv2/comandos.md",
@@ -222,7 +235,6 @@
     "Exposiciones/Ingenieria social orientada a la ciberseguridad.md",
     "Exposiciones/ESET.excalidraw.md",
     "VulnHub/DevGuru1/Anexos",
-    "VulnHub/eCPPTv2/eCPTV2.md",
     "VulnHub/DevGuru1",
     "Exposiciones/ConsolayOnpremise.excalidraw.md",
     "Exposiciones/Botnetrebaño.excalidraw.md",
@@ -242,7 +254,6 @@
     "Bitdefender.md",
     "ESET.md",
     "BLUE TEAM.md",
-    "GIT.md",
     "Exposiciones",
     "ESET/Nutricion",
     "VulnHub/Cereal/Ataque Cereal..canvas",

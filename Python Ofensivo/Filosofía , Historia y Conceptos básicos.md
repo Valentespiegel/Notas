@@ -131,8 +131,363 @@ if Todos_somos_Lamers:
 python3 -c 'Todos_somos_lammers = True; print ("Esto es verdad como un templo") if Todos_somos_lammers else None'
 ```
 ![[Pasted image 20240103134005.png]]
-
-
 ```java
 mkdir ~/.config/{bspwm,sxhkd}
 ```
+
+---
+###### Variables y tipos de datos
+
+Las variables en Python son como nombres que se le asignan a los datos que manejamos. Piensa en una variable como un nombre que pones a un valor, para poder referirte a él y utilizarlo en diferentes partes de tu código.
+
+**Variables**
+
+Una variable en Python es como un nombre que se le asigna a un dato. La mayoría de veces no es necesario declarar el tipo de dato, ya que Python es inteligente para inferirlo.
+
+
+**Cadenas (Strings)**
+Las cadenas son secuencias de caracteres que se utilizan para manejar texto. Son inmutables, lo que significa que una vez creadas, no puedes cambiar sus **caracteres individuales**.
+
+```java
+#!/usr/bin/env python3
+	ip_address = "192.168.1.254"
+	print(ip_address)
+	print(type(ip_address))
+```
+![[Pasted image 20240106105837.png]]
+
+**Números**
+
+Python maneja varios tipos numéricos, pero nos centraremos principalmente en:
+
+- **Enteros (Integers)**: Números sin parte decimal.
+- **Flotantes (Floats)**: Números que incluyen decimales.
+
+```java
+#!/usr/bin/env python3
+	port = 80
+	print(port)
+	print(type(port))
+
+```
+![[Pasted image 20240106110200.png]]
+```java
+#!/usr/bin/env Python3
+	number = 80.9
+	print(number)
+	print(type(number))
+```
+![[Pasted image 20240106110539.png]]
+```java
+$!/usr/bin/env pithon3
+	number = int(80.9)
+	print(number)
+	print(type(number))
+```
+![[Pasted image 20240106132353.png]]
+```java
+#!/usr/bin/env python3
+	number = float(80)
+	print(number)
+	print(type(number))
+```
+![[Pasted image 20240106133032.png]]
+```java
+#!/usr/bin/env python3
+
+number = str(80)
+print(number)
+print(type(number))
+```
+![[Pasted image 20240106133514.png]]
+
+---
+
+**Listas**
+
+Las listas son colecciones ordenadas y mutables que pueden contener elementos de diferentes tipos. Son ideales para almacenar y acceder a secuencias de datos.
+
+Y para trabajar con estas listas, así como con cadenas y rangos de números, utilizaremos los bucles ‘**for**‘, que nos permiten iterar sobre cada elemento de una secuencia de manera eficiente.
+
+---
+
+```java
+#!/usr/bin/env python3
+my_ports = []
+my_ports.append(22)
+my_ports.append(80)
+my_ports.append(443)
+
+print(my_ports[0])
+print(my_ports[1])
+print(my_ports[2])
+```
+![[Pasted image 20240107115411.png]]
+```
+1. **Shebang Line** : La primera línea `#!/usr/bin/env python3` es el shebang line, que especifica la ruta del intérprete de Python que debe ejecutar el script.
+    
+2. **Creación y manipulación de la lista `my_ports`**:
+    
+    - `my_ports = []`: Se crea una lista vacía llamada `my_ports`.
+    - `my_ports.append(22)`: Agrega el número `22` a la lista.
+    - `my_ports.append(80)`: Agrega el número `80` a la lista.
+    - `my_ports.append(443)`: Agrega el número `443` a la lista.
+3. **Impresión de elementos de la lista** :
+    
+    - `print(my_ports[0])`: Imprime el primer elemento de la lista `my_ports`, que es el elemento en la posición `0` (en este caso, el número `22`).
+    - `print(my_ports[1])`: Imprime el segundo elemento de la lista `my_ports`, que es el elemento en la posición `1` (en este caso, el número `80`).
+    - `print(my_ports[2])`: Imprime el tercer elemento de la lista `my_ports`, que es el elemento en la posición `2` (en este caso, el número `443`).
+```
+
+---
+
+```java
+#!/usr/bin/env python3
+my_ports = []
+my_ports.append(22)
+my_ports.append(80)
+my_ports.append(443)
+
+for port in my_ports:
+	print(port)
+```
+![[Pasted image 20240107115644.png]]
+
+1. **Shebang Line** : La primera línea `#!/usr/bin/env python3` es el shebang line, que especifica la ruta del intérprete de Python que debe ejecutar el script.
+    
+2. **Creación y manipulación de la lista `my_ports`**:
+    
+    - `my_ports = []`: Se crea una lista vacía llamada `my_ports`.
+    - `my_ports.append(22)`: Agrega el número `22` a la lista.
+    - `my_ports.append(80)`: Agrega el número `80` a la lista.
+    - `my_ports.append(443)`: Agrega el número `443` a la lista.
+3. **Impresión de elementos de la lista usando un bucle `for`**:
+    
+    - `for port in my_ports:`: Inicia un bucle `for` que itera a través de cada elemento en la lista `my_ports`. En cada iteración, el elemento actual se asigna `port`.
+    - `print(port)`: Imprime el valor de `port` en cada iteración.
+
+---
+```java
+#!/usr/bin/env python3
+my_ports = []
+my_ports.append(22)
+my_ports.append(80)
+my_ports.append(443)
+my_ports.append(8888)
+for port in my_ports:
+	print(port)
+print(type(my_ports))
+```
+![[Pasted image 20240107121038.png]]
+
+1. **Shebang Line** : La primera línea `#!/usr/bin/env python3` es el shebang line, que especifica la ruta del intérprete de Python que debe ejecutar el script.
+    
+2. **Creación y manipulación de la lista `my_ports`**:
+    
+    - `my_ports = []`: Se crea una lista vacía llamada `my_ports`.
+    - `my_ports.append(22)`: Agrega el número `22` a la lista.
+    - `my_ports.append(80)`: Agrega el número `80` a la lista.
+    - `my_ports.append(443)`: Agrega el número `443` a la lista.
+    - `my_ports.append(8888)`: Agrega el número `8888` a la lista.
+3. **Impresión de elementos de la lista usando un bucle `for`**:
+    
+    - `for port in my_ports:`: Inicia un bucle `for` que itera a través de cada elemento en la lista `my_ports`. En cada iteración, el elemento actual se asigna a la variable `port`.
+    - `print(port)`: Imprime el valor de `port` en cada iteración.
+4. **Imprimir el tipo de la lista `my_ports`**:
+    
+    - `print(type(my_ports))`: Imprime el tipo de la variable `my_ports`. En este caso, imprimirá `<class 'list'>`.
+
+---
+```java
+#!/usr/bin/env python3
+
+my_ports = []
+my_ports.append(22)
+my_ports.append(80)
+my_ports.append(443)
+my_ports.append(8888)
+
+for port in my_ports:
+	print("puerto = " + str(port)) 
+print(type(my_ports))
+```
+![[Pasted image 20240107121430.png]]
+1. **Shebang Line**: La primera línea `#!/usr/bin/env python3` es el shebang line, que especifica la ruta del intérprete de Python que debe ejecutar el script.
+    
+2. **Creación y manipulación de la lista `my_ports`**:
+    
+    - `my_ports = []`: Se crea una lista vacía llamada `my_ports`.
+    - `my_ports.append(22)`: Agrega el número `22` a la lista.
+    - `my_ports.append(80)`: Agrega el número `80` a la lista.
+    - `my_ports.append(443)`: Agrega el número `443` a la lista.
+    - `my_ports.append(8888)`: Agrega el número `8888` a la lista.
+3. **Impresión de elementos de la lista usando un bucle `for`**:
+    
+    - `for port in my_ports:`: Inicia un bucle `for` que itera a través de cada elemento en la lista `my_ports`. En cada iteración, el elemento actual se asigna a la variable `port`.
+    - `print("puerto = " + str(port))`: Imprime una cadena que combina el texto "puerto = " con el valor de `port` convertido a cadena usando `str(port)`.
+4. **Imprimir el tipo de la lista `my_ports`**:
+    
+    - `print(type(my_ports))`: Imprime el tipo de la variable `my_ports`. En este caso, imprimirá `<class 'list'>`.
+---
+```java
+#!/usr/bin/env python3
+
+my_ports = []
+my_ports.append(22)
+my_ports.append(80)
+my_ports.append(443)
+my_ports.append(8888)
+
+for port in my_ports:
+	print(f"puerto = {port}")
+```
+![[Pasted image 20240107121810.png]]
+1. **Shebang Line** : La primera línea `#!/usr/bin/env python3` es el shebang line, que especifica la ruta del intérprete de Python que debe ejecutar el script.
+    
+2. **Creación y manipulación de la lista `my_ports`**:
+    
+    - `my_ports = []`: Se crea una lista vacía llamada `my_ports`.
+    - `my_ports.append(22)`: Agrega el número `22` a la lista.
+    - `my_ports.append(80)`: Agrega el número `80` a la lista.
+    - `my_ports.append(443)`: Agrega el número `443` a la lista.
+    - `my_ports.append(8888)`: Agrega el número `8888` a la lista.
+3. **Impresión de elementos de la lista usando un bucle `for`**:
+    
+    - `for port in my_ports:`: Inicia un bucle `for` que itera a través de cada elemento en la lista `my_ports`. En cada iteración, el elemento actual se asigna a la variable `port`.
+    - `print(f"puerto = {port}")`: Utiliza una f-string para imprimir una cadena que incluye el texto "puerto = " seguido del valor de `port`.
+---
+```java
+#!/usr/bin/env python3
+
+my_ports = []
+my_ports.append(22)
+my_ports.append(80)
+my_ports.append(443)
+my_ports.append(8888)
+
+for port in my_ports:
+	print("puerto = " + str(port)) 
+print(type(my_ports))
+```
+![[Pasted image 20240107122009.png]]
+1. **Shebang Line**: La primera línea `#!/usr/bin/env python3` es el shebang line, que especifica la ruta del intérprete de Python que debe ejecutar el script.
+    
+2. **Creación y manipulación de la lista `my_ports`**:
+    
+    - `my_ports = []`: Se crea una lista vacía llamada `my_ports`.
+    - `my_ports.append(22)`: Agrega el número `22` a la lista.
+    - `my_ports.append(80)`: Agrega el número `80` a la lista.
+    - `my_ports.append(443)`: Agrega el número `443` a la lista.
+    - `my_ports.append(8888)`: Agrega el número `8888` a la lista.
+3. **Impresión de elementos de la lista usando un bucle `for`**:
+    
+    - `for port in my_ports:`: Inicia un bucle `for` que itera a través de cada elemento en la lista `my_ports`. En cada iteración, el elemento actual se asigna a la variable `port`.
+    - `print("puerto = " + str(port))`: Imprime una cadena que combina el texto "puerto = " con el valor de `port` convertido a cadena usando `str(port)`.
+4. **Imprimir el tipo de la lista `my_ports`**:
+    
+    - `print(type(my_ports))`: Imprime el tipo de la variable `my_ports`. En este caso, imprimirá `<class 'list'>`.
+
+La diferencia principal con el script anterior es que este utiliza la concatenación de cadenas (`"puerto = " + str(port)`) para imprimir el mensaje en el bucle `for`, mientras que el script anterior utiliza f-strings (`f"puerto = {port}"`). Ambas formas son válidas, pero las f-strings son una sintaxis más moderna y legible para la concatenación de cadenas en Python. La salida esperada sería similar a la del código anterior
+
+---
+```java
+#!/usr/bin/env python3
+
+my_ports = [22,80,443,8888,445]
+
+for port in my_ports:
+	print(f"puerto = {port}")
+print(f"\n[+] La lista tiene un total de {len(my_ports)})
+
+```
+![[Pasted image 20240107122315.png]]
+```java
+#!/usr/bin/env python3
+
+my_ports = []
+my_ports.append(22)
+my_ports.append(80)
+my_ports.append(443)
+my_ports.append(8888)
+
+for port in my_ports:
+	print("puerto = " + str(port)) 
+print(type(my_ports))
+```
+![[Pasted image 20240107122444.png]]
+```java
+#!/usr/bin/env python3
+my_ports = [22,80,443,8888,445]
+my_ports.extend([85,56])
+my_ports += [89,76]
+
+for port in my_ports:
+        print(f"puerto = {port}")
+        
+        
+```
+![[Pasted image 20240107122650.png]]
+```java
+#!/usr/bin/env python3
+my_ports = [22,80,443,8888,445]
+my_ports.extend([85,56])
+my_ports += [89,76]
+
+for port in my_ports:
+        print(f"puerto = {port}")
+        
+        
+```
+![[Pasted image 20240107122849.png]]
+```java
+#!/usr/bin/env python3
+my_ports = [22,80,443,8888,445]
+my_ports.append(2)
+my_ports.extend([85,56])
+my_ports += [89,76]
+
+my_ports = sorted(my_ports)
+
+for port in my_ports:
+        print(f"puerto = {port}")
+        
+print(f"\n[+] La lista tiene un total de {len(my_ports)} elementos")
+```
+![[Pasted image 20240107185300.png]]
+```java
+#!/usr/bin/env python3
+my_ports = [22,80,443,8888,445]
+my_ports.append(2)
+my_ports.extend([85,56])
+my_ports += [89,76]
+
+my_ports = sorted(my_ports)
+
+del my_ports[0]
+
+for port in my_ports:
+        print(f"puerto = {port}")
+        
+print(f"\n[+] La lista tiene un total de {len(my_ports)} elementos")
+```
+![[Pasted image 20240107185950.png]]
+```java
+#!/usr/bin/env python3
+my_ports = [22,80,443,8888,445]
+my_ports.append(2)
+my_ports.extend([85,56])
+my_ports += [89,76]
+
+my_ports = sorted(my_ports)
+
+for port in my_ports:
+        print(f"puerto = {port}")
+        
+print(f"\n[+] La lista tiene un total de {len(my_ports)} elementos")
+print(type(my_ports))
+```
+![[Pasted image 20240107190112.png]]
+
+---
+##### Operadores básicos en Python
+
